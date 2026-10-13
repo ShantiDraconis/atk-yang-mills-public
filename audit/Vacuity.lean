@@ -65,9 +65,36 @@ theorem fixed_not_vacuous (Regulated Physical : Type) (S C : Prop) :
     ¬ Nonempty (YMClosureFixed Regulated Physical False S C) :=
   fun ⟨h⟩ => h.spectralGap_proof
 
+/-! ## Linha de explosão (formato NS: testemunha / refutação / dicotomia)
+
+A explosão de Yang–Mills é a AUSÊNCIA de lacuna de massa: espectro de energia acumulando em `0`
+acima do vácuo. Com a correção `YMClosureFixed` (proposições fixadas de fora), o formato é exato:
+uma testemunha de "sem lacuna" impede o produtor. Para valer sobre o problema, `SpectralGap`
+tem de ser o enunciado de Jaffe–Witten (não enunciável na Mathlib v4.34.1). -/
+
+/-- Testemunha de explosão: a negação da lacuna fixada. -/
+def GaplessWitness (SpectralGap : Prop) : Prop := ¬ SpectralGap
+
+theorem explosion_refutes (Regulated Physical : Type) {G S C : Prop} (w : GaplessWitness G) :
+    ¬ Nonempty (YMClosureFixed Regulated Physical G S C) :=
+  fun ⟨h⟩ => w h.spectralGap_proof
+
+/-- Dicotomia (com tipo físico habitado e `S`, `C` dados): produtor ⇔ não há explosão. -/
+theorem producer_iff_no_explosion (Regulated Physical : Type) (p : Physical) {G S C : Prop}
+    (hS : S) (hC : C) :
+    Nonempty (YMClosureFixed Regulated Physical G S C) ↔ ¬ GaplessWitness G := by
+  rw [fixed_iff Regulated Physical p]
+  constructor
+  · intro h w
+    exact w h.1
+  · intro h
+    exact ⟨Classical.byContradiction h, hS, hC⟩
+
 end Audit.YM
 
 #print axioms Audit.YM.producer_of_inhabited
 #print axioms Audit.YM.producer_of_empty
 #print axioms Audit.YM.fixed_iff
 #print axioms Audit.YM.fixed_not_vacuous
+#print axioms Audit.YM.explosion_refutes
+#print axioms Audit.YM.producer_iff_no_explosion
