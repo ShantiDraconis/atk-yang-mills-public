@@ -30,6 +30,12 @@ hoje; estruturas locais são interfaces.
 | Y3 | `B60ConcretePhysicalAdapter` (alvo registrado em `atk-math-core-public`) | Definição não incluída neste instantâneo; precisa da mesma auditoria de vacuidade | Importar a definição e repetir `audit/Vacuity.lean` para ela |
 | Y4 | Compilação | `Closure.lean` importa `MCore`, ausente aqui. (O `audit/Vacuity.lean` compila só com Lean core — workflow `vacuity-check`) | CI a partir do commit de origem (`provenance/`) |
 
+## 3b. Linha de explosão — certificada no kernel (Lean core)
+
+`audit/Vacuity.lean`: `GaplessWitness G := ¬ G` (ausência de lacuna), `explosion_refutes` e
+`producer_iff_no_explosion` sobre `YMClosureFixed`. O formato é exato, mas só vale sobre o
+problema quando `G` for o enunciado de Jaffe–Witten (não enunciável na Mathlib v4.34.1).
+
 ## 4. Falsificador exato
 
 Um grupo compacto simples `G` para o qual a teoria quântica em `ℝ⁴` não existe, ou existe com
