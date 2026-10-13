@@ -36,6 +36,13 @@ hoje; estruturas locais são interfaces.
 `producer_iff_no_explosion` sobre `YMClosureFixed`. O formato é exato, mas só vale sobre o
 problema quando `G` for o enunciado de Jaffe–Witten (não enunciável na Mathlib v4.34.1).
 
+## 3c. Linha de fechamento
+
+Alvo exato **não enunciável** na Mathlib v4.34.1 ⇒ não existe declaração que o portão possa
+aceitar ⇒ **CLOSED_MATH = false** necessariamente. A linha passa a funcionar como nos outros
+problemas quando a fundação existir (H1/Y2): então o alvo vira um tipo Lean e o mesmo
+`closure_gate.py` calcula a bandeira.
+
 ## 4. Falsificador exato
 
 Um grupo compacto simples `G` para o qual a teoria quântica em `ℝ⁴` não existe, ou existe com
