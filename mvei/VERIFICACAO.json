@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:47:17+00:00",
+ "generated_at": "2026-10-28T16:41:02+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 9.5,
+   "build_seconds": 11.3,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -638,6 +638,41 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [
+    {
+     "arquivo": "MCore/YM/K0.lean",
+     "linha": 22,
+     "nome": "MCore.YM.openBridge_not_certified",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+     "linha": 11,
+     "nome": "MCore.BackwardAudit.endpoint_route_is_massGap",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+     "linha": 14,
+     "nome": "MCore.BackwardAudit.endpoint_proposition_still_untyped",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Material/EndpointResidueAdapter.lean",
+     "linha": 4,
+     "nome": "MCore.Material.physical_endpoint_requires_typing",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist"
+    }
+   ],
+   "preenchimento": [],
    "summary": {
     "fechado": 85,
     "aberto-sorry": 0,
@@ -651,7 +686,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 71.8,
+   "build_seconds": 58.5,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -683,6 +718,11 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [],
+   "preenchimento": [],
    "summary": {
     "fechado": 2,
     "aberto-sorry": 0,
