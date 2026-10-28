@@ -15,3 +15,9 @@ Do not add confidential data or third-party code without checking its license an
 
 [`imports/m-core-yang-mills/`](imports/m-core-yang-mills/) holds the Lean sources of `ShantiDraconis/m-core-yang-mills` at commit `1c324b5` (2026-10-11): 24 files. In the MVEI verification the Lean kernel closed 90 theorems here (28 unique, without the lemmas Lean generates itself), with 0 conditional and 0 open (`sorry`). A closed theorem proves the statement written in the file; it is not a claim that an open problem is solved. Statements, axioms, the build log and how to reproduce: [`mvei/README.md`](mvei/README.md).
 <!-- mvei:end -->
+
+<!-- mvei-branches:start -->
+## Theorems found only on branches
+
+5 branch(es) with 256 theorems that exist only on branches and that the Lean kernel closed, each with a certificate (commit, date, history, SHA-256): [`branches/README.md`](branches/README.md).
+<!-- mvei-branches:end -->

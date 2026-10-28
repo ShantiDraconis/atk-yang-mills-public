@@ -1,0 +1,85 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "atk/first-real-open-math-20261005",
+ "branch_state": "parada",
+ "head_commit": "2b401f28942221beb36256b9d8ce9c44cc2b9c6d",
+ "head_commit_date": "2026-09-19T10:44:41+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "2b401f28942221beb36256b9d8ce9c44cc2b9c6d",
+   "date": "2026-09-19T10:44:41+02:00",
+   "subject": "fix: make Yang-Mills endpoint kernel-portable without Mathlib"
+  },
+  {
+   "commit": "5afd08b2ca524f9a9ca756b0564f5eddbd4d92b8",
+   "date": "2026-09-19T10:42:22+02:00",
+   "subject": "ci: certify typed Yang-Mills endpoint and retain theory frontier"
+  },
+  {
+   "commit": "0bc8f1aa0b94c500410c6d83bd0d43599958283c",
+   "date": "2026-09-19T10:42:05+02:00",
+   "subject": "audit: expose Yang-Mills concrete theory adapter frontier"
+  },
+  {
+   "commit": "f2f9e1debf95cff4870e2a3327d6f62733c88c21",
+   "date": "2026-09-19T10:41:50+02:00",
+   "subject": "attack: close Yang-Mills endpoint typing residue"
+  },
+  {
+   "commit": "c2a323297f1ffdadd6c0df953bc67d882f395913",
+   "date": "2026-09-19T10:41:32+02:00",
+   "subject": "attack: type Yang-Mills final endpoint and semantic transport"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BackwardAudit.concrete_theory_adapter_still_open",
+   "file": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": concreteTheoryAdapterClosed = false"
+  },
+  {
+   "name": "MCore.BackwardAudit.endpoint_proposition_is_typed",
+   "file": "lean/MCore/BackwardAudit/EndpointTypeResidue.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": endpointPropositionTyped = true"
+  },
+  {
+   "name": "MCore.YM.endpoint_transport",
+   "file": "lean/MCore/BackwardAudit/FinalEndpoint.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : EndpointSemantics) (A : ConcreteTheoryAdapter S) (h : FinalEndpoint S) : A.ConcreteExists ∧ ∃ Δ : S.GapWitness, A.ConcretePositive Δ ∧ A.ConcreteHasMassGap Δ"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "f2e10b33200cf5c64f7ede34446b43f22956af06c208ad426db6e2a20dfa913e",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/FinalEndpoint.lean": "53cfa37f908154740c8a0a3e2a24f120191d348df162399c2db6543b2f36d129",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3"
+ },
+ "published_at": "2026-10-28T19:19:18Z",
+ "certificate_sha256": "6ba489a2040894b9b1977441e90bc3b9001f77d0bae42e25d017dd8539e293c3"
+}

@@ -1,0 +1,7 @@
+name = "m-core-yang-mills"
+version = "0.1.0"
+defaultTargets = ["MCore"]
+
+[[lean_lib]]
+name = "MCore"
+srcDir = "lean"

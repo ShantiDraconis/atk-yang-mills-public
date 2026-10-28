@@ -1,0 +1,4194 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "atk/ym-material-promotion-v13-20261007",
+ "branch_state": "parada",
+ "head_commit": "a916f6ce03b305f61040fd3dd08e6c6cd98c84f6",
+ "head_commit_date": "2026-10-08T11:24:39+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "a916f6ce03b305f61040fd3dd08e6c6cd98c84f6",
+   "date": "2026-10-08T11:24:39+02:00",
+   "subject": "Audit exact V15 conditional mass-gap frontier without endpoint promotion"
+  },
+  {
+   "commit": "4a0e794b1a59bd02cc6ef631de7063064d737d8b",
+   "date": "2026-10-07T17:28:22+02:00",
+   "subject": "Expose concrete energy pairing in recovered V15 proof"
+  },
+  {
+   "commit": "5123abb8771fd164c7c5eaac1eb890908964eab7",
+   "date": "2026-10-07T16:02:18+02:00",
+   "subject": "Gate recovered continuum-to-K14 proof"
+  },
+  {
+   "commit": "9ef05cc2f4fc8dd0ebbd1c3674beee70ea0a7290",
+   "date": "2026-10-07T16:02:08+02:00",
+   "subject": "Recover direct V13 continuum-to-K14 mass gap proof"
+  },
+  {
+   "commit": "ee90ff24318f296c826ec2157caeaf160fd0593a",
+   "date": "2026-10-07T10:15:53+02:00",
+   "subject": "Gate reduced YM V14 material core"
+  },
+  {
+   "commit": "8d36831baa64501f8f05a68a024a9e9825342a98",
+   "date": "2026-10-07T10:15:41+02:00",
+   "subject": "Compress YM material frontier to reduced V14 core"
+  },
+  {
+   "commit": "6669df8df3039db5e36212e0d0d65e1731cdd907",
+   "date": "2026-10-07T06:48:17+02:00",
+   "subject": "Add YM material promotion kernel gate"
+  },
+  {
+   "commit": "1b2b8ba438c5c06d627ceba145e6b7e6b553b594",
+   "date": "2026-10-07T06:48:04+02:00",
+   "subject": "Add fail-closed YM material promotion payload"
+  },
+  {
+   "commit": "e40dbed1e7deb890cad35c38b58d2215bedb69cf",
+   "date": "2026-10-07T06:11:21+02:00",
+   "subject": "Harden YM placeholder audit against Lean comments"
+  },
+  {
+   "commit": "23dfd2de44e0c6017f2b38b9ce46ca1a8cdad475",
+   "date": "2026-10-07T05:56:23+02:00",
+   "subject": "Ignore comments in YM placeholder audit"
+  },
+  {
+   "commit": "972f41f1e31aadd099eb16cd22d9af7b6b2e6324",
+   "date": "2026-10-07T05:46:14+02:00",
+   "subject": "Use Lake module path for YM open-math frontier"
+  },
+  {
+   "commit": "15641ade5147cabcddf052931da38395382391a5",
+   "date": "2026-10-07T05:36:04+02:00",
+   "subject": "Build finite spectral dependency before open-math frontier"
+  },
+  {
+   "commit": "b93ffb2b1588ca7ad22f09b4aa59ad33c2e2cc42",
+   "date": "2026-10-07T05:31:10+02:00",
+   "subject": "Normalize real exponential norm explicitly"
+  },
+  {
+   "commit": "e4a80803847196f867b2278d2a8ef66851c9c09e",
+   "date": "2026-10-07T05:24:24+02:00",
+   "subject": "Rewrite complex norm of real coefficient explicitly"
+  },
+  {
+   "commit": "cbd9eff3ac13b6fec89b840536a8ac7744b92613",
+   "date": "2026-10-07T05:18:55+02:00",
+   "subject": "Normalize transfer inequality before exponential rewrite"
+  },
+  {
+   "commit": "b9c38780e97bdea22efef2f3ee1488932b1bb3a2",
+   "date": "2026-10-07T05:09:23+02:00",
+   "subject": "Normalize real exponential coefficient in transfer bound"
+  },
+  {
+   "commit": "98338193a6a5a53f93e56540ce3d0d8431648625",
+   "date": "2026-10-07T05:01:09+02:00",
+   "subject": "Normalize regulated transfer coefficient after norm expansion"
+  },
+  {
+   "commit": "9c8024c9d0c1b18744294233b9de46b2db355e52",
+   "date": "2026-10-07T04:44:12+02:00",
+   "subject": "Expose regulated norm scaling in same-regulator transfer proof"
+  },
+  {
+   "commit": "bb38ec548291b53e7c8e032fa228d5cc81f855fc",
+   "date": "2026-10-07T04:37:52+02:00",
+   "subject": "Add complex scaling for regulated L2 vectors"
+  },
+  {
+   "commit": "294f26891129be17258d3d52b0397cfd15b3b336",
+   "date": "2026-10-07T04:30:50+02:00",
+   "subject": "Align same-regulator binding universe with finite Hamiltonian"
+  },
+  {
+   "commit": "4e37b10035550528b66a64c097927ef110dcb872",
+   "date": "2026-10-07T04:26:06+02:00",
+   "subject": "Pin continuum regulator indices to Nat"
+  },
+  {
+   "commit": "1e4c009db09bab8d78a45f595c24a3d9213772f5",
+   "date": "2026-10-07T03:16:37+02:00",
+   "subject": "fix: align YM continuum terminal gap with finite spectral API"
+  },
+  {
+   "commit": "0edcf945543d53b0c81f8171cfae254f1e079b66",
+   "date": "2026-10-07T03:10:39+02:00",
+   "subject": "fix: expand YM complex norm square before ring normalization"
+  },
+  {
+   "commit": "7b70ef3decfe95805a24e4e6c675a69067bbb868",
+   "date": "2026-10-07T03:09:54+02:00",
+   "subject": "Close complex normSq expansion in spectral expectation"
+  },
+  {
+   "commit": "03e5c2c89d2622f52a9528ff96423d6114610b45",
+   "date": "2026-10-07T03:05:16+02:00",
+   "subject": "Fix finite spectral expectation norm identity"
+  },
+  {
+   "commit": "bce18e73910936398a34ef03b994922dcd811418",
+   "date": "2026-10-07T03:04:56+02:00",
+   "subject": "fix: discharge YM diagonal spectral support branch"
+  },
+  {
+   "commit": "38f0c2be3e766f1c3da18a14bc9f777c694f5ddc",
+   "date": "2026-10-07T02:58:17+02:00",
+   "subject": "fix: define YM material payload projection as data, not theorem"
+  },
+  {
+   "commit": "cc6dd7253e51befa9c10177e81ec37c7c1348b16",
+   "date": "2026-10-07T02:58:13+02:00",
+   "subject": "fix: make YM material projection a definition"
+  },
+  {
+   "commit": "c666d5aded75a4ef389a9ce6ef73240108307a9e",
+   "date": "2026-10-07T02:57:44+02:00",
+   "subject": "fix: define YM material projection into Type-valued external certificate"
+  },
+  {
+   "commit": "580803337ffd1485affd3444ecf7c0912f7646d9",
+   "date": "2026-10-07T02:48:28+02:00",
+   "subject": "fix: qualify Mathlib v4.19 Parseval lemma"
+  },
+  {
+   "commit": "c6ed1ccc57ecb8a4724000f57f69692f28abccb7",
+   "date": "2026-10-07T02:42:47+02:00",
+   "subject": "fix: use Mathlib v4.19 finite Parseval lemma"
+  },
+  {
+   "commit": "11b73e01336bc3e627fd3c32558477cdb429ff20",
+   "date": "2026-10-07T02:36:05+02:00",
+   "subject": "fix: define YM material-to-external structure map"
+  },
+  {
+   "commit": "32c26186dde5f0502901738e34f59c975d2f8027",
+   "date": "2026-10-07T02:27:56+02:00",
+   "subject": "fix: rebuild YM dual endpoint lattice with valid Lean identifiers"
+  },
+  {
+   "commit": "5949ad147858d3fc644ba425b1c03625cec24c1c",
+   "date": "2026-10-07T01:40:49+02:00",
+   "subject": "fix: use valid YM lattice endpoint identifiers"
+  },
+  {
+   "commit": "90159df80f90cb1041eb659c8f66fc27de8f8fd4",
+   "date": "2026-10-07T01:34:22+02:00",
+   "subject": "fix: declare YM RPA aliases before use"
+  },
+  {
+   "commit": "17c2f98e486f602583e9d93fcac01d5a5820e032",
+   "date": "2026-10-07T01:23:31+02:00",
+   "subject": "ci: make YM legacy checks manual-only with bounded runtime"
+  },
+  {
+   "commit": "4f2f1ac6baff9d3c0980b511db378beb01b1f4be",
+   "date": "2026-10-07T01:23:26+02:00",
+   "subject": "ci: make YM legacy checks manual-only with bounded runtime"
+  },
+  {
+   "commit": "959f79c27b3a28a5b33c7bcc0be87d54463d2a32",
+   "date": "2026-10-07T01:17:50+02:00",
+   "subject": "exclude unified YM branch from broad certificate and cap runtime"
+  },
+  {
+   "commit": "fd9417819fcb4bf475692db824e73775943e877e",
+   "date": "2026-10-07T01:17:42+02:00",
+   "subject": "make YM gauge push gate manual after unification"
+  },
+  {
+   "commit": "b2d2fa8bb433ee19449606b7f6b8166ae59f7802",
+   "date": "2026-10-07T01:17:39+02:00",
+   "subject": "make YM terminal signature gate manual after unification"
+  },
+  {
+   "commit": "0f66c715699cba3e02809ae4c0e9cccde7224897",
+   "date": "2026-10-07T01:17:36+02:00",
+   "subject": "fold YM signature and gauge audits into unified final gate"
+  },
+  {
+   "commit": "b33028dad36e8d882731933f303808a354a032e4",
+   "date": "2026-10-07T01:16:11+02:00",
+   "subject": "make ym-realization-v13-fast.yml manual-only after YM unification"
+  },
+  {
+   "commit": "2938083fbb8c29b8d325efbd5391962c47cef00e",
+   "date": "2026-10-07T01:16:07+02:00",
+   "subject": "make ym-terminal-v13-fast.yml manual-only after YM unification"
+  },
+  {
+   "commit": "065529e043f66baa854af6a07e8c4ef5cd2e4631",
+   "date": "2026-10-07T01:16:04+02:00",
+   "subject": "make ym-open-math-terminal-fast.yml manual-only after YM unification"
+  },
+  {
+   "commit": "1c8820e1cf6ef9daae51e8d478753267cad60037",
+   "date": "2026-10-07T01:16:01+02:00",
+   "subject": "make ym-final-closure-certificate.yml manual-only after YM unification"
+  },
+  {
+   "commit": "12cd9f71e5f5940b6dca8f2fbc0ceb11cff93bce",
+   "date": "2026-10-07T01:15:57+02:00",
+   "subject": "make ym-rpa-dual-confirmation.yml manual-only after YM unification"
+  },
+  {
+   "commit": "d2969e37fcf622a717c80e4e2d1cae012b7c1f64",
+   "date": "2026-10-07T01:15:14+02:00",
+   "subject": "unify YM final lane with 45 minute timeout"
+  },
+  {
+   "commit": "2c492f224a1ae9870f299c5025427be981a02199",
+   "date": "2026-10-06T21:08:59+02:00",
+   "subject": "gate repository-native Yang-Mills material payload"
+  },
+  {
+   "commit": "a4328177b6ea59eee328a293db8be23569b32550",
+   "date": "2026-10-06T21:08:48+02:00",
+   "subject": "define repository-native Yang-Mills material payload"
+  },
+  {
+   "commit": "3245268bfd8c3a80bca03107338920e20c6c0249",
+   "date": "2026-10-06T21:02:54+02:00",
+   "subject": "audit complete cube through length three and FULL"
+  },
+  {
+   "commit": "ab7f9998e62f204bc171dac54a2f103ea7b7896a",
+   "date": "2026-10-06T21:02:44+02:00",
+   "subject": "close all 14 dual endpoint lattice words through length three"
+  },
+  {
+   "commit": "20f7bdb7e4bf8a4c5416b97ba121068081eed31b",
+   "date": "2026-10-06T21:00:00+02:00",
+   "subject": "gate dual endpoint lattice with RPA certificate"
+  },
+  {
+   "commit": "ed8a965084d3650a629a82ce0b8130bc0e33d8bb",
+   "date": "2026-10-06T20:59:44+02:00",
+   "subject": "formalize free and idempotent dual endpoint lattice"
+  },
+  {
+   "commit": "4320267f2d6208f2b19c581a7e226ef3dbe048a3",
+   "date": "2026-10-06T20:56:19+02:00",
+   "subject": "audit distinct dual endpoint RPA state"
+  },
+  {
+   "commit": "4ef7d2453ccd9948f50b6bf0dd49b2ab768b78a2",
+   "date": "2026-10-06T20:56:11+02:00",
+   "subject": "represent RPA as distinct dual endpoint positions with shared logical payload"
+  },
+  {
+   "commit": "56199bbbab42b7d4fba3574ab3e3357b2bc92ce6",
+   "date": "2026-10-06T20:52:33+02:00",
+   "subject": "gate RPA dual confirmation certificate"
+  },
+  {
+   "commit": "d64118cd3a5498b58d5b5f1e1c2acde19c596a4b",
+   "date": "2026-10-06T20:52:20+02:00",
+   "subject": "formalize RPA dual confirmation chain"
+  },
+  {
+   "commit": "8346600b86cb619af43f2ffccb82c98e3de6d66c",
+   "date": "2026-10-06T19:58:07+02:00",
+   "subject": "dedupe ym-final-closure-certificate.yml to branch push gate"
+  },
+  {
+   "commit": "9bdef3ea24c108e32c91f6f19abc5e2e0d43cefd",
+   "date": "2026-10-06T19:58:04+02:00",
+   "subject": "dedupe ym-terminal-signature-cycle.yml to branch push gate"
+  },
+  {
+   "commit": "c781e61d29d033e6b571d4cdaaf2b0b875c55b6c",
+   "date": "2026-10-06T19:58:01+02:00",
+   "subject": "dedupe ym-open-math-terminal-fast.yml to branch push gate"
+  },
+  {
+   "commit": "d49353d72aec9ffd96f157a07275850f26d1e6e3",
+   "date": "2026-10-06T19:57:57+02:00",
+   "subject": "dedupe ym-realization-v13-fast.yml to branch push gate"
+  },
+  {
+   "commit": "abf4957a3d1a37a3a27615a1ea48142984abebce",
+   "date": "2026-10-06T19:57:54+02:00",
+   "subject": "dedupe ym-terminal-v13-fast.yml to branch push gate"
+  },
+  {
+   "commit": "3eab0df9e7723660d49715c5f51e444c70245a05",
+   "date": "2026-10-06T19:55:36+02:00",
+   "subject": "gate terminal open-closed frontier involution"
+  },
+  {
+   "commit": "6a31f90f6daa5071a8e092263301c600dce9cc65",
+   "date": "2026-10-06T19:55:28+02:00",
+   "subject": "formalize open-closed terminal frontier involution"
+  },
+  {
+   "commit": "e870edd2558860d4b3317d50db2d5b4385293103",
+   "date": "2026-10-06T19:53:55+02:00",
+   "subject": "cancel superseded ym-final-closure-certificate.yml runs"
+  },
+  {
+   "commit": "294f605fc192e8baa3ea5082417535373b5d98bb",
+   "date": "2026-10-06T19:53:52+02:00",
+   "subject": "cancel superseded ym-terminal-signature-cycle.yml runs"
+  },
+  {
+   "commit": "7353dc88f8bd656ce13da4907bbbd1bbc7fd8386",
+   "date": "2026-10-06T19:53:49+02:00",
+   "subject": "cancel superseded ym-open-math-terminal-fast.yml runs"
+  },
+  {
+   "commit": "ce1ede691d404726f72a1e37dddc8859d0d40978",
+   "date": "2026-10-06T19:53:46+02:00",
+   "subject": "cancel superseded ym-realization-v13-fast.yml runs"
+  },
+  {
+   "commit": "6f15b75cfe27e6073fc038c738309c074a31d4cd",
+   "date": "2026-10-06T19:53:42+02:00",
+   "subject": "cancel superseded ym-terminal-v13-fast.yml runs"
+  },
+  {
+   "commit": "91a93f4f2dccf72cc6647b54653aa217aae6347e",
+   "date": "2026-10-06T19:50:43+02:00",
+   "subject": "call root Parseval lemma and simplify complex expectation"
+  },
+  {
+   "commit": "b8920318aacaed16ec3c47316cfedf515dc05ff2",
+   "date": "2026-10-06T19:47:29+02:00",
+   "subject": "audit three-way terminal convergence"
+  },
+  {
+   "commit": "bb72102039b2c01dd87be97a33696847f1154350",
+   "date": "2026-10-06T19:47:19+02:00",
+   "subject": "certify three-way terminal collapse to FINAL_ROOT"
+  },
+  {
+   "commit": "e51810dcbd1f2d38888919a55ce47e46681345c5",
+   "date": "2026-10-06T19:46:00+02:00",
+   "subject": "prove terminal conjunction cycle constructively"
+  },
+  {
+   "commit": "925edadbaf112fc6014eb811cf8cfc2bab3c8bcc",
+   "date": "2026-10-06T19:45:43+02:00",
+   "subject": "gate terminal endpoint-gap-habitant cycle"
+  },
+  {
+   "commit": "935e1863144ca66cdd951a11c84c5ede6f4dcf9a",
+   "date": "2026-10-06T19:45:21+02:00",
+   "subject": "formalize terminal endpoint-gap-habitant cycle"
+  },
+  {
+   "commit": "5c3d3dffb94ce800db954088a1634dc8c7f6144c",
+   "date": "2026-10-06T19:41:47+02:00",
+   "subject": "import PiL2 Parseval and normalize finite expectation explicitly"
+  },
+  {
+   "commit": "0bd9e311e38d666193d95ff140311dd8bb6aaac5",
+   "date": "2026-10-06T19:37:13+02:00",
+   "subject": "use native orthonormal Parseval and complex norm-square identity"
+  },
+  {
+   "commit": "51170b50feaa4934f646ff1015bf700f732d16f3",
+   "date": "2026-10-06T19:23:01+02:00",
+   "subject": "remove audit keyword from final closure commentary"
+  },
+  {
+   "commit": "a7183625506af8ec05eb8c4edf26efb8cb36aceb",
+   "date": "2026-10-06T19:22:58+02:00",
+   "subject": "close finite spectral identities with explicit real-part sums"
+  },
+  {
+   "commit": "7bc0be282e3e50cace30a627e71f64858154549d",
+   "date": "2026-10-06T19:17:40+02:00",
+   "subject": "repair finite spectral Parseval and real-sum normalization"
+  },
+  {
+   "commit": "e55eb4149ccd773384bf499bf0d3a1bed1591a70",
+   "date": "2026-10-06T18:52:03+02:00",
+   "subject": "preserve Mathlib path in terminal open-math gate"
+  },
+  {
+   "commit": "1dcceb2da0f600e5fe3a5fc7af7dbea66df16ca5",
+   "date": "2026-10-06T18:45:53+02:00",
+   "subject": "gate final Yang-Mills closure certificate"
+  },
+  {
+   "commit": "fd715364effe073ae8cbff0aaab7b987c8e8fd81",
+   "date": "2026-10-06T18:45:37+02:00",
+   "subject": "add fail-closed final Yang-Mills closure certificate"
+  },
+  {
+   "commit": "616bf0b18b99c3afb8d6c4045a5613d11cb3dbb5",
+   "date": "2026-10-06T18:44:26+02:00",
+   "subject": "compile open-math terminal with explicit Lean source path"
+  },
+  {
+   "commit": "44113eb17532e444456c4878d9d13d62e8d44503",
+   "date": "2026-10-06T18:41:43+02:00",
+   "subject": "align regulated continuum V13 Hilbert universe"
+  },
+  {
+   "commit": "c1611fb746575b0862d69267f4cf564286d26317",
+   "date": "2026-10-06T18:41:40+02:00",
+   "subject": "fix open-math terminal Lean root"
+  },
+  {
+   "commit": "84b5005a08cc537afb0f91eab99f6ccb4f82a741",
+   "date": "2026-10-06T18:41:37+02:00",
+   "subject": "retire underspecified YM exclusion-only route without placeholders"
+  },
+  {
+   "commit": "a0d40fb8994033b6db6978738980c1e8780e795f",
+   "date": "2026-10-06T18:36:29+02:00",
+   "subject": "gate exact Yang-Mills terminal open-math frontier"
+  },
+  {
+   "commit": "12461e91ac28e66d3ce8bb0ce831a2b0eb6813ad",
+   "date": "2026-10-06T18:36:15+02:00",
+   "subject": "truncate YM continuum frontier at exact material producer"
+  },
+  {
+   "commit": "c72dbb2ae769f380f9dbdcba88803b682ca2705f",
+   "date": "2026-10-06T18:33:41+02:00",
+   "subject": "use inner-product Parseval identity in finite spectral V13"
+  },
+  {
+   "commit": "ec4abd8a50ce01d75125021b1e6440c7322928e4",
+   "date": "2026-10-06T18:28:46+02:00",
+   "subject": "restore K14 Hilbert universe alignment on attack branch"
+  },
+  {
+   "commit": "59410ce43c4b483e141037a06b83654f10ee8699",
+   "date": "2026-10-06T18:26:17+02:00",
+   "subject": "repair finite spectral Parseval and theorem order for pinned Mathlib"
+  },
+  {
+   "commit": "b6b1888a5cc54536e48413531d1ae8dff4a163b3",
+   "date": "2026-10-06T18:09:36+02:00",
+   "subject": "fix(ym v13): make concrete Hamiltonian universe-polymorphic"
+  },
+  {
+   "commit": "dbaf89376d66dfbe0245204ca2ff1f5836bbfabc",
+   "date": "2026-10-06T17:35:57+02:00",
+   "subject": "align finite spectral V13 Hilbert universe with K14"
+  },
+  {
+   "commit": "8448108f37e4fc10ae38a5a86d32e0d6508614b1",
+   "date": "2026-10-06T17:27:31+02:00",
+   "subject": "preserve concrete K14 predicates with universe-aligned Hilbert space"
+  },
+  {
+   "commit": "d941837702edf38a9691d00686a944a81314062c",
+   "date": "2026-10-06T17:26:37+02:00",
+   "subject": "repair K14 concrete Hamiltonian adapter for Lean 4.19"
+  },
+  {
+   "commit": "9a498cbcab2f77b59588d18f848da84a5f34e70b",
+   "date": "2026-10-06T16:28:48+02:00",
+   "subject": "fix(ym v13): align concrete Hilbert space universe with K14 state"
+  },
+  {
+   "commit": "48e9dc89397a3baa640bc05759ec790385b6b405",
+   "date": "2026-10-06T16:28:34+02:00",
+   "subject": "add fast regulated continuum realization gate"
+  },
+  {
+   "commit": "87f6d4ea768815f6a6c11fc704e83ba414e64580",
+   "date": "2026-10-06T16:28:16+02:00",
+   "subject": "derive terminal YM finite edge from same-regulator uniform mass"
+  },
+  {
+   "commit": "1541a108eab4733ab2accc7e6cc1307408e98bd6",
+   "date": "2026-10-06T16:27:14+02:00",
+   "subject": "fix terminal V13 imports for pinned Mathlib"
+  },
+  {
+   "commit": "faca9a9fc0334bac98bc1b2fb360532a78c99e79",
+   "date": "2026-10-06T16:22:07+02:00",
+   "subject": "add fast terminal V13 continuum gate"
+  },
+  {
+   "commit": "68b94adfd91125a2ec90da0a6c33a4684988ac11",
+   "date": "2026-10-06T16:21:49+02:00",
+   "subject": "compress YM V13 open math to uniform finite edge plus continuum convergence"
+  },
+  {
+   "commit": "f8c88edb03a4e5b6df010460d71b9390257e1376",
+   "date": "2026-10-06T16:19:10+02:00",
+   "subject": "add fast dedicated Yang-Mills gauge probe gate"
+  },
+  {
+   "commit": "3f95cbd7bc828dccd9e7c7c3e3f0e6075edffa0d",
+   "date": "2026-10-06T16:18:51+02:00",
+   "subject": "allow standard Lean axioms in gauge probe audit"
+  },
+  {
+   "commit": "2a57f52bf4fc2f451733b716f02cffa8dfbc02ae",
+   "date": "2026-10-06T16:18:48+02:00",
+   "subject": "fix gauge inverse and translation action law"
+  },
+  {
+   "commit": "406ea51208ef9bf164f90d8fd1371a0568ab4c02",
+   "date": "2026-10-06T16:08:31+02:00",
+   "subject": "repair gauge probe typing and explicit endpoint parameters"
+  },
+  {
+   "commit": "33a376252c42964eb45f99e0a5f14cd05917bd59",
+   "date": "2026-10-06T16:00:05+02:00",
+   "subject": "fix Yang-Mills gauge probe imports for Lean 4.19 pin"
+  },
+  {
+   "commit": "e5475ef4dfe8aa22531814d321fa56ddac5acb1b",
+   "date": "2026-10-06T15:03:57+02:00",
+   "subject": "gate Yang-Mills gauge rejection probe in CI"
+  },
+  {
+   "commit": "ca3b5e60ee2eb1cf10e9afb9de3f2838596bc6fb",
+   "date": "2026-10-06T14:31:32+02:00",
+   "subject": "add gauge-action rejection probe on V13"
+  },
+  {
+   "commit": "63742dbf17ac385b019e320faaceee961aadfb4e",
+   "date": "2026-10-04T17:30:04+02:00",
+   "subject": "wire V13 same-regulator binding into certification"
+  },
+  {
+   "commit": "c15e7b6e35c55ef54e025e50d4fd929f0f9c0454",
+   "date": "2026-10-04T17:29:41+02:00",
+   "subject": "add V13 same-regulator transfer-Hamiltonian binding"
+  },
+  {
+   "commit": "572c5ae02ce10051cd2648f8f7181e3b7c507b19",
+   "date": "2026-10-04T16:11:03+02:00",
+   "subject": "derive finite spectral exclusion from lower-edge support"
+  },
+  {
+   "commit": "63dac1d98b159b44cb76b6267dc4a103212d2dc8",
+   "date": "2026-10-04T16:02:32+02:00",
+   "subject": "wire V13 continuum transfer theorem into certification"
+  },
+  {
+   "commit": "21c2abf8114be3e837f978f331f0fb4a4f18bf72",
+   "date": "2026-10-04T16:02:09+02:00",
+   "subject": "formalize sufficient V13 continuum spectral transfer contract"
+  },
+  {
+   "commit": "9a5677e9f01cd3c4e25e8c35114ffe5a5d6e74cf",
+   "date": "2026-10-04T15:58:12+02:00",
+   "subject": "document exact V13 regulator-to-continuum producer"
+  },
+  {
+   "commit": "32b817567ecd33fe8f9a8210590ecf56f2051bcd",
+   "date": "2026-10-04T15:57:51+02:00",
+   "subject": "isolate V13 continuum mass-gap frontier"
+  },
+  {
+   "commit": "780beda711296d36834112627a7847ad3564e9b2",
+   "date": "2026-10-04T14:22:36+02:00",
+   "subject": "close V13 finite regulated mass gap from spectral vanishing"
+  },
+  {
+   "commit": "1f97a1527273cc0eb2c437d4be46e816c4a5a843",
+   "date": "2026-10-04T14:11:15+02:00",
+   "subject": "prove V13 finite spectral expectation identity"
+  },
+  {
+   "commit": "1268b0eefce02b0409dc5ccd47d9b05c9ed3e7e9",
+   "date": "2026-10-04T14:04:55+02:00",
+   "subject": "prove V13 finite spectral Parseval identity"
+  },
+  {
+   "commit": "555bdff21f3c738ae5aa61063ef904035a3e91dc",
+   "date": "2026-10-04T13:55:50+02:00",
+   "subject": "wire V13 finite spectral decomposition into certification"
+  },
+  {
+   "commit": "c03ed4eb78e5d954d6fadc703f320537469296b5",
+   "date": "2026-10-04T13:55:30+02:00",
+   "subject": "add V13 finite regulated spectral decomposition"
+  },
+  {
+   "commit": "4c18b61f8e080928073c6312efc06477c0dfc37f",
+   "date": "2026-10-04T13:46:51+02:00",
+   "subject": "force V13 real scale reduction in concrete gap"
+  },
+  {
+   "commit": "dbd7e4267def4d5502ec1e979de267897b5209de",
+   "date": "2026-10-04T13:35:55+02:00",
+   "subject": "fix V13 real scalar imports"
+  },
+  {
+   "commit": "56cdb9922a964ae862d1a186f563eb632c08518d",
+   "date": "2026-10-04T13:09:07+02:00",
+   "subject": "add V13 concrete bounded Hamiltonian realization"
+  },
+  {
+   "commit": "8b9db3aff812f3e0909f4daccb08ed2f0f94c07d",
+   "date": "2026-10-04T10:47:52+02:00",
+   "subject": "wire V13 concrete gap semantics and isolate exact open math"
+  },
+  {
+   "commit": "9a6eae28d64619bfc9875ea78f3b145719d3bee4",
+   "date": "2026-10-04T10:46:34+02:00",
+   "subject": "define V13 concrete real-energy gap semantics"
+  },
+  {
+   "commit": "d00a1fb41c1efae1ba12b788d9c89757561ea672",
+   "date": "2026-10-04T10:35:04+02:00",
+   "subject": "certify YM V11 green physical coverage closure"
+  },
+  {
+   "commit": "f8412403c319d66518f6e21935928ad956d70899",
+   "date": "2026-10-04T10:05:14+02:00",
+   "subject": "fix V11 domain decidability in canonical Hamiltonian"
+  },
+  {
+   "commit": "b602b43afc6adbf3800fef28ea22d108d3abe6e9",
+   "date": "2026-10-04T09:19:35+02:00",
+   "subject": "eliminate V10 physical coverage residue with identity binding V11"
+  },
+  {
+   "commit": "6e8f74c9b51465bb5a227a88362d094f3fd64b4f",
+   "date": "2026-10-04T02:00:43+02:00",
+   "subject": "add V10 spectral-measure Hilbert binding"
+  },
+  {
+   "commit": "f7d95921f8e812e33c4ac43dad2b04b8a635a7ef",
+   "date": "2026-10-04T01:48:36+02:00",
+   "subject": "qualify MeasureTheory integral nonnegativity in V6"
+  },
+  {
+   "commit": "8ee463967c2031c50da97d18483e470e6beb5464",
+   "date": "2026-10-04T01:35:26+02:00",
+   "subject": "add YM decay calculus V7, canonical 4D geometry V8, spectral K30 V9"
+  },
+  {
+   "commit": "384fc8947e690f87b1d629d9b1d9815137f8245d",
+   "date": "2026-10-04T01:34:09+02:00",
+   "subject": "fix V6 regulated L2 norm nonnegativity proof"
+  },
+  {
+   "commit": "43835c84b10e07d36f7aa27f12691433f5113acd",
+   "date": "2026-10-04T01:29:08+02:00",
+   "subject": "formalize derived YM analytic laws V6"
+  },
+  {
+   "commit": "7cbcc50107912857e7980ff5c5a65399b9371ced",
+   "date": "2026-10-04T01:12:33+02:00",
+   "subject": "reduce YM material frontier to canonical same-model V5 bundle"
+  },
+  {
+   "commit": "eb08f4fc33acc7474a32f661a5dcfe7103ab6894",
+   "date": "2026-10-04T01:08:10+02:00",
+   "subject": "add V4 physical excitation reconstruction residue"
+  },
+  {
+   "commit": "b52c63a2f80bfad76bccfba868f6e18d19e86e8e",
+   "date": "2026-10-04T01:03:41+02:00",
+   "subject": "add axiom-free YM material hardening v3 to kernel closure"
+  },
+  {
+   "commit": "d79f2f41edd91cfc9f16b7748d9d8eea742eccd9",
+   "date": "2026-10-04T00:54:57+02:00",
+   "subject": "certify fail-closed YM kernel closure checkpoint"
+  },
+  {
+   "commit": "681acda8bcab2c166790a3a4eca66e3d5bb720ec",
+   "date": "2026-10-04T00:47:36+02:00",
+   "subject": "port fail-closed YM kernel closure bundle and canonical B60 firewall"
+  },
+  {
+   "commit": "9d26cee3ebc301422246bd706e671158012c0120",
+   "date": "2026-10-03T17:04:15+02:00",
+   "subject": "wire concrete terminal law into default build"
+  },
+  {
+   "commit": "1171532b72bc3803e2739a607d5d2a73c6956bef",
+   "date": "2026-10-03T17:03:36+02:00",
+   "subject": "formalize concrete terminal certification/refutation law"
+  },
+  {
+   "commit": "f023e2d03b9a954145e81b5a7cd3c9d37ac10a6e",
+   "date": "2026-10-01T20:22:46+02:00",
+   "subject": "ym: formalize same-model vanishing-gap negative decision object"
+  },
+  {
+   "commit": "ea22910e5b737d1236fbde7ad129cc5d8c8c0b8a",
+   "date": "2026-10-01T17:46:08+02:00",
+   "subject": "ym: harden material witness with nonvacuum regulated excitation"
+  },
+  {
+   "commit": "9f2e2a6d0d417225150a318fa71b4bc8ed635707",
+   "date": "2026-10-01T00:18:43+02:00",
+   "subject": "ATK: link B60 ledger target directly to K30 mass gap"
+  },
+  {
+   "commit": "1019f8810369af19147c4bd35540a087e89265e8",
+   "date": "2026-09-28T15:12:57+01:00",
+   "subject": "ci(ym): run next B6-K30 physical kernel frontier"
+  },
+  {
+   "commit": "4f6681605f38c91e15539049cfb04c885bb7a19b",
+   "date": "2026-09-28T14:05:57+01:00",
+   "subject": "ci(ym): activate physical hardening V2 producer kernels"
+  },
+  {
+   "commit": "ed00566a2dea071ba7e7d4f70c0d4d36c0442610",
+   "date": "2026-09-28T13:47:18+01:00",
+   "subject": "ci(ym): activate concrete spectral producer kernel"
+  },
+  {
+   "commit": "91a2b4609beaba7bafe6e614c7005c127cd6633a",
+   "date": "2026-09-28T13:11:18+01:00",
+   "subject": "ci(ym): run exact producer kernel frontier"
+  },
+  {
+   "commit": "cd4bbfd348b607bd24ed0c6d605207b764286f58",
+   "date": "2026-09-21T10:40:45+01:00",
+   "subject": "formal(y01): include B3-B5 hardening in umbrella build"
+  },
+  {
+   "commit": "32b7e6d0d2ca501063fc3804142d0d9468275973",
+   "date": "2026-09-21T10:40:43+01:00",
+   "subject": "formal(y01): port non-vacuous B3-B5 hardening onto current head"
+  },
+  {
+   "commit": "645b299959f02902c7e6245855d3b5da9a951139",
+   "date": "2026-09-21T01:43:20+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "b5bcbfce20deaeb60dc340d5a615c03531d32b5c",
+   "date": "2026-09-21T01:25:20+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "23404c3a7246eceae4c66e3f25255534f6d422a0",
+   "date": "2026-09-21T01:24:29+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "286e9a01fdfee031a4d5c4c8394cbfd6fa972469",
+   "date": "2026-09-21T01:17:27+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  },
+  {
+   "commit": "a6950ed66403034fdd0cba903f7b71460666c8d4",
+   "date": "2026-09-20T22:43:35+01:00",
+   "subject": "fix(ym-b6): use construction observable signature type"
+  },
+  {
+   "commit": "d62ae22e9a1405a26a56f12ff0aba4f4934ed36e",
+   "date": "2026-09-20T16:31:44+01:00",
+   "subject": "ci(ym-b6): certify B6.0 typed boundary without witness"
+  },
+  {
+   "commit": "d84d06a3c50d20b7075a55ef1000fd8a39529c5a",
+   "date": "2026-09-20T16:31:42+01:00",
+   "subject": "ci(ym-b6): include B6.0 concrete adapter boundary"
+  },
+  {
+   "commit": "a958b7516f37dadfa27867cec2bec903361bc849",
+   "date": "2026-09-20T16:31:28+01:00",
+   "subject": "feat(ym-b6): type concrete A1-to-K20/K30 physical adapter boundary"
+  },
+  {
+   "commit": "547929e00003bcd88b644fa4590ad8c5cbd565b0",
+   "date": "2026-09-20T16:26:05+01:00",
+   "subject": "fix(ci): remove unsupported pp.width probe"
+  },
+  {
+   "commit": "c4513a3b69c43a5455d5ad947c2de7651ddafa3f",
+   "date": "2026-09-20T16:24:51+01:00",
+   "subject": "ci(ym-a1): certify repaired frontier v2"
+  },
+  {
+   "commit": "a008558b3b3567f48e2afe01fd24ba3ab0603cec",
+   "date": "2026-09-20T16:24:49+01:00",
+   "subject": "ci(ym-a1): include repaired frontier v2"
+  },
+  {
+   "commit": "7e916932a30ee29a8efa45dc028bc1744d7359f7",
+   "date": "2026-09-20T16:24:36+01:00",
+   "subject": "audit(ym-a1): replace invalid legacy B3-B5 frontier with K20/K30 B6"
+  },
+  {
+   "commit": "eec8114195d9ea7a20e1b4562da2baf05c865b30",
+   "date": "2026-09-20T16:22:25+01:00",
+   "subject": "fix(ci): parse multiline Lean axiom footprints fail-closed"
+  },
+  {
+   "commit": "9f7dbe08a1aad8f495d17a8505dd627dfe5b3e30",
+   "date": "2026-09-20T16:18:49+01:00",
+   "subject": "ci(ym-a1): keep axiom audit records on one line"
+  },
+  {
+   "commit": "490ff3036716ada3e6386c456a9558b1e25c57d7",
+   "date": "2026-09-20T16:13:20+01:00",
+   "subject": "ci(ym-a1): certify B3-B5 phantom-bridge negative controls"
+  },
+  {
+   "commit": "1ca0bab1c95c0c1089e99d175383f17183bfe365",
+   "date": "2026-09-20T16:13:10+01:00",
+   "subject": "ci(ym-a1): include phantom-bridge adversarial module"
+  },
+  {
+   "commit": "fd643dccb42d466017ce49e60eb94602a2ffeb7f",
+   "date": "2026-09-20T16:13:05+01:00",
+   "subject": "audit(ym-a1): expose phantom B3/B4 and reduce endpoint to B1+B2"
+  },
+  {
+   "commit": "5520dbcb450a8700060d86c6f35110352c92bf87",
+   "date": "2026-09-20T16:11:54+01:00",
+   "subject": "ci(ym-a1): certify B5 triviality negative control"
+  },
+  {
+   "commit": "969510cc5a5c772337081fadaf8cecc6a99a9c24",
+   "date": "2026-09-20T16:11:43+01:00",
+   "subject": "ci(ym-a1): include B5 triviality adversarial module"
+  },
+  {
+   "commit": "ed067b91909b7f4bde0aaf721589ccb26bd64389",
+   "date": "2026-09-20T16:11:32+01:00",
+   "subject": "audit(ym-a1): expose trivial inhabitance of current B5 uniformity"
+  },
+  {
+   "commit": "a78856017c7f94b029f6f5a98cb47ade91a20262",
+   "date": "2026-09-20T09:04:37+01:00",
+   "subject": "audit: preserve stabilization-kernel exact-crossing line"
+  },
+  {
+   "commit": "1bfd25f1045d1afe0e4984a2b84e49da6ca51215",
+   "date": "2026-09-20T08:42:13+01:00",
+   "subject": "audit: record observed state-2 behavioral signature"
+  },
+  {
+   "commit": "a63ebba0a98a973ec8672e7f813d6b12318c7f84",
+   "date": "2026-09-20T08:39:11+01:00",
+   "subject": "audit: install behavioral signature calculator protocol"
+  },
+  {
+   "commit": "c67ce0e398b23f4d1fe89e2f891219017309ff1b",
+   "date": "2026-09-20T04:06:33+01:00",
+   "subject": "audit: install behavioral signature calculator contract"
+  },
+  {
+   "commit": "0c111210315c0130eb44b4ea3177167f7d01bdb5",
+   "date": "2026-09-20T01:46:29+01:00",
+   "subject": "cert: freeze GREEN b7131eb4"
+  },
+  {
+   "commit": "b7131eb4a74b7396f1c8ca4d519d9d5726620845",
+   "date": "2026-09-20T00:51:03+01:00",
+   "subject": "research: add Lean parallel residual return interface"
+  },
+  {
+   "commit": "bc010fa0c7c331454b0f58f4ce197b59d9514ff3",
+   "date": "2026-09-20T00:48:55+01:00",
+   "subject": "research: wire parallel closure chain to exact frontier"
+  },
+  {
+   "commit": "2476513e7310bd70bb3f266cf8ccbbc10011d264",
+   "date": "2026-09-20T00:31:33+01:00",
+   "subject": "research: map pure-math path to exact final frontier"
+  },
+  {
+   "commit": "31179cd816f562f59d6a4fd3affb86a53b9fd1b2",
+   "date": "2026-09-19T10:44:51+00:00",
+   "subject": "fix(ym-a1): pin Volume binder type and land B1-B5 frontier decomposition"
+  },
+  {
+   "commit": "aa5708f434155bfb6bf5fec5d2c11bc18fcbcf76",
+   "date": "2026-09-19T10:39:57+00:00",
+   "subject": "fix(ym-a1): mark toy positive-control witness noncomputable"
+  },
+  {
+   "commit": "9f8a4ca334b1662adfeb93dc882c2938f5881330",
+   "date": "2026-09-19T10:35:57+00:00",
+   "subject": "audit(ym-a1): add Test-9 positive control witness for A1ScientificWitness"
+  },
+  {
+   "commit": "c32dcc512d9b05d69350e9b1d74eee5793e79a16",
+   "date": "2026-09-19T10:31:39+00:00",
+   "subject": "fix(ym-a1): pin scalar field in transfer symmetry"
+  },
+  {
+   "commit": "a6210f7b0d6ff8852993673eac155fc3a9032540",
+   "date": "2026-09-19T10:26:19+00:00",
+   "subject": "fix(ym-a1): elaborate hardened A1 witness structures"
+  },
+  {
+   "commit": "1503df7fc1c9cf2296d5c5a207695e1bdfc9dfec",
+   "date": "2026-09-19T10:41:57+02:00",
+   "subject": "ci(ym-a1): compile hardened witness and audit standard footprint"
+  },
+  {
+   "commit": "1143619331f3e75af58076702b0a29638bd2556e",
+   "date": "2026-09-19T10:41:50+02:00",
+   "subject": "feat(ym-a1): type scientific witness boundary"
+  },
+  {
+   "commit": "bf4bd204553d7ad3eb0b5fd1790f3299204f0209",
+   "date": "2026-09-19T09:38:47+02:00",
+   "subject": "ci(ym): replace umbrella clean rebuild with targeted certification"
+  },
+  {
+   "commit": "4660637bd1e597fda4a947ffe927588251e61553",
+   "date": "2026-09-19T03:14:05+02:00",
+   "subject": "fix(ci): remove YAML-sensitive G0 heredoc"
+  },
+  {
+   "commit": "9bc36e41e3c55e6fedf0a3317b4d910813582af9",
+   "date": "2026-09-19T03:13:19+02:00",
+   "subject": "fix(ci): indent G0 manifest diagnostic heredoc"
+  },
+  {
+   "commit": "d9dd06d7154d232f5157f887c31798cefec1d5ef",
+   "date": "2026-09-19T03:04:57+02:00",
+   "subject": "ci(ym): distinguish declared pin from resolved manifest"
+  },
+  {
+   "commit": "49aabda1e6cbabbaef11fc567485fc85f84b07a0",
+   "date": "2026-09-19T01:12:37+02:00",
+   "subject": "ci(ym): pin certificate actions by immutable SHA"
+  },
+  {
+   "commit": "b4da6466cfd771ad0cdd95894e1c66eb19c7aa5d",
+   "date": "2026-09-19T01:11:11+02:00",
+   "subject": "ci(ym): separate mechanical reproduction from G6b axiom gate"
+  },
+  {
+   "commit": "ad2c29981bf627b02ec8af5579a8ed4edba85db4",
+   "date": "2026-09-19T01:03:13+02:00",
+   "subject": "ci(ym): make G6b axiom gate fail-closed and self-testing"
+  },
+  {
+   "commit": "07c93f731dc8bceb83dc14bc161032bf7577e9c1",
+   "date": "2026-09-19T00:54:41+02:00",
+   "subject": "ci(ym): harden G6b axiom footprint gate"
+  },
+  {
+   "commit": "28f96be22949af2cc962e4c15953532a2caebdf7",
+   "date": "2026-09-19T00:54:15+02:00",
+   "subject": "fix(ym-a1): qualify regulated measure type"
+  },
+  {
+   "commit": "307a80c8e84fa45220a62c696baf38a4621b3681",
+   "date": "2026-09-19T00:44:43+02:00",
+   "subject": "audit(ym): record Lake-generated A1 lock provenance"
+  },
+  {
+   "commit": "12c6c4df82fbe24901654140abd08091d42d6b9e",
+   "date": "2026-09-18T22:43:25+00:00",
+   "subject": "infra(ym): materialize Lake-generated c44e0c8 lock"
+  },
+  {
+   "commit": "df8aa7200ed739414c9cea083c2590d56655c2ba",
+   "date": "2026-09-19T00:41:18+02:00",
+   "subject": "ci(ym): add Lake-only c44e0c8 lock generator"
+  },
+  {
+   "commit": "8c148cd898676434e93bff5a6b25a4ae97dae73c",
+   "date": "2026-09-19T00:05:58+02:00",
+   "subject": "ci(ym): make pinned manifest gate diagnostic"
+  },
+  {
+   "commit": "57bed276b29b50abd01ae469fc72ae36431c5fac",
+   "date": "2026-09-18T23:35:46+02:00",
+   "subject": "ci(ym): remove invalid cache executable dependency"
+  },
+  {
+   "commit": "054f10454015fb7fc202606e1d0c2902ec3dc983",
+   "date": "2026-09-18T23:08:46+02:00",
+   "subject": "fix(ym): bind measurable state and measure in regulated A1 fiber"
+  },
+  {
+   "commit": "29410f1833eda0713c7406ded5b06811822589d9",
+   "date": "2026-09-18T22:16:04+02:00",
+   "subject": "fix(ym): repair dependent Measure elaboration in A1"
+  },
+  {
+   "commit": "0ece681f392996d2db73d2a11a9f84a1eac850a7",
+   "date": "2026-09-18T22:04:19+02:00",
+   "subject": "ci(ym): compile A1 hardening through umbrella build"
+  },
+  {
+   "commit": "cf9db8b6a323cd1d8df418706dba91929c08328f",
+   "date": "2026-09-18T22:01:11+02:00",
+   "subject": "refactor(ym): harden A1 uniformity with explicit filters"
+  },
+  {
+   "commit": "6d1af474ee978ad8f53673ed221a089a5d0a2f3f",
+   "date": "2026-09-18T21:58:54+02:00",
+   "subject": "test(ym): add A1 cutoff-volume adversarial uniformity firewalls"
+  },
+  {
+   "commit": "aaf6a3f0e29474c30d9e894f2ac508ae28581d31",
+   "date": "2026-09-18T21:58:45+02:00",
+   "subject": "feat(ym): add fail-closed concrete A1 regulated construction"
+  },
+  {
+   "commit": "80faf0a5ce3d76b62ecc28d79d8db5ebbde53abd",
+   "date": "2026-09-18T19:22:05+02:00",
+   "subject": "fix(ym): close physical cutoff firewall arithmetic"
+  },
+  {
+   "commit": "1554c349dcd375b765af7af545805887ec3277ca",
+   "date": "2026-09-18T03:12:36+02:00",
+   "subject": "fix(ci): make physical-gap axiom audit output-robust"
+  },
+  {
+   "commit": "d3016239936d24758bd92d64746aee278f4c5577",
+   "date": "2026-09-18T03:05:32+02:00",
+   "subject": "ci(ym): test physical scaling and counterexample firewalls"
+  },
+  {
+   "commit": "b6e2e6f4114be41915dccc9b4cf53c60934153d8",
+   "date": "2026-09-18T03:05:24+02:00",
+   "subject": "build(ym): include physical gap scaling audit"
+  },
+  {
+   "commit": "7eb49f7ab0cb42cc66e89be7793d50f784684b66",
+   "date": "2026-09-18T03:05:17+02:00",
+   "subject": "feat(ym): formalize physical gap scaling and adversarial firewalls"
+  },
+  {
+   "commit": "eedcf7948632715fa62aee120ceecacfa449924d",
+   "date": "2026-09-17T21:11:12+02:00",
+   "subject": "fix(spectral-exclusion): normalize G1 F3 and contradiction algebra"
+  },
+  {
+   "commit": "667f54257c9db6282b45193cc74e5b87b8090c0f",
+   "date": "2026-09-17T20:53:39+02:00",
+   "subject": "fix(spectral-exclusion): remove forbidden lexeme from F3 doc comment"
+  },
+  {
+   "commit": "3b027765d1ba77d9c2ebf4ae9e81ee730864c7e9",
+   "date": "2026-09-17T18:40:02+02:00",
+   "subject": "Spectral S1: close exponential growth and pointwise-uniform firewall"
+  },
+  {
+   "commit": "72bb2e591b3267e12b9e3847b2f37104a9802065",
+   "date": "2026-09-17T18:23:34+02:00",
+   "subject": "Spectral S1 fix: normalize exponential products explicitly"
+  },
+  {
+   "commit": "eba0ef7e89467ad1ca7023eb18da94df98e34bba",
+   "date": "2026-09-17T17:53:06+02:00",
+   "subject": "Spectral S1: include exclusion core in umbrella"
+  },
+  {
+   "commit": "e9d90ea4f8b6db57fd3b74c67a155173e10b4b9a",
+   "date": "2026-09-17T17:52:56+02:00",
+   "subject": "Spectral S1: prove dense positive-measure exclusion core"
+  },
+  {
+   "commit": "2db1591442141941e09f6cd01dd5af8799376eb1",
+   "date": "2026-09-17T16:14:57+02:00",
+   "subject": "Spectral adapter: include concrete adapter in umbrella build"
+  },
+  {
+   "commit": "5dd52c3f0d09291db0f0d0a1173df466ab58a2f7",
+   "date": "2026-09-17T16:14:45+02:00",
+   "subject": "Spectral adapter: expose concrete Hilbert-to-K14 obligations"
+  },
+  {
+   "commit": "98f2b6a72a181b5ffebe097036f644f28a89c3d4",
+   "date": "2026-09-17T15:57:23+02:00",
+   "subject": "CI fix: resolve Mathlib manifest before lean-action build"
+  },
+  {
+   "commit": "7fd90fc26a6b1b4633f4116e2f60c0e2620ee89e",
+   "date": "2026-09-17T15:32:23+02:00",
+   "subject": "Spectral adapter CI: hydrate pinned Mathlib and compile spectral modules"
+  },
+  {
+   "commit": "64936eb2642f7551b9f8e82a54c43ef5aad39789",
+   "date": "2026-09-17T15:32:03+02:00",
+   "subject": "Spectral adapter: pin Mathlib v4.19.0-compatible revision"
+  },
+  {
+   "commit": "035617b9961b59c1f93b08d7192992798be2fd0e",
+   "date": "2026-09-17T14:38:35+02:00",
+   "subject": "SpectralCore: record concrete Mathlib spectral capability assessment"
+  },
+  {
+   "commit": "4a50149056d382b602a2cbba05c86b93d66b55d8",
+   "date": "2026-09-17T13:47:56+02:00",
+   "subject": "SpectralCore CI: test minimal analytic frontier and provenance firewalls"
+  },
+  {
+   "commit": "2856397b93227bc257a36c9dc9aceb2701a1fcb4",
+   "date": "2026-09-17T13:47:36+02:00",
+   "subject": "SpectralCore: add analytic frontier to umbrella"
+  },
+  {
+   "commit": "0418008f106ad55d356521caf02898db94a99cb0",
+   "date": "2026-09-17T13:47:22+02:00",
+   "subject": "SpectralCore: isolate minimal real decay-to-spectrum obligation"
+  },
+  {
+   "commit": "0fefa9a9d04a56e52e4c92dd99eac61884ddf0e4",
+   "date": "2026-09-17T13:21:14+02:00",
+   "subject": "Docs: formalize cross-repository certified import semantics"
+  },
+  {
+   "commit": "c48bf30894af7f353dde2419aa431cd26d722804",
+   "date": "2026-09-17T13:21:02+02:00",
+   "subject": "Provenance: seed immutable certificate index at K30 root"
+  },
+  {
+   "commit": "ade4ed23cc647bfe497263a30ad76e43a736cfb4",
+   "date": "2026-09-17T13:20:53+02:00",
+   "subject": "Provenance: encode minimal FinalCore dependency DAG"
+  },
+  {
+   "commit": "2a40165657ad41aec8c10871134a4e0310323091",
+   "date": "2026-09-17T13:20:44+02:00",
+   "subject": "Provenance: add fail-closed cross-repository import registry"
+  },
+  {
+   "commit": "ba554eec718a99f59792c4b11dd3a2bd67ce5b9c",
+   "date": "2026-09-17T13:15:38+02:00",
+   "subject": "FinalCore CI: dense preflight, axiom and endpoint firewalls"
+  },
+  {
+   "commit": "9428dbd136efe787c2e01dda3115cfe05672f4d5",
+   "date": "2026-09-17T13:15:09+02:00",
+   "subject": "FinalCore: add compressed endpoint to umbrella build"
+  },
+  {
+   "commit": "cb4f708fb6454eb43636baa6c2a0dc355b7ac01f",
+   "date": "2026-09-17T13:14:56+02:00",
+   "subject": "FinalCore: compress certified chain to minimal scientific frontier"
+  },
+  {
+   "commit": "9aecfca6a10024585b4dbf20f849e1e75265a9e6",
+   "date": "2026-09-17T10:49:36+02:00",
+   "subject": "K30 fix: constructors for clustering data live in Type"
+  },
+  {
+   "commit": "48407492c0f51d88090d903cd196326534193810",
+   "date": "2026-09-17T10:29:49+02:00",
+   "subject": "K30 CI: enforce corrected clustering semantics and one-way uniformity"
+  },
+  {
+   "commit": "ed595dde2641e7ab2008b0ae399859d799a284ea",
+   "date": "2026-09-17T10:29:33+02:00",
+   "subject": "K30: correct clustering semantics with explicit prefactor and mass scale"
+  },
+  {
+   "commit": "fa2e37e0b58c5d93844bf768f227130ff3e78dbf",
+   "date": "2026-09-17T10:16:05+02:00",
+   "subject": "K30 CI: certify constructor correction and endpoint propagation"
+  },
+  {
+   "commit": "958afe3eae8bf0aebf2e4bd519817357f2d43714",
+   "date": "2026-09-17T10:15:54+02:00",
+   "subject": "K30 fix: use defs for data constructors and propagate witness to endpoint"
+  },
+  {
+   "commit": "c1429df27eededfe41b622e2adb3edb4c84c43aa",
+   "date": "2026-09-17T09:45:49+02:00",
+   "subject": "K30 fix: elaborate dependent spectral exclusion witnesses explicitly"
+  },
+  {
+   "commit": "a6d0520f04c428fa67004c8b0a38ed907b29c80d",
+   "date": "2026-09-17T09:41:29+02:00",
+   "subject": "K30 CI: audit decomposed spectral-transfer obligations"
+  },
+  {
+   "commit": "718da4591fe8a984605ae1eca5a0cea4eeee7213",
+   "date": "2026-09-17T09:41:17+02:00",
+   "subject": "K30: add scientific transfer obligations to umbrella"
+  },
+  {
+   "commit": "aa6c77a0d112376ee8375b996037bfbeb1b8ed44",
+   "date": "2026-09-17T09:41:07+02:00",
+   "subject": "K30: decompose spectral transfer into explicit scientific obligations"
+  },
+  {
+   "commit": "cf4272aba660622bb4c1274f552d8e794e2efc2b",
+   "date": "2026-09-17T09:32:28+02:00",
+   "subject": "K29 CI: certify spectral-realization bridge firewall"
+  },
+  {
+   "commit": "3900bf27f3aba1b60fd476ee7a3c04e70e483ff6",
+   "date": "2026-09-17T09:32:17+02:00",
+   "subject": "K29: add spectral realization decomposition to umbrella"
+  },
+  {
+   "commit": "6239c2c174042186c5ae5683a84eca1d6f1b33de",
+   "date": "2026-09-17T09:32:09+02:00",
+   "subject": "K29: decompose final frontier bridge into spectral-gap realization"
+  },
+  {
+   "commit": "f7021b456f737815e0a51522b64a213be9030816",
+   "date": "2026-09-17T09:25:40+02:00",
+   "subject": "K28 CI fix: track parameterized conditional mass-gap endpoint"
+  },
+  {
+   "commit": "df27ccf90a6763bfdef5b60e0c22764d0d38795e",
+   "date": "2026-09-17T09:25:29+02:00",
+   "subject": "K28 fix: match parameterized mass-gap bridge and conjunction frontier"
+  },
+  {
+   "commit": "9a9e976e6fac985d27542ee814a4096520e21e98",
+   "date": "2026-09-17T05:25:06+02:00",
+   "subject": "K28 CI: certify assembled-frontier conditional endpoint firewall"
+  },
+  {
+   "commit": "34ad0cf11814356f3768df084b166c2ba1c31054",
+   "date": "2026-09-17T05:24:55+02:00",
+   "subject": "K28: add audited frontier assembly to umbrella"
+  },
+  {
+   "commit": "5e7c29838cfe3264ead3d13287c2b4eb9376a062",
+   "date": "2026-09-17T05:22:26+02:00",
+   "subject": "K28: assemble audited frontier blocks with conditional endpoint firewall"
+  },
+  {
+   "commit": "3ed19597cad9e32df303f775fe630dfb1cfbd1ea",
+   "date": "2026-09-17T05:15:56+02:00",
+   "subject": "K27 CI: certify pointwise-vs-uniform gap and limit firewall"
+  },
+  {
+   "commit": "a00ba62cd5c3378caf8e005f008490e95329b7c2",
+   "date": "2026-09-17T05:15:45+02:00",
+   "subject": "K27: add uniform-gap limit frontier to umbrella"
+  },
+  {
+   "commit": "a81769c94b56070b026dd698eed32c3b656a58e6",
+   "date": "2026-09-17T04:55:48+02:00",
+   "subject": "K27: isolate uniform regulated gap and limit-preservation frontier"
+  },
+  {
+   "commit": "7b5e2501344e8f9c09db120ab7ce2f15f4567be5",
+   "date": "2026-09-17T04:42:11+02:00",
+   "subject": "K26 CI: certify observable-sector decay-to-spectrum firewall"
+  },
+  {
+   "commit": "cf2f07e86945ba76abc8494b5267ad9fa766124e",
+   "date": "2026-09-17T04:42:01+02:00",
+   "subject": "K26: add observable-sector spectral bridge to umbrella"
+  },
+  {
+   "commit": "15e21b762b8acaf9d116c36cbe06e4f1f8ee9201",
+   "date": "2026-09-17T04:32:40+02:00",
+   "subject": "K26: isolate observable cyclicity and decay-to-spectrum bridge"
+  },
+  {
+   "commit": "bfb080e0f6ca567d35eb2b3245c45bd09722d818",
+   "date": "2026-09-17T04:25:56+02:00",
+   "subject": "K25 fix: make frontier parameter explicit in infrared bridge"
+  },
+  {
+   "commit": "8e68642d1f0c6eb424416463c0f382898eb336a8",
+   "date": "2026-09-17T04:22:13+02:00",
+   "subject": "K25 CI: certify pointwise-vs-uniform clustering firewall"
+  },
+  {
+   "commit": "b2959d16eb3cf5a0f3ee4ab5fd9b11a3a876a46a",
+   "date": "2026-09-17T04:22:03+02:00",
+   "subject": "K25: add uniform clustering frontier to umbrella"
+  },
+  {
+   "commit": "d590d29f8d61e6afda3c3ecaa7e501b45a065bfe",
+   "date": "2026-09-17T04:11:29+02:00",
+   "subject": "K25: separate uniform exponential clustering from pointwise decay"
+  },
+  {
+   "commit": "11029a31bcf1696f55dfeefd2e30806f654582ae",
+   "date": "2026-09-17T04:06:56+02:00",
+   "subject": "K24 CI: certify regulator-measure uniformity frontier"
+  },
+  {
+   "commit": "039a8506e67afbb6282df037b84ee828690f7295",
+   "date": "2026-09-17T04:06:46+02:00",
+   "subject": "K24: add regulator-measure frontier to umbrella"
+  },
+  {
+   "commit": "c7e13928f1ae453ca46227e1745a6d2acbac773f",
+   "date": "2026-09-17T04:06:38+02:00",
+   "subject": "K24: expose regulator-measure construction and uniformity frontier"
+  },
+  {
+   "commit": "5f8fc05372f3bb728ff9a8070dcf0e831726aade",
+   "date": "2026-09-17T03:57:43+02:00",
+   "subject": "K23 CI: certify constructive reconstruction obligation split"
+  },
+  {
+   "commit": "821c6e2c46bec8b16960ea41ae8442603f3609ef",
+   "date": "2026-09-17T03:57:32+02:00",
+   "subject": "K23: add constructive reconstruction refinement to umbrella"
+  },
+  {
+   "commit": "2699bcfad8d9badd6c0b688be4bafacb557a4de1",
+   "date": "2026-09-17T03:57:24+02:00",
+   "subject": "K23: refine constructive YM4 reconstruction obligations"
+  },
+  {
+   "commit": "153d1be9d94bfa3c345da1b41a6306f066c8030b",
+   "date": "2026-09-17T03:25:58+02:00",
+   "subject": "K22 CI: certify scientific block partition without promotion"
+  },
+  {
+   "commit": "1c001efa099d42e612f3324f3a6cd42fd2d31aba",
+   "date": "2026-09-17T03:25:48+02:00",
+   "subject": "K22: add scientific block partition to umbrella"
+  },
+  {
+   "commit": "4fe1ff7ee28864c79c4ed9ac07b15df5849fa589",
+   "date": "2026-09-17T03:25:40+02:00",
+   "subject": "K22: partition scientific witnesses into construction IR and limit blocks"
+  },
+  {
+   "commit": "0352c6afb7e9255bf0fc777269984a2def047080",
+   "date": "2026-09-17T03:22:50+02:00",
+   "subject": "K21 CI: certify explicit scientific witness obligations"
+  },
+  {
+   "commit": "34f92177be15641c93b97f16d6f365a6103e78d0",
+   "date": "2026-09-17T03:22:38+02:00",
+   "subject": "K21: add frontier witness decomposition to umbrella"
+  },
+  {
+   "commit": "a7442c9a3438c347ee70c589b773d6d5b530ff9b",
+   "date": "2026-09-17T03:22:30+02:00",
+   "subject": "K21: decompose scientific frontier into explicit witness obligations"
+  },
+  {
+   "commit": "69e4aa39adabe61d07e161395a7cf8247b9aff40",
+   "date": "2026-09-17T02:43:31+02:00",
+   "subject": "K20 CI: certify final interface-chain epistemic boundary"
+  },
+  {
+   "commit": "b1bf69e5f85546b387e8205ac9a09d8e86854ebc",
+   "date": "2026-09-17T02:43:21+02:00",
+   "subject": "K20: add final audit boundary to umbrella"
+  },
+  {
+   "commit": "cdb2e9533601bf01297c6d9e2e33a79b4fc64da0",
+   "date": "2026-09-17T02:43:14+02:00",
+   "subject": "K20: add final scientific-frontier audit boundary"
+  },
+  {
+   "commit": "3d89dc38f64d2f5a243141c54f91ecd2d7479ce7",
+   "date": "2026-09-17T02:31:01+02:00",
+   "subject": "K19 CI: certify uniform regulator-removal frontier"
+  },
+  {
+   "commit": "6dbef05189beff70d467dbb923e15c86ca0a8f06",
+   "date": "2026-09-17T02:30:50+02:00",
+   "subject": "K19: add regulator-removal interfaces to umbrella"
+  },
+  {
+   "commit": "5a6260d367cc3d149636232fbedf33f92c1ee8de",
+   "date": "2026-09-17T02:30:42+02:00",
+   "subject": "K19: formalize uniform regulator-removal gap interfaces"
+  },
+  {
+   "commit": "998ebb4746b8ee6d278c5fe857f2e98adbb23141",
+   "date": "2026-09-17T01:13:38+02:00",
+   "subject": "K18 CI: certify explicit spectral bridge frontier"
+  },
+  {
+   "commit": "97214490cd1fd0ed8f6ae95cf839c20bb1b0ccc5",
+   "date": "2026-09-17T01:13:26+02:00",
+   "subject": "K18: add spectral bridge to umbrella"
+  },
+  {
+   "commit": "4df7f11303c3d29f14932a9c5e090baf27d0ec14",
+   "date": "2026-09-17T01:13:18+02:00",
+   "subject": "K18: add explicit semigroup spectral-gap bridge"
+  },
+  {
+   "commit": "1f7dd037770ea85cdded27da465dbad9f62506a4",
+   "date": "2026-09-17T00:39:31+02:00",
+   "subject": "K17 CI: certify reconstruction and cyclicity frontier"
+  },
+  {
+   "commit": "17495de1808f6cb851610b2d987988a02507bd62",
+   "date": "2026-09-17T00:39:20+02:00",
+   "subject": "K17: add reconstruction bridge to umbrella"
+  },
+  {
+   "commit": "851e0d85f26a2fd3d69092a90b281bfb70a8e86a",
+   "date": "2026-09-17T00:39:11+02:00",
+   "subject": "K17: place reconstruction bridge in Lean source tree"
+  },
+  {
+   "commit": "0a4d694024fe573059f3b2ccb37e0d55175aaff8",
+   "date": "2026-09-17T00:28:32+02:00",
+   "subject": "K17: add reconstruction and cyclicity bridge interfaces"
+  },
+  {
+   "commit": "c8cdc017a2e32ab4404a751bdc9f129a0451f2dc",
+   "date": "2026-09-16T23:55:05+02:00",
+   "subject": "ci(K16): trigger dedicated fail-closed certification"
+  },
+  {
+   "commit": "07260998384c9608c2b5542437ecca88d4dc9c51",
+   "date": "2026-09-16T22:25:11+02:00",
+   "subject": "K16 CI: certify obligation DAG and fail-closed frontier"
+  },
+  {
+   "commit": "e798579cc50aeb6fa06f86218817f69992c25c36",
+   "date": "2026-09-16T22:24:59+02:00",
+   "subject": "K16: add scientific obligation DAG to umbrella"
+  },
+  {
+   "commit": "c13dc3a85096dba8c73c5127a02b54ab98b1c6e2",
+   "date": "2026-09-16T22:24:52+02:00",
+   "subject": "K16: type non-circular scientific obligation DAG"
+  },
+  {
+   "commit": "7a3c5e3f40d7cf767c0cd5414d18e76f6614f87f",
+   "date": "2026-09-16T22:16:01+02:00",
+   "subject": "K15 CI: certify clustering decomposition and negative firewall"
+  },
+  {
+   "commit": "ababec2084f4b6c78dedf91a1cf43adb4da43c67",
+   "date": "2026-09-16T22:15:51+02:00",
+   "subject": "K15: add clustering frontier decomposition to umbrella"
+  },
+  {
+   "commit": "ecca5b0ad18c6595c60e0837b4b8e89abd465587",
+   "date": "2026-09-16T22:15:43+02:00",
+   "subject": "K15: decompose uniform clustering frontier into typed subobligations"
+  },
+  {
+   "commit": "805fcb222a31c598c361baa6de4a59eb00554d0f",
+   "date": "2026-09-16T22:15:31+02:00",
+   "subject": "cert(K14): record GREEN certificate run 35125569839"
+  },
+  {
+   "commit": "eca85b67f4238194ed36f146a0c6d349275c802f",
+   "date": "2026-09-16T19:01:18+02:00",
+   "subject": "fix(K14 CI): align negative firewall with dependency-light gap interface"
+  },
+  {
+   "commit": "f521a2a2f9a47a5cbbc733cb84a2a707e4d41c8e",
+   "date": "2026-09-16T18:08:59+02:00",
+   "subject": "fix(K14): remove unavailable real-analysis assumptions and correct vacuum zero"
+  },
+  {
+   "commit": "27981887b0afbbd284968d53c1f9be402273d18f",
+   "date": "2026-09-16T17:40:39+02:00",
+   "subject": "K14 CI: certify formal DAG and preserve open bridge"
+  },
+  {
+   "commit": "18853d7585a847c8a0a2115f0864508e0219febd",
+   "date": "2026-09-16T17:40:26+02:00",
+   "subject": "K14: add mass-gap DAG to umbrella"
+  },
+  {
+   "commit": "2f21fff99101f498f28866cdb75ff98ddbbc50ed",
+   "date": "2026-09-16T17:40:16+02:00",
+   "subject": "K14: formalize mass-gap DAG and open scientific bridge"
+  },
+  {
+   "commit": "dcb7a17275f00a297bbcab1ebfc33604270d1ee5",
+   "date": "2026-09-16T13:13:26+02:00",
+   "subject": "K13 CI: certify physical frontier"
+  },
+  {
+   "commit": "4c30a0d0210eb74cf3d8e30dbb2de8df71c0f1d1",
+   "date": "2026-09-16T13:13:05+02:00",
+   "subject": "K13: export physical frontier"
+  },
+  {
+   "commit": "345e947b6e144998d2b506efd0b013f4ac3bcf58",
+   "date": "2026-09-16T13:12:49+02:00",
+   "subject": "K13: type physical Hilbert and Hamiltonian frontier"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Research.return_to_primary",
+   "file": "lean/MCore/Research/ParallelClosure.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
+  },
+  {
+   "name": "MCore.YangMills.A1.Canonical4DDimensionBinding.decode_encode",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (B : MCore.YangMills.A1.Canonical4DDimensionBinding C)   (d : C.Signature.Dimension), B.decode (B.encode d) = d"
+  },
+  {
+   "name": "MCore.YangMills.A1.Canonical4DDimensionBinding.encode_decode",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (B : MCore.YangMills.A1.Canonical4DDimensionBinding C) (μ : Fin 4),   B.encode (B.decode μ) = μ"
+  },
+  {
+   "name": "MCore.YangMills.A1.ConcreteSpectralK30DataV9.lowSpectrumExcluded",
+   "file": "lean/MCore/YangMills/A1/ConcreteSpectralK30V9.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D} (S : MCore.YangMills.A1.ConcreteSpectralK30DataV9 F D H G) (r : ℝ),   0 ≤ r → r < S.spectral.decay.m → S.spectral.spectral.massBelow r = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.ContinuumSpectralLimitV13.continuum_gap_from_uniformFiniteEdge",
+   "file": "lean/MCore/YangMills/A1/TerminalContinuumGapV13.lean",
+   "line": 69,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) : B.mass * B.normSqContinuum psi ≤ B.energyContinuum psi"
+  },
+  {
+   "name": "MCore.YangMills.A1.ContinuumSpectralLimitV13.continuum_mass_positive",
+   "file": "lean/MCore/YangMills/A1/TerminalContinuumGapV13.lean",
+   "line": 104,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": 0 < B.mass"
+  },
+  {
+   "name": "MCore.YangMills.A1.ContinuumSpectralLimitV13.eventual_lowSpectrumExclusion",
+   "file": "lean/MCore/YangMills/A1/TerminalContinuumGapV13.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) : ∀ᶠ n in atTop, ∀ r : ℝ, r < B.mass → (B.finiteHamiltonian n).massBelowFinite psi r = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.ContinuumSpectralLimitV13.finite_lowSpectrumExclusion",
+   "file": "lean/MCore/YangMills/A1/TerminalContinuumGapV13.lean",
+   "line": 49,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : ℕ) (psi : HSpace) (r : ℝ) (hr : r < B.mass) : (B.finiteHamiltonian n).massBelowFinite psi r = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.B60FieldBundle.closes_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/B60FieldBundle.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.Final.B60FieldBundle C F D H G O → MCore.YangMills.A1.Final.FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.CUBE_UP_TO_3_CLOSED",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 180,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty CubeUpTo3Certificate"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.closed_closed_closed_normalizes",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 111,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedSide + closedSide + closedSide = closedSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.closed_closed_open_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 123,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedSide + closedSide + openSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.closed_idempotent",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 88,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedSide + closedSide = closedSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.closed_open_closed_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 121,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedSide + openSide + closedSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.closed_open_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 90,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedSide + openSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.closed_open_open_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 117,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedSide + openSide + openSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.full_closed_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 92,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": full + closedSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.full_idempotent",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 93,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": full + full = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.full_open_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 91,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": full + openSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 102,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize FreeEndpointState.closedAtom = closedSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_closed_closed_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 132,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.closedAtom + FreeEndpointState.closedAtom + FreeEndpointState.closedAtom) = closedSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_closed_closed_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 144,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.closedAtom + FreeEndpointState.closedAtom + FreeEndpointState.openAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_closed_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 127,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.closedAtom + FreeEndpointState.openAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_closed_open_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 142,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.closedAtom + FreeEndpointState.openAtom + FreeEndpointState.closedAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_closed_open_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 138,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.closedAtom + FreeEndpointState.openAtom + FreeEndpointState.openAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_dual",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 104,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize FreeEndpointState.dual = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_empty",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 97,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize FreeEndpointState.empty = empty"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_fullFree",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 146,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize FreeEndpointState.fullFree = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 100,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize FreeEndpointState.openAtom = openSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_open_closed_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 140,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.openAtom + FreeEndpointState.closedAtom + FreeEndpointState.closedAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_open_closed_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 136,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.openAtom + FreeEndpointState.closedAtom + FreeEndpointState.openAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_open_open_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 134,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.openAtom + FreeEndpointState.openAtom + FreeEndpointState.closedAtom) = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_open_open_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 130,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize (FreeEndpointState.openAtom + FreeEndpointState.openAtom + FreeEndpointState.openAtom) = openSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.normalize_two_open_two_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 106,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalize ⟨2, 2⟩ = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_closed_closed_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 119,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + closedSide + closedSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_closed_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 89,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + closedSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_closed_open_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 115,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + closedSide + openSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_idempotent",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 86,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + openSide = openSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_open_closed_closed_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 125,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + openSide + closedSide + closedSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_open_closed_full",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 113,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + openSide + closedSide = full"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalEndpointState.open_open_open_normalizes",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 108,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openSide + openSide + openSide = openSide"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.CanonicalSameModelBundleV5.closes_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/CanonicalSameModelBundleV5.lean",
+   "line": 114,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.Final.CanonicalSameModelBundleV5 C F D H G O → MCore.YangMills.A1.Final.FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FINAL_ROOT_of_fields",
+   "file": "lean/MCore/YangMills/A1/ExactFinalProducer.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.Final.FinalExternalCertificate C F D H G O → MCore.YangMills.A1.Final.FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FORMAL_CHAIN_CLOSED",
+   "file": "lean/MCore/YangMills/A1/FinalClosureCertificateV13.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty FormalChainClosedCertificate"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.closed_add_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedAtom + closedAtom = ⟨0, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.closed_add_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedAtom + openAtom = dual"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.closed_closed_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 39,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedAtom + closedAtom + closedAtom = ⟨0, 3⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.closed_closed_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedAtom + closedAtom + openAtom = ⟨1, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.closed_open_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedAtom + openAtom + closedAtom = ⟨1, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.closed_open_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": closedAtom + openAtom + openAtom = ⟨2, 1⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.fullFree_eq",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 49,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": fullFree = ⟨2, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.one_open_two_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + closedAtom + closedAtom = ⟨1, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.open_add_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + closedAtom = dual"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.open_add_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + openAtom = ⟨2, 0⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.open_closed_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + closedAtom + closedAtom = ⟨1, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.open_closed_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + closedAtom + openAtom = ⟨2, 1⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.open_open_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + openAtom + closedAtom = ⟨2, 1⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.open_open_open",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + openAtom + openAtom = ⟨3, 0⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.two_open_one_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + openAtom + closedAtom = ⟨2, 1⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.FreeEndpointState.two_open_two_closed",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": openAtom + openAtom + closedAtom + closedAtom = ⟨2, 2⟩"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.MATERIAL_INTERFACE_DOES_NOT_SELF_PROMOTE",
+   "file": "lean/MCore/YangMills/A1/MaterialPromotionV13.lean",
+   "line": 209,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MCore.k6_dependency.target.status = .openBridge"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.NO_UNCONDITIONAL_PROMOTION",
+   "file": "lean/MCore/YangMills/A1/FinalClosureCertificateV13.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.REDUCED_MATERIAL_INTERFACE_DOES_NOT_SELF_PROMOTE",
+   "file": "lean/MCore/YangMills/A1/ReducedMaterialCoreV14.lean",
+   "line": 163,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MCore.k6_dependency.target.status = .openBridge"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.SCIENTIFIC_TARGET_REMAINS_OPEN_BRIDGE",
+   "file": "lean/MCore/YangMills/A1/FinalClosureCertificateV13.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": MCore.k6_dependency.target.status = .openBridge"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.b60FieldOpenMath_closes",
+   "file": "lean/MCore/YangMills/A1/B60FieldBundle.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.Final.B60FieldOpenMath C F D H G O → MCore.YangMills.A1.Final.FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.canonicalSameModelOpenMathV5_closes",
+   "file": "lean/MCore/YangMills/A1/CanonicalSameModelBundleV5.lean",
+   "line": 134,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.Final.CanonicalSameModelOpenMathV5 C F D H G O → MCore.YangMills.A1.Final.FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.dualEndpointState_iff_finalRoot",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 69,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : DualEndpointState D H G ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.dualEndpointState_to_dualBridge",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 118,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} (S : DualEndpointState D H G) : OPEN_BRIDGE D H G ∧ CLOSED_BRIDGE D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.dualEndpointState_to_dualMath",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 110,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} (S : DualEndpointState D H G) : OPEN_MATH D H G ∧ CLOSED_MATH D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.dual_bridge_coexistence_iff_final_root",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 171,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : (OPEN_BRIDGE D H G ∧ CLOSED_BRIDGE D H G) ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.dual_math_coexistence_iff_final_root",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 159,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : (OPEN_MATH D H G ∧ CLOSED_MATH D H G) ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.endpoint_iff_gap",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Endpoint D H G ↔ Gap D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.endpoint_iff_habitant",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Endpoint D H G ↔ Habitant D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.endpoint_iff_inhabitant",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Endpoint D H G ↔ Inhabitant D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.endpoint_to_gap",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Endpoint D H G → Gap D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.finalExternal_to_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/FinalExternal.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.Final.FinalExternalCertificate C F D H G O → MCore.YangMills.A1.Final.FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.finalExternal_to_rpa_confirmation",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 236,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (E : FinalExternalCertificate C F D H G O) : RPADualConfirmation D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.flip_closed",
+   "file": "lean/MCore/YangMills/A1/TerminalFrontierStateV13.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FrontierState.flip .closedMath = .openMath"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.flip_involutive",
+   "file": "lean/MCore/YangMills/A1/TerminalFrontierStateV13.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : FrontierState) : FrontierState.flip (FrontierState.flip s) = s"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.flip_ne_self",
+   "file": "lean/MCore/YangMills/A1/TerminalFrontierStateV13.lean",
+   "line": 28,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : FrontierState) : FrontierState.flip s ≠ s"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.flip_open",
+   "file": "lean/MCore/YangMills/A1/TerminalFrontierStateV13.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FrontierState.flip .openMath = .closedMath"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.frontier_target_status_invariant",
+   "file": "lean/MCore/YangMills/A1/TerminalFrontierStateV13.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : FrontierState) {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : FrontierTarget (FrontierState.flip s) D H G ↔ FrontierTarget s D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.fullEndpointPayload_iff_dualEndpointState",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 192,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : FullEndpointPayload D H G ↔ DualEndpointState D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.fullEndpointPayload_iff_finalRoot",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 203,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : FullEndpointPayload D H G ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.gap_to_habitant",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Gap D H G → Habitant D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.globalExternalCertificate_to_fullEndpointPayload",
+   "file": "lean/MCore/YangMills/A1/RPADualEndpointLatticeV13.lean",
+   "line": 214,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (E : FinalExternalCertificate C F D H G O) : FullEndpointPayload D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.global_external_certificate_closes_rpa",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 197,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (E : FinalExternalCertificate C F D H G O) : (OPEN_MATH D H G ∧ CLOSED_MATH D H G) ∧ (OPEN_BRIDGE D H G ∧ CLOSED_BRIDGE D H G) ∧ MATH D H G ∧ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.habitant_to_inhabitant",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Habitant D H G → Inhabitant D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.inhabitant_to_endpoint",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Inhabitant D H G → Endpoint D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.material_inhabitant_promotes_FINAL_ROOT_V13",
+   "file": "lean/MCore/YangMills/A1/MaterialPromotionV13.lean",
+   "line": 152,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} {S25 : K25ClusteringSystem} {U25 : K25UniformExponentialClustering S25} {S27 : K27RegulatedGapSystem} {U27 : K27UniformPositiveGap S27} {L27 : K27LimitControl S27} {W27 : K27LimitWitness S27 U27 L27} (hMaterial : Non"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.material_payload_promotes_FINAL_ROOT_V13",
+   "file": "lean/MCore/YangMills/A1/MaterialPromotionV13.lean",
+   "line": 126,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} {S25 : K25ClusteringSystem} {U25 : K25UniformExponentialClustering S25} {S27 : K27RegulatedGapSystem} {U27 : K27UniformPositiveGap S27} {L27 : K27LimitControl S27} {W27 : K27LimitWitness S27 U27 L27} (P : YMMaterialP"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.math_iff_final_root",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 152,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : MATH D H G ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.openEndpoint_iff_closedEndpoint",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : OPEN_ENDPOINT D H G ↔ CLOSED_ENDPOINT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.openEndpoint_ne_closedEndpoint",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointPosition.openEndpoint ≠ EndpointPosition.closedEndpoint"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.open_closed_bridge_identity",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 145,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : OPEN_BRIDGE D H G ↔ CLOSED_BRIDGE D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.open_closed_math_identity",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 138,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : OPEN_MATH D H G ↔ CLOSED_MATH D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.open_target_iff_closed_target",
+   "file": "lean/MCore/YangMills/A1/TerminalFrontierStateV13.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : FrontierTarget .openMath D H G ↔ FrontierTarget .closedMath D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.reduced_material_core_promotes_FINAL_ROOT_V14",
+   "file": "lean/MCore/YangMills/A1/ReducedMaterialCoreV14.lean",
+   "line": 139,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} (R : YMReducedMaterialCoreV14 C F D H G) : FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.rpa_chain_from_dualEndpointState",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 126,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} (S : DualEndpointState D H G) : (OPEN_MATH D H G ∧ CLOSED_MATH D H G) ∧ (OPEN_BRIDGE D H G ∧ CLOSED_BRIDGE D H G) ∧ MATH D H G ∧ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.rpa_confirmation_iff_final_root",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 225,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : RPADualConfirmation D H G ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.rpa_internal_five_views",
+   "file": "lean/MCore/YangMills/A1/RPADualConfirmationV13.lean",
+   "line": 183,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : ((OPEN_MATH D H G ∧ CLOSED_MATH D H G) ∧ (OPEN_BRIDGE D H G ∧ CLOSED_BRIDGE D H G) ∧ MATH D H G) ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.terminal_any_route_iff_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : (Endpoint D H G ∨ Gap D H G ∨ Habitant D H G ∨ Inhabitant D H G) ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.terminal_cycle",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Endpoint D H G ↔ Gap D H G ∧ Habitant D H G ∧ Inhabitant D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.terminal_inhabited_iff_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 107,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : Nonempty (Subtype fun _ : Unit => Endpoint D H G) ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.terminal_signature_iff_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 94,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : (Endpoint D H G ∧ Gap D H G ∧ Habitant D H G ∧ Inhabitant D H G) ↔ FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.three_way_collapse",
+   "file": "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean",
+   "line": 133,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} : (Gap D H G ∨ Habitant D H G ∨ Inhabitant D H G) ↔ Endpoint D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_clustering",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.uniformExponentialClustering"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_construction_and_reconstruction",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.constructiveYM4 ∧ F.reflectionPositiveReconstruction ∧ F.physicalHilbertRealization"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_continuum_limit_control",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 90,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.continuumLimitControl"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_gap_preserved_under_limits",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 112,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.gapPreservedUnderLimits"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_observable_cyclicity",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.observableCyclicity"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_semigroup_spectral_transfer",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 68,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.semigroupSpectralTransfer"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_thermodynamic_limit_control",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 101,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.thermodynamicLimitControl"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_to_FINAL_ROOT",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 134,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : FINAL_ROOT D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_to_rpa_confirmation",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 145,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : RPADualConfirmation D H G"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.ymPayload_uniform_regulated_gap",
+   "file": "lean/MCore/YangMills/A1/YMMaterialPayloadV13.lean",
+   "line": 79,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (P : YMMaterialPayloadV13 C F D H G O) : F.uniformRegulatedGap"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.apply_eigenbasis",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(i : Fin (Module.finrank ℂ HSpace)) : C.linearHamiltonian (C.eigenbasis i) = (C.eigenvalue i : ℂ) • C.eigenbasis i"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.finite_mass_gap_of_vanishing_below",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 177,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{m : ℝ} (psi : HSpace) (hvan : ∀ r : ℝ, r < m → C.massBelowFinite psi r = 0) : m * ‖psi‖ ^ 2 ≤ Complex.re (inner psi (C.linearHamiltonian psi))"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.finite_mass_gap_of_weight_support_ge",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 203,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{m : ℝ} (psi : HSpace) (hsupport : ∀ i : Fin (Module.finrank ℂ HSpace), C.spectralWeight psi i ≠ 0 → m ≤ C.eigenvalue i) : m * ‖psi‖ ^ 2 ≤ Complex.re (inner psi (C.linearHamiltonian psi))"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.linearHamiltonian_isSymmetric",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": C.linearHamiltonian.IsSymmetric"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.massBelowFinite_eq_zero_of_weight_support_ge",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 153,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{m r : ℝ} (psi : HSpace) (hr : r < m) (hsupport : ∀ i : Fin (Module.finrank ℂ HSpace), C.spectralWeight psi i ≠ 0 → m ≤ C.eigenvalue i) : C.massBelowFinite psi r = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.massBelowFinite_nonneg",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 89,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) (r : ℝ) : 0 ≤ C.massBelowFinite psi r"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.spectralWeight_eq_zero_of_eigenvalue_lt",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 131,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{m : ℝ} (psi : HSpace) (hvan : ∀ r : ℝ, r < m → C.massBelowFinite psi r = 0) (i : Fin (Module.finrank ℂ HSpace)) (hi : C.eigenvalue i < m) : C.spectralWeight psi i = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.spectralWeight_expectation",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 108,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) : ∑ i : Fin (Module.finrank ℂ HSpace), C.eigenvalue i * C.spectralWeight psi i = Complex.re (inner psi (C.linearHamiltonian psi))"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.spectralWeight_nonneg",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 72,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) (i : Fin (Module.finrank ℂ HSpace)) : 0 ≤ C.spectralWeight psi i"
+  },
+  {
+   "name": "MCore.YangMills.A1.FiniteRegulatedHamiltonianV13.spectralWeight_sum",
+   "file": "lean/MCore/YangMills/A1/FiniteRegulatedSpectralV13.lean",
+   "line": 99,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) : ∑ i : Fin (Module.finrank ℂ HSpace), C.spectralWeight psi i = ‖psi‖ ^ 2"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.gap_eq_of_gaugeEquivalent",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) {x y : Point} (hxy : GaugeEquivalent S x y) : S.gap y = S.gap x"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.gaugeClosure",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) (g : G) (x : Point) : S.act g x = S.act g x"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.gaugeGroupLaw",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) (g₁ g₂ : G) (x : Point) : S.act g₁ (S.act g₂ x) = S.act (g₁ * g₂) x"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.gaugeIdentity",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) (x : Point) : S.act 1 x = x"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.gaugeInverseRestores",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) (g : G) (x : Point) : S.act g⁻¹ (S.act g x) = x"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.observedGap_gaugeInvariant",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) (g : G) (x : Point) : S.gap (S.act g x) = S.gap x"
+  },
+  {
+   "name": "MCore.YangMills.A1.GaugeProbe.producer_implies_massGap",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : GaugeProbe G Point) (P : UniformPhysicalGapProducer S) : MassGapProperty S"
+  },
+  {
+   "name": "MCore.YangMills.A1.K14HamiltonianConcreteRealizationV13.symmetric_concrete",
+   "file": "lean/MCore/YangMills/A1/K14HamiltonianConcreteRealizationV13.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] (C : K14HamiltonianConcreteRealizationV13 HSpace) : C.H_op.toLinearMap.IsSymmetric"
+  },
+  {
+   "name": "MCore.YangMills.A1.K14HamiltonianConcreteRealizationV13.toK14_act",
+   "file": "lean/MCore/YangMills/A1/K14HamiltonianConcreteRealizationV13.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] (C : K14HamiltonianConcreteRealizationV13 HSpace) (psi : HSpace) (hpsi : C.toK14Hamiltonian.domain psi) : C.toK14Hamiltonian.act psi hpsi = C.H_op psi"
+  },
+  {
+   "name": "MCore.YangMills.A1.K14HamiltonianConcreteRealizationV13.toK14_selfAdjoint",
+   "file": "lean/MCore/YangMills/A1/K14HamiltonianConcreteRealizationV13.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] (C : K14HamiltonianConcreteRealizationV13 HSpace) : C.toK14Hamiltonian.selfAdjoint"
+  },
+  {
+   "name": "MCore.YangMills.A1.K14HamiltonianConcreteRealizationV13.toK14_symmetric",
+   "file": "lean/MCore/YangMills/A1/K14HamiltonianConcreteRealizationV13.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] (C : K14HamiltonianConcreteRealizationV13 HSpace) : C.toK14Hamiltonian.symmetric"
+  },
+  {
+   "name": "MCore.YangMills.A1.PhysicalExcitationReconstructionV4.excitation_in_domain",
+   "file": "lean/MCore/YangMills/A1/PhysicalExcitationReconstructionV4.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {W : MCore.YangMills.A1.A1MaterialWitnessV3 C}   (R : MCore.YangMills.A1.PhysicalExcitationReconstructionV4 C D H W), H.domain R.excitation"
+  },
+  {
+   "name": "MCore.YangMills.A1.PhysicalExcitationReconstructionV4.excitation_ne_vacuum",
+   "file": "lean/MCore/YangMills/A1/PhysicalExcitationReconstructionV4.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {W : MCore.YangMills.A1.A1MaterialWitnessV3 C}   (R : MCore.YangMills.A1.PhysicalExcitationReconstructionV4 C D H W), R.excitation ≠ D.vacuum"
+  },
+  {
+   "name": "MCore.YangMills.A1.PhysicalExcitationReconstructionV4.excitation_orthogonal_vacuum",
+   "file": "lean/MCore/YangMills/A1/PhysicalExcitationReconstructionV4.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {W : MCore.YangMills.A1.A1MaterialWitnessV3 C}   (R : MCore.YangMills.A1.PhysicalExcitationReconstructionV4 C D H W), D.orthogonalToVacuum R.excitation"
+  },
+  {
+   "name": "MCore.YangMills.A1.PhysicalExcitationReconstructionV4.excitation_physical",
+   "file": "lean/MCore/YangMills/A1/PhysicalExcitationReconstructionV4.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {W : MCore.YangMills.A1.A1MaterialWitnessV3 C}   (R : MCore.YangMills.A1.PhysicalExcitationReconstructionV4 C D H W), D.physical R.excitation"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.continuum_gap",
+   "file": "lean/MCore/YangMills/A1/RegulatedContinuumRealizationV13.lean",
+   "line": 97,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(psi : HSpace) : U.m0 * R.normSqContinuum psi ≤ R.energyContinuum psi"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.continuum_mass_positive",
+   "file": "lean/MCore/YangMills/A1/RegulatedContinuumRealizationV13.lean",
+   "line": 107,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": 0 < U.m0"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.derived_uniformFiniteEdge",
+   "file": "lean/MCore/YangMills/A1/RegulatedContinuumRealizationV13.lean",
+   "line": 70,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : ℕ) (i : Fin (Module.finrank ℂ HSpace)) : U.m0 ≤ (R.finiteHamiltonian n).eigenvalue i"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.normSqContinuum_eq_normSq",
+   "file": "lean/MCore/YangMills/A1/RecoveredContinuumK14V15.lean",
+   "line": 8,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} (U : UniformRegulatorControlV2 C P B3 B4) {HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] [FiniteDimensional ℂ HSpace] (R : RegulatedContinuumRealizationV13 U HSpace) (psi : HSpace) : R.normSqContinuum psi = ‖psi‖ ^ 2"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.recovered_FINAL_ROOT_V15",
+   "file": "lean/MCore/YangMills/A1/RecoveredContinuumK14V15.lean",
+   "line": 120,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} (U : UniformRegulatorControlV2 C P B3 B4) {HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] [FiniteDimensional ℂ HSpace] (R : RegulatedContinuumRealizationV13 U HSpace) (K : K14HamiltonianConcreteRealizationV13 HSpace) (I : Cont"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.recovered_K14MassGap_V15",
+   "file": "lean/MCore/YangMills/A1/RecoveredContinuumK14V15.lean",
+   "line": 89,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} (U : UniformRegulatorControlV2 C P B3 B4) {HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] [FiniteDimensional ℂ HSpace] (R : RegulatedContinuumRealizationV13 U HSpace) (K : K14HamiltonianConcreteRealizationV13 HSpace) (I : Cont"
+  },
+  {
+   "name": "MCore.YangMills.A1.RegulatedContinuumRealizationV13.recovered_gapBound_V15",
+   "file": "lean/MCore/YangMills/A1/RecoveredContinuumK14V15.lean",
+   "line": 58,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} (U : UniformRegulatorControlV2 C P B3 B4) {HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] [FiniteDimensional ℂ HSpace] (R : RegulatedContinuumRealizationV13 U HSpace) (K : K14HamiltonianConcreteRealizationV13 HSpace) (I : Cont"
+  },
+  {
+   "name": "MCore.YangMills.A1.SpectralMeasureHilbertBindingV10.lowSpectrumExcluded",
+   "file": "lean/MCore/YangMills/A1/SpectralMeasureHilbertBindingV10.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D}   {S : MCore.SpectralExclusionRealization},   MCore.YangMills.A1.SpectralMeasureHilbertBindingV10 D H G S →     ∀ (r : ℝ), 0 ≤ r → r < S.decay.m → S.spectral.massBelow r = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.UniformGapFailureSequence.below_every_positive_mass",
+   "file": "lean/MCore/YangMills/A1/MaterialDecisionObjects.lean",
+   "line": 97,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B4 : PositiveTransferDataV2 C P} (F : UniformGapFailureSequence C P B4) (m : ℝ) (hm : 0 < m) : ∃ n, B4.spectralGap (F.regulator n) (F.volume n) < m"
+  },
+  {
+   "name": "MCore.YangMills.A1.UniformGapFailureSequence.incompatible_with_uniform_mass",
+   "file": "lean/MCore/YangMills/A1/MaterialDecisionObjects.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} (F : UniformGapFailureSequence C P B4) (U : UniformRegulatorControlV2 C P B3 B4) : False"
+  },
+  {
+   "name": "MCore.YangMills.A1.YMGapConcreteV13_gapBound_iff",
+   "file": "lean/MCore/YangMills/A1/GapConcreteV13.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.YangMills.A1.RealEnergyModelV13) (m : ℝ) (psi Hpsi : D.State),   (MCore.YangMills.A1.YMGapConcreteV13 D).gapBound m psi Hpsi ↔ m * D.normSq psi ≤ D.energyPairing psi Hpsi"
+  },
+  {
+   "name": "MCore.YangMills.A1.YMGapConcreteV13_positive_iff",
+   "file": "lean/MCore/YangMills/A1/GapConcreteV13.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.YangMills.A1.RealEnergyModelV13) (m : ℝ), (MCore.YangMills.A1.YMGapConcreteV13 D).positive m ↔ 0 < m"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_material_v3_implies_v2",
+   "file": "lean/MCore/YangMills/A1/MaterialHardeningV3.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction},   MCore.YangMills.A1.A1MaterialOpenMathV3 C → MCore.YangMills.A1.A1ScientificOpenBridgeV2 C"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_material_v3_nonzero_excitation",
+   "file": "lean/MCore/YangMills/A1/MaterialHardeningV3.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (W : MCore.YangMills.A1.A1MaterialWitnessV3 C),   0 < MCore.YangMills.A1.regulatedNormSq W.excitation.state"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_material_v3_positive_mass",
+   "file": "lean/MCore/YangMills/A1/MaterialHardeningV3.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (W : MCore.YangMills.A1.A1MaterialWitnessV3 C), 0 < W.uniformMass.m0"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_scientific_open_bridge_iff_B1_B2",
+   "file": "lean/MCore/YangMills/A1/PhantomBridgeTriviality.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.YangMills.A1.RegulatedYM4Construction),   MCore.YangMills.A1.A1ScientificOpenBridge C ↔     MCore.YangMills.A1.MeasureInvariance C ∧ MCore.YangMills.A1.ObservableInvariance C"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_uniformity_bridge_inhabited_for_every_construction",
+   "file": "lean/MCore/YangMills/A1/UniformityTriviality.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.YangMills.A1.RegulatedYM4Construction), MCore.YangMills.A1.A1UniformityBridge C"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_v2_open_bridge_exposes_B1_B2_B3_B4_B5",
+   "file": "lean/MCore/YangMills/A1/HardeningV2.lean",
+   "line": 263,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction},   MCore.YangMills.A1.A1ScientificOpenBridgeV2 C →     MCore.YangMills.A1.MeasureInvariance C ∧       MCore.YangMills.A1.ObservableInvariance C ∧ MCore.YangMills.A1.HardenedB3B4B5Package C"
+  },
+  {
+   "name": "MCore.YangMills.A1.a1_witness_supplies_uniformity",
+   "file": "lean/MCore/YangMills/A1/Hardening.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction},   MCore.YangMills.A1.A1ScientificWitness C → MCore.YangMills.A1.A1UniformityBridge C"
+  },
+  {
+   "name": "MCore.YangMills.A1.adapter_requires_all_coordinates",
+   "file": "lean/MCore/YangMills/A1/RegulatedConstruction.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {A B : MCore.YangMills.A1.ModelSignature} (T : MCore.YangMills.A1.SignatureAdapter A B),   T.Valid →     T.dimensionCompatible ∧       T.gaugeGroupCompatible ∧         T.regulatorCompatible ∧ T.volumeCompatible ∧ T.couplingCompatible ∧ T.actionCompatible ∧ T.observableCompatible"
+  },
+  {
+   "name": "MCore.YangMills.A1.b60_inhabited_by_degenerate_model",
+   "file": "lean/MCore/YangMills/A1/B60TrivialityAudit.lean",
+   "line": 108,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty   (MCore.YangMills.A1.B60ConcretePhysicalAdapter MCore.YangMills.A1.toyConstruction MCore.YangMills.A1.toyK20Frontier     MCore.YangMills.A1.toyPhysicalHilbert MCore.YangMills.A1.toyHamiltonian MCore.YangMills.A1.toyGapScale     MCore.YangMills.A1.toyK30Obligations)"
+  },
+  {
+   "name": "MCore.YangMills.A1.b60_open_bridge_closes_conditional_chain",
+   "file": "lean/MCore/YangMills/A1/B60ConcretePhysicalAdapter.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.B60ConcretePhysicalOpenBridge C F D H G O → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.YangMills.A1.canonicalIdentitySpectralBindingV11_massGap",
+   "file": "lean/MCore/YangMills/A1/CanonicalIdentitySpectralBindingV11.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D}   (S : MCore.SpectralExclusionRealization) (rate : D.Scale),   G.positive rate →     (∀ (r : ℝ), 0 ≤ r → 0 ≤ S.spectral.massBelow r) →       ((∀ (r : ℝ), 0 ≤ r → r < S.decay.m → S.spectral.massBelow r = 0) →           ∀ (psi : D.State) (hpsi : H.domain psi),             D.physical psi → D.orthogonal"
+  },
+  {
+   "name": "MCore.YangMills.A1.canonicalTotalHamiltonian_on_domain",
+   "file": "lean/MCore/YangMills/A1/CanonicalIdentitySpectralBindingV11.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} (psi : D.State) (hpsi : H.domain psi),   MCore.YangMills.A1.canonicalTotalHamiltonian D H psi = H.act psi hpsi"
+  },
+  {
+   "name": "MCore.YangMills.A1.canonical_binding_closes_conditional_chain",
+   "file": "lean/MCore/YangMills/A1/B60CanonicalPhysicalBinding.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.B60CanonicalPhysicalBinding C F D H G O → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.YangMills.A1.canonical_coordinate_translations_commute",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (B : MCore.YangMills.A1.Canonical4DDimensionBinding C)   (x : MCore.YangMills.A1.EuclideanSite4) (d₁ d₂ : C.Signature.Dimension),   MCore.YangMills.A1.translate4 (MCore.YangMills.A1.translate4 x (MCore.YangMills.A1.canonicalStep4 B d₁))       (MCore.YangMills.A1.canonicalStep4 B d₂) =     MCore.YangMills.A1.translate4 (MCore.YangMills.A1.translat"
+  },
+  {
+   "name": "MCore.YangMills.A1.continuum_bridge_mass_positive",
+   "file": "open_math/P02_YM_V13_ContinuumGap.lean",
+   "line": 77,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : ContinuumGapBridgeV13) : 0 < B.mass"
+  },
+  {
+   "name": "MCore.YangMills.A1.continuum_gap_from_eventual_finite_gap_V13",
+   "file": "lean/MCore/YangMills/A1/ContinuumSpectralTransferV13.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : ContinuumSpectralTransferV13) (hfiniteGap : ∀ n psi, (∀ r : ℝ, r < B.mass → B.massBelowFinite n psi r = 0) → B.mass * B.normSqFinite n psi ≤ B.energyFinite n psi) : ∀ psi, B.mass * B.normSqContinuum psi ≤ B.energyContinuum psi"
+  },
+  {
+   "name": "MCore.YangMills.A1.continuum_mass_gap_of_finite_limits_V13",
+   "file": "open_math/P02_YM_V13_ContinuumGap.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : ContinuumGapBridgeV13) (P : ContinuumLimitProducerV13 B) (hfiniteGap : ∀ n psi, (∀ r : ℝ, r < B.mass → B.massBelowFinite n psi r = 0) → B.mass * B.normSqFinite n psi ≤ B.energyFinite n psi) : ∀ psi, B.mass * B.normSqContinuum psi ≤ B.energyContinuum psi"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_add_time",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (m s t : ℝ),   MCore.YangMills.A1.decayProfile m (s + t) = MCore.YangMills.A1.decayProfile m s * MCore.YangMills.A1.decayProfile m t"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_antitone",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {m : ℝ}, 0 ≤ m → Antitone (MCore.YangMills.A1.decayProfile m)"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_derivative_neg",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {m t : ℝ}, 0 < m → -m * MCore.YangMills.A1.decayProfile m t < 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_hasDerivAt",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (m t : ℝ), HasDerivAt (MCore.YangMills.A1.decayProfile m) (-m * MCore.YangMills.A1.decayProfile m t) t"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_le_one",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {m t : ℝ}, 0 ≤ m → 0 ≤ t → MCore.YangMills.A1.decayProfile m t ≤ 1"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_pos",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (m t : ℝ), 0 < MCore.YangMills.A1.decayProfile m t"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_strictAnti",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {m : ℝ}, 0 < m → StrictAnti (MCore.YangMills.A1.decayProfile m)"
+  },
+  {
+   "name": "MCore.YangMills.A1.decayProfile_zero_time",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (m : ℝ), MCore.YangMills.A1.decayProfile m 0 = 1"
+  },
+  {
+   "name": "MCore.YangMills.A1.derivedAnalyticLawsV6",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 151,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (W : MCore.YangMills.A1.A1MaterialWitnessV3 C),   MCore.YangMills.A1.DerivedAnalyticLawsV6 C W"
+  },
+  {
+   "name": "MCore.YangMills.A1.exclusionOnlyRouteV13_superseded",
+   "file": "open_math/P02_YM_V13_ExclusionToGapBound.lean",
+   "line": 5,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": True"
+  },
+  {
+   "name": "MCore.YangMills.A1.finite_volume_gap_firewall",
+   "file": "lean/MCore/YangMills/A1/UniformityFirewalls.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ gamma, (∀ (L : ℕ), 0 < gamma L) ∧ ¬∃ c, 0 < c ∧ ∀ (L : ℕ), c ≤ gamma L"
+  },
+  {
+   "name": "MCore.YangMills.A1.gauge_invariance_does_not_force_mass_gap",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 122,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ GaugeProbe.MassGapProperty toyFreePhoton"
+  },
+  {
+   "name": "MCore.YangMills.A1.material_decayProfile_hasDerivAt",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (W : MCore.YangMills.A1.A1MaterialWitnessV3 C) (t : ℝ),   HasDerivAt (MCore.YangMills.A1.decayProfile W.uniformMass.m0)     (-W.uniformMass.m0 * MCore.YangMills.A1.decayProfile W.uniformMass.m0 t) t"
+  },
+  {
+   "name": "MCore.YangMills.A1.material_decayProfile_strictAnti",
+   "file": "lean/MCore/YangMills/A1/DecayCalculusV7.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} (W : MCore.YangMills.A1.A1MaterialWitnessV3 C),   StrictAnti (MCore.YangMills.A1.decayProfile W.uniformMass.m0)"
+  },
+  {
+   "name": "MCore.YangMills.A1.no_positive_and_vanishing_gap_same_model",
+   "file": "lean/MCore/YangMills/A1/MaterialDecisionObjects.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} : (Nonempty (UniformRegulatorControlV2 C P B3 B4)) → (Nonempty (UniformGapFailureSequence C P B4)) → False"
+  },
+  {
+   "name": "MCore.YangMills.A1.plaquetteFarCorner4_commute",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : MCore.YangMills.A1.EuclideanSite4) (μ ν : Fin 4),   MCore.YangMills.A1.plaquetteFarCorner4 x μ ν = MCore.YangMills.A1.plaquetteFarCorner4 x ν μ"
+  },
+  {
+   "name": "MCore.YangMills.A1.pointwise_cutoff_volume_positive_not_uniform",
+   "file": "lean/MCore/YangMills/A1/UniformityFirewalls.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ S, (∀ (a : ℝ) (L : ℕ), 0 < a → 0 < S.value a L) ∧ ¬∃ c, 0 < c ∧ ∀ (a : ℝ) (L : ℕ), 0 < a → a < 1 → c ≤ S.value a L"
+  },
+  {
+   "name": "MCore.YangMills.A1.pointwise_to_uniform_bridge_vacuously_holds",
+   "file": "lean/MCore/YangMills/A1/UniformityTriviality.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.YangMills.A1.RegulatedYM4Construction), MCore.YangMills.A1.PointwiseToUniformBridge C"
+  },
+  {
+   "name": "MCore.YangMills.A1.positive_cutoff_gap_firewall",
+   "file": "lean/MCore/YangMills/A1/UniformityFirewalls.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ gamma, (∀ (a : ℝ), 0 < a → 0 < gamma a) ∧ ¬∃ m0, 0 < m0 ∧ ∀ (a : ℝ), 0 < a → a < 1 → m0 ≤ gamma a / a"
+  },
+  {
+   "name": "MCore.YangMills.A1.positive_transfer_data_inhabited_for_every_construction",
+   "file": "lean/MCore/YangMills/A1/PhantomBridgeTriviality.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.YangMills.A1.RegulatedYM4Construction), Nonempty (MCore.YangMills.A1.PositiveTransferData C)"
+  },
+  {
+   "name": "MCore.YangMills.A1.reflection_positivity_data_inhabited_for_every_construction",
+   "file": "lean/MCore/YangMills/A1/PhantomBridgeTriviality.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.YangMills.A1.RegulatedYM4Construction), Nonempty (MCore.YangMills.A1.ReflectionPositivityData C)"
+  },
+  {
+   "name": "MCore.YangMills.A1.regulatedL2VectorSMul_toFun",
+   "file": "lean/MCore/YangMills/A1/SameRegulatorTransferBindingV13.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {a : C.Signature.Regulator} {L : C.Signature.Volume} (z : ℂ) (psi : RegulatedL2Vector C a L) (x : (C.fiber a L).State) : (z • psi).toFun x = z * psi.toFun x"
+  },
+  {
+   "name": "MCore.YangMills.A1.regulatedNormSq_nonneg",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {a : C.Signature.Regulator} {L : C.Signature.Volume}   (ψ : MCore.YangMills.A1.RegulatedL2Vector C a L), 0 ≤ MCore.YangMills.A1.regulatedNormSq ψ"
+  },
+  {
+   "name": "MCore.YangMills.A1.regulatedNormSq_smul",
+   "file": "lean/MCore/YangMills/A1/SameRegulatorTransferBindingV13.lean",
+   "line": 29,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {a : C.Signature.Regulator} {L : C.Signature.Volume} (z : ℂ) (psi : RegulatedL2Vector C a L) : regulatedNormSq (z • psi) = ‖z‖ ^ 2 * regulatedNormSq psi"
+  },
+  {
+   "name": "MCore.YangMills.A1.same_regulator_eigenvalue_ge_transferGap_V13",
+   "file": "lean/MCore/YangMills/A1/SameRegulatorTransferBindingV13.lean",
+   "line": 80,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B4 : PositiveTransferDataV2 C P} {HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] [FiniteDimensional ℂ HSpace] (F : FiniteRegulatedHamiltonianV13 HSpace) {a : C.Signature.Regulator} {L : C.Signature.Volume} (B : SameRegulatorHamiltonianTransferBindingV13 B4 F a L) (hcut : 0 < P.cutoffValue a) (i :"
+  },
+  {
+   "name": "MCore.YangMills.A1.same_regulator_eigenvalue_ge_uniformMass_V13",
+   "file": "lean/MCore/YangMills/A1/SameRegulatorTransferBindingV13.lean",
+   "line": 131,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{C : RegulatedYM4Construction} {P : A1PhysicalData C} {B3 : ReflectionPositivityDataV2 C P} {B4 : PositiveTransferDataV2 C P} (U : UniformRegulatorControlV2 C P B3 B4) {HSpace : Type} [NormedAddCommGroup HSpace] [InnerProductSpace ℂ HSpace] [CompleteSpace HSpace] [FiniteDimensional ℂ HSpace] (F : FiniteRegulatedHamiltonianV13 HSpace) {a : C.Signature.Regulator} {L : C.Signature.Volume} (B : SameRe"
+  },
+  {
+   "name": "MCore.YangMills.A1.spectralMeasureV10_massGap",
+   "file": "lean/MCore/YangMills/A1/SpectralMeasureHilbertBindingV10.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D}   {S : MCore.SpectralExclusionRealization} (B : MCore.YangMills.A1.SpectralMeasureHilbertBindingV10 D H G S),   (∀ (psi : D.State),       D.physical psi →         D.orthogonalToVacuum psi →           H.domain psi → ∃ phi, B.toAbstract phi = psi ∧ B.physical phi ∧ B.vacuumOrthogonal phi ∧ B.inDomain"
+  },
+  {
+   "name": "MCore.YangMills.A1.toyFreePhoton_has_no_uniformPositiveGapProducer",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (GaugeProbe.UniformPhysicalGapProducer toyFreePhoton)"
+  },
+  {
+   "name": "MCore.YangMills.A1.toyFreePhoton_nontrivialOrbit",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 117,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": toyFreePhoton.act (.ofAdd 1) 0 = 1"
+  },
+  {
+   "name": "MCore.YangMills.A1.toyFreePhoton_zeroGap",
+   "file": "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean",
+   "line": 113,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": toyFreePhoton.gap 0 = (0 : NNReal)"
+  },
+  {
+   "name": "MCore.YangMills.A1.toy_a1_scientific_witness",
+   "file": "lean/MCore/YangMills/A1/PositiveControl.lean",
+   "line": 98,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.YangMills.A1.A1ScientificOpenBridge MCore.YangMills.A1.toyConstruction"
+  },
+  {
+   "name": "MCore.YangMills.A1.toy_b60_has_no_canonical_physical_binding",
+   "file": "lean/MCore/YangMills/A1/B60CanonicalPhysicalBinding.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty     (MCore.YangMills.A1.B60CanonicalPhysicalBinding MCore.YangMills.A1.toyConstruction MCore.YangMills.A1.toyK20Frontier       MCore.YangMills.A1.toyPhysicalHilbert MCore.YangMills.A1.toyHamiltonian MCore.YangMills.A1.toyGapScale       MCore.YangMills.A1.toyK30Obligations)"
+  },
+  {
+   "name": "MCore.YangMills.A1.toy_measure_invariance",
+   "file": "lean/MCore/YangMills/A1/PositiveControl.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.YangMills.A1.MeasureInvariance MCore.YangMills.A1.toyConstruction"
+  },
+  {
+   "name": "MCore.YangMills.A1.toy_observable_invariance",
+   "file": "lean/MCore/YangMills/A1/PositiveControl.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.YangMills.A1.ObservableInvariance MCore.YangMills.A1.toyConstruction"
+  },
+  {
+   "name": "MCore.YangMills.A1.transferIterate_norm_nonincreasing",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   (B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P) (a : C.Signature.Regulator) (L : C.Signature.Volume) (n : ℕ)   (ψ : MCore.YangMills.A1.RegulatedL2Vector C a L),   MCore.YangMills.A1.regulatedNormSq (MCore.YangMills.A1.transferIterate B4 a L n ψ) ≤     MCore.YangMills.A1.regulatedNormSq ψ"
+  },
+  {
+   "name": "MCore.YangMills.A1.transferIterate_succ",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   (B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P) (a : C.Signature.Regulator) (L : C.Signature.Volume) (n : ℕ)   (ψ : MCore.YangMills.A1.RegulatedL2Vector C a L),   MCore.YangMills.A1.transferIterate B4 a L (n + 1) ψ =     B4.transferOp a L (MCore.YangMills.A1.transferIterate B4 a L n ψ)"
+  },
+  {
+   "name": "MCore.YangMills.A1.transferIterate_zero",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   (B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P) (a : C.Signature.Regulator) (L : C.Signature.Volume)   (ψ : MCore.YangMills.A1.RegulatedL2Vector C a L), MCore.YangMills.A1.transferIterate B4 a L 0 ψ = ψ"
+  },
+  {
+   "name": "MCore.YangMills.A1.translate4_add",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x u v : MCore.YangMills.A1.EuclideanSite4),   MCore.YangMills.A1.translate4 (MCore.YangMills.A1.translate4 x u) v =     MCore.YangMills.A1.translate4 x fun μ => u μ + v μ"
+  },
+  {
+   "name": "MCore.YangMills.A1.translate4_commute",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x u v : MCore.YangMills.A1.EuclideanSite4),   MCore.YangMills.A1.translate4 (MCore.YangMills.A1.translate4 x u) v =     MCore.YangMills.A1.translate4 (MCore.YangMills.A1.translate4 x v) u"
+  },
+  {
+   "name": "MCore.YangMills.A1.translate4_zero",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : MCore.YangMills.A1.EuclideanSite4), (MCore.YangMills.A1.translate4 x fun x => 0) = x"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniformDecayFactor_lt_one",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4) {a : C.Signature.Regulator},   0 < P.cutoffValue a → MCore.YangMills.A1.uniformDecayFactor U a < 1"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniformDecayFactor_pos",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4) (a : C.Signature.Regulator),   0 < MCore.YangMills.A1.uniformDecayFactor U a"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_regulator_control_inhabited_for_every_construction",
+   "file": "lean/MCore/YangMills/A1/UniformityTriviality.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (C : MCore.YangMills.A1.RegulatedYM4Construction), Nonempty (MCore.YangMills.A1.UniformRegulatorControl C)"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_v2_exp_gap_le_mass",
+   "file": "lean/MCore/YangMills/A1/HardeningV2.lean",
+   "line": 188,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4) {a : C.Signature.Regulator} {L : C.Signature.Volume},   C.admissible a L →     0 < P.cutoffValue a →       P.cutoffValue a < U.a0 →"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_v2_gap_is_transfer_gap",
+   "file": "lean/MCore/YangMills/A1/HardeningV2.lean",
+   "line": 229,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4) (a : C.Signature.Regulator) (L : C.Signature.Volume),   U.gapAt a L = B4.spectralGap a L"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_v2_gap_not_identically_zero",
+   "file": "lean/MCore/YangMills/A1/HardeningV2.lean",
+   "line": 215,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4),   ¬∀ (a : C.Signature.Regulator) (L : C.Signature.Volume), U.gapAt a L = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_v2_mass_nonzero",
+   "file": "lean/MCore/YangMills/A1/HardeningV2.lean",
+   "line": 206,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4), U.m0 ≠ 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_v2_spectral_gap_ge_m0",
+   "file": "lean/MCore/YangMills/A1/HardeningV2.lean",
+   "line": 171,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4) {a : C.Signature.Regulator} {L : C.Signature.Volume},   C.admissible a L → 0 < P.cutoffValue a → P.cutoffValue a < U.a0 → U.m0 ≤ B4"
+  },
+  {
+   "name": "MCore.YangMills.A1.uniform_v2_transfer_decay_at_mass",
+   "file": "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {P : MCore.YangMills.A1.A1PhysicalData C}   {B3 : MCore.YangMills.A1.ReflectionPositivityDataV2 C P} {B4 : MCore.YangMills.A1.PositiveTransferDataV2 C P}   (U : MCore.YangMills.A1.UniformRegulatorControlV2 C P B3 B4) {a : C.Signature.Regulator} {L : C.Signature.Volume},   C.admissible a L →     0 < P.cutoffValue a →       P.cutoffValue a < U.a0 →"
+  },
+  {
+   "name": "MCore.YangMills.A1.unitStep4_other",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {μ ν : Fin 4}, ν ≠ μ → MCore.YangMills.A1.unitStep4 μ ν = 0"
+  },
+  {
+   "name": "MCore.YangMills.A1.unitStep4_self",
+   "file": "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (μ : Fin 4), MCore.YangMills.A1.unitStep4 μ μ = 1"
+  },
+  {
+   "name": "MCore.b60_material_producer_certifies_terminal",
+   "file": "lean/MCore/YangMillsTerminalLaw.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.B60ConcretePhysicalAdapter C F D H G O → MCore.YangMillsTerminalCertifies D H G"
+  },
+  {
+   "name": "MCore.b60_open_bridge_certifies_terminal",
+   "file": "lean/MCore/YangMillsTerminalLaw.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.YangMills.A1.RegulatedYM4Construction} {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D} {O : MCore.K30SpectralTransferObligations F D H G},   MCore.YangMills.A1.B60ConcretePhysicalOpenBridge C F D H G O → MCore.YangMillsTerminalCertifies D H G"
+  },
+  {
+   "name": "MCore.concrete_adapter_mass_gap",
+   "file": "lean/MCore/SpectralConcreteAdapter.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D}   (A : MCore.ConcreteHilbertAdapter D H G),   (∀ (psi : D.State),       D.physical psi →         D.orthogonalToVacuum psi →           H.domain psi → ∃ phi, A.toAbstract phi = psi ∧ A.physical phi ∧ A.vacuumOrthogonal phi ∧ A.inDomain phi) →     MCore.K14MassGap D H G A.rate"
+  },
+  {
+   "name": "MCore.decay_implies_exclusion",
+   "file": "lean/MCore/SpectralCore.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.SpectralDecayModel},   MCore.DecayToSpectralExclusion M →     ∀ (m : M.Rate) (ψ : M.State),       M.positiveRate m → M.physical ψ → M.orthogonalToVacuum ψ → M.matrixElementDecay m ψ → M.excludesBelow m ψ"
+  },
+  {
+   "name": "MCore.exponential_growth_escape",
+   "file": "lean/MCore/SpectralExclusion.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (q : ℝ), 0 < q → ∀ (C : ℝ), 0 ≤ C → ∀ (m r : ℝ), 0 < m - r → ∃ t, 0 ≤ t ∧ C < q * Real.exp ((m - r) * t)"
+  },
+  {
+   "name": "MCore.final_core_closes_conditional_chain",
+   "file": "lean/MCore/FinalCore.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.FinalScientificFrontier F D H G → MCore.K20FrontierClosed F ∧ ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.final_core_no_promotion",
+   "file": "lean/MCore/FinalCore.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.final_core_target_still_open",
+   "file": "lean/MCore/FinalCore.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.final_frontier_blocks_close_k20",
+   "file": "lean/MCore/FinalCore.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D}, MCore.FinalScientificFrontier F D H G → MCore.K20FrontierClosed F"
+  },
+  {
+   "name": "MCore.final_spectral_realization_implies_mass_gap",
+   "file": "lean/MCore/FinalCore.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D},   MCore.K29SpectralGapRealization D H G → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k10_classical_scope",
+   "file": "lean/MCore/K10.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.classical = MCore.YMObligation.classicalGaugeTheory"
+  },
+  {
+   "name": "MCore.k10_identity_gauge",
+   "file": "lean/MCore/K10.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {I : MCore.K9ClassicalInterface} (L : MCore.K10ClassicalLaws I) (A : I.data.Connection),   L.action.act L.identityGauge A = A"
+  },
+  {
+   "name": "MCore.k10_no_promotion",
+   "file": "lean/MCore/K10.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k10_quantum_not_promoted",
+   "file": "lean/MCore/K10.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.quantum = MCore.YMObligation.quantumConstruction"
+  },
+  {
+   "name": "MCore.k10_target_still_open",
+   "file": "lean/MCore/K10.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k11_gap_still_separate",
+   "file": "lean/MCore/K11.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.gap = MCore.YMObligation.positiveMassGap"
+  },
+  {
+   "name": "MCore.k11_hilbert_still_separate",
+   "file": "lean/MCore/K11.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.hilbert = MCore.YMObligation.physicalHilbertSpace"
+  },
+  {
+   "name": "MCore.k11_no_promotion",
+   "file": "lean/MCore/K11.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k11_quantum_scope",
+   "file": "lean/MCore/K11.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.quantum = MCore.YMObligation.quantumConstruction"
+  },
+  {
+   "name": "MCore.k11_target_still_open",
+   "file": "lean/MCore/K11.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k12_continuum_scope",
+   "file": "lean/MCore/K12.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.continuum = MCore.YMObligation.continuumLimit"
+  },
+  {
+   "name": "MCore.k12_gap_still_separate",
+   "file": "lean/MCore/K12.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.gap = MCore.YMObligation.positiveMassGap"
+  },
+  {
+   "name": "MCore.k12_hilbert_still_separate",
+   "file": "lean/MCore/K12.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.hilbert = MCore.YMObligation.physicalHilbertSpace"
+  },
+  {
+   "name": "MCore.k12_no_promotion",
+   "file": "lean/MCore/K12.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k12_target_still_open",
+   "file": "lean/MCore/K12.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k15_complete_program_implies_clustering",
+   "file": "lean/MCore/K15.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {P : MCore.K15ClusteringProgram} {C : MCore.K14UniformExpClusteringData},   MCore.K15ProgramToClusteringBridge P C → MCore.K15ProgramComplete P → MCore.K14UniformExpClustering C"
+  },
+  {
+   "name": "MCore.k15_complete_program_implies_mass_gap",
+   "file": "lean/MCore/K15.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {P : MCore.K15ClusteringProgram} {C : MCore.K14UniformExpClusteringData} {D : MCore.K14PhysicalHilbertData}   {H : MCore.K14HamiltonianOperator D} {S : MCore.K14GapScale D},   MCore.K15ProgramToClusteringBridge P C →     MCore.K14ClusteringToMassGapBridge C D H S → MCore.K15ProgramComplete P → ∃ delta, MCore.K14MassGap D H S delta"
+  },
+  {
+   "name": "MCore.k15_no_promotion",
+   "file": "lean/MCore/K15.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k15_target_still_open",
+   "file": "lean/MCore/K15.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k16_no_promotion",
+   "file": "lean/MCore/K16.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k16_obligations_imply_mass_gap",
+   "file": "lean/MCore/K16.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {O : MCore.K16ScientificObligations} {P : MCore.K15ClusteringProgram} {C : MCore.K14UniformExpClusteringData}   {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {S : MCore.K14GapScale D},   MCore.K16ObligationsHold O →     MCore.K16RefinesK15 O P →       MCore.K15ProgramToClusteringBridge P C →         MCore.K14ClusteringToMassGapBridge C D H S → ∃ delta, MCore.K14MassGap"
+  },
+  {
+   "name": "MCore.k16_refinement_completes_k15",
+   "file": "lean/MCore/K16.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {O : MCore.K16ScientificObligations} {P : MCore.K15ClusteringProgram},   MCore.K16ObligationsHold O → MCore.K16RefinesK15 O P → MCore.K15ProgramComplete P"
+  },
+  {
+   "name": "MCore.k16_target_still_open",
+   "file": "lean/MCore/K16.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k17_clustering_and_cyclicity_imply_semigroup_decay",
+   "file": "MCore/K17.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.K14UniformExpClusteringData} {O : MCore.K17ObservableSectorData} {M : MCore.K17MatrixElementDecayData}   {S : MCore.K14SemigroupDecayData},   MCore.K17ClusteringToMatrixElementsBridge C M →     MCore.K17ReconstructionCyclicityBridge O M S →       MCore.K14UniformExpClustering C → O.cyclicGeneratedSector → MCore.K14SemigroupDecay S"
+  },
+  {
+   "name": "MCore.k17_no_promotion",
+   "file": "MCore/K17.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k17_target_still_open",
+   "file": "MCore/K17.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k18_clustering_chain_implies_mass_gap",
+   "file": "lean/MCore/K18.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.K14UniformExpClusteringData} {O : MCore.K17ObservableSectorData} {M : MCore.K17MatrixElementDecayData}   {S : MCore.K14SemigroupDecayData} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D} {E : MCore.K18SpectralSupportData D},   MCore.K17ClusteringToMatrixElementsBridge C M →     MCore.K17ReconstructionCyclicityBridge O M S →       MCo"
+  },
+  {
+   "name": "MCore.k18_no_promotion",
+   "file": "lean/MCore/K18.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k18_semigroup_decay_implies_mass_gap",
+   "file": "lean/MCore/K18.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {S : MCore.K14SemigroupDecayData} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D} {E : MCore.K18SpectralSupportData D},   MCore.K18SemigroupToSpectralBridge S D E →     MCore.K18SpectralToMassGapBridge D H G E → MCore.K14SemigroupDecay S → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k18_target_still_open",
+   "file": "lean/MCore/K18.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k19_no_promotion",
+   "file": "lean/MCore/K19.lean",
+   "line": 70,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k19_target_still_open",
+   "file": "lean/MCore/K19.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k19_uniform_gap_survives_limits_conditionally",
+   "file": "lean/MCore/K19.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {A : MCore.K19ApproximationFamily} {G : MCore.K19UniformGapData A} {L : MCore.K19ContinuumLimitData A G}   {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {P : MCore.K14GapScale D},   MCore.K19LimitPassageBridge A G L →     MCore.K19ContinuumToPhysicalGapBridge A G L D H P →       L.continuumLimitExists →         L.thermodynamicLimitExists → MCore.K19UniformRegulatedGap A"
+  },
+  {
+   "name": "MCore.k20_closed_frontier_implies_mass_gap",
+   "file": "lean/MCore/K20.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.K20FrontierToMassGapBridge F D H G → MCore.K20FrontierClosed F → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k20_frontier_not_marked_closed",
+   "file": "lean/MCore/K20.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.k20_interface_audit_state.scientificFrontierClosed"
+  },
+  {
+   "name": "MCore.k20_interfaces_certified",
+   "file": "lean/MCore/K20.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k20_interface_audit_state.interfacesCertified"
+  },
+  {
+   "name": "MCore.k20_no_promotion",
+   "file": "lean/MCore/K20.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k20_target_still_open",
+   "file": "lean/MCore/K20.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k21_no_promotion",
+   "file": "lean/MCore/K21.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k21_target_still_open",
+   "file": "lean/MCore/K21.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k21_witnesses_close_frontier",
+   "file": "lean/MCore/K21.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier}, MCore.K21FrontierWitnesses F → MCore.K20FrontierClosed F"
+  },
+  {
+   "name": "MCore.k21_witnesses_imply_mass_gap_conditionally",
+   "file": "lean/MCore/K21.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.K20FrontierToMassGapBridge F D H G → MCore.K21FrontierWitnesses F → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k22_blocks_assemble_witnesses",
+   "file": "lean/MCore/K22.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier},   MCore.K22ConstructionBlock F → MCore.K22InfraredBlock F → MCore.K22LimitBlock F → MCore.K21FrontierWitnesses F"
+  },
+  {
+   "name": "MCore.k22_blocks_imply_mass_gap_conditionally",
+   "file": "lean/MCore/K22.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.K20FrontierToMassGapBridge F D H G →     MCore.K22ConstructionBlock F → MCore.K22InfraredBlock F → MCore.K22LimitBlock F → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k22_no_promotion",
+   "file": "lean/MCore/K22.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k22_target_still_open",
+   "file": "lean/MCore/K22.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k23_inputs_build_construction_block",
+   "file": "lean/MCore/K23.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} (C : MCore.K23ConstructiveYM4Data F),   MCore.K23ConstructionInputsHold C → MCore.K22ConstructionBlock F"
+  },
+  {
+   "name": "MCore.k23_no_promotion",
+   "file": "lean/MCore/K23.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k23_target_still_open",
+   "file": "lean/MCore/K23.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k24_measure_controls_feed_k23",
+   "file": "lean/MCore/K24.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {R : MCore.K24RegulatorFamily} {P : MCore.K24RegulatedMeasureProblem R}   {C : MCore.K23ConstructiveYM4Data F},   MCore.K24MeasureToK23Bridge R P C →     P.existsOnAdmissible →       P.gaugeInvariantSector →         P.reflectionPositiveOnAdmissible →           P.cutoffTightness →             P.volumeTightness →               C.regulatedMeasuresExist ∧"
+  },
+  {
+   "name": "MCore.k24_no_promotion",
+   "file": "lean/MCore/K24.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k24_target_still_open",
+   "file": "lean/MCore/K24.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k25_no_promotion",
+   "file": "lean/MCore/K25.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k25_target_still_open",
+   "file": "lean/MCore/K25.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k25_uniform_clustering_builds_infrared_block",
+   "file": "lean/MCore/K25.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {S : MCore.K25ClusteringSystem} {U : MCore.K25UniformExponentialClustering S}   (B : MCore.K25ClusteringToInfraredBridge F S U),   B.observableCyclicityStillRequired → B.semigroupTransferStillRequired → MCore.K22InfraredBlock F"
+  },
+  {
+   "name": "MCore.k26_bridge_supplies_infrared_auxiliaries",
+   "file": "lean/MCore/K26.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {O : MCore.K26ObservableSector} {S : MCore.K26SemigroupDecaySystem O}   {C : MCore.K26CyclicityWitness O} {D : MCore.K26ObservableDecayWitness O S}   {T : MCore.K26DecayToSpectralBridge O S C D},   MCore.K26ToFrontierBridge F O S C D T → F.observableCyclicity ∧ F.semigroupSpectralTransfer"
+  },
+  {
+   "name": "MCore.k26_no_promotion",
+   "file": "lean/MCore/K26.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k26_target_still_open",
+   "file": "lean/MCore/K26.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k27_bridge_builds_limit_block",
+   "file": "lean/MCore/K27.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {S : MCore.K27RegulatedGapSystem} {U : MCore.K27UniformPositiveGap S}   {L : MCore.K27LimitControl S} {W : MCore.K27LimitWitness S U L},   MCore.K27ToFrontierBridge F S U L W → MCore.K22LimitBlock F"
+  },
+  {
+   "name": "MCore.k27_no_promotion",
+   "file": "lean/MCore/K27.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k27_target_still_open",
+   "file": "lean/MCore/K27.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k28_blocks_recover_frontier",
+   "file": "lean/MCore/K28.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier}, MCore.K28FrontierBlocks F → MCore.K20FrontierClosed F"
+  },
+  {
+   "name": "MCore.k28_conditional_mass_gap",
+   "file": "lean/MCore/K28.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.K28FrontierBlocks F → MCore.K20FrontierToMassGapBridge F D H G → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k28_no_promotion",
+   "file": "lean/MCore/K28.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k28_target_still_open",
+   "file": "lean/MCore/K28.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k29_blocks_and_transfer_yield_mass_gap",
+   "file": "lean/MCore/K29.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.K28FrontierBlocks F → MCore.K29FrontierToSpectralRealization F D H G → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k29_no_promotion",
+   "file": "lean/MCore/K29.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k29_realization_is_mass_gap",
+   "file": "lean/MCore/K29.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D} {G : MCore.K14GapScale D}   (R : MCore.K29SpectralGapRealization D H G), MCore.K14MassGap D H G R.gap"
+  },
+  {
+   "name": "MCore.k29_target_still_open",
+   "file": "lean/MCore/K29.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k29_transfer_builds_k20_bridge",
+   "file": "lean/MCore/K29.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D}, MCore.K29FrontierToSpectralRealization F D H G → MCore.K20FrontierToMassGapBridge F D H G"
+  },
+  {
+   "name": "MCore.k30_no_promotion",
+   "file": "lean/MCore/K30.lean",
+   "line": 125,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k30_target_still_open",
+   "file": "lean/MCore/K30.lean",
+   "line": 122,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k30_witness_closes_conditional_chain",
+   "file": "lean/MCore/K30.lean",
+   "line": 109,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {F : MCore.K20ScientificFrontier} {D : MCore.K14PhysicalHilbertData} {H : MCore.K14HamiltonianOperator D}   {G : MCore.K14GapScale D},   MCore.K28FrontierBlocks F →     ∀ (O : MCore.K30SpectralTransferObligations F D H G),       MCore.K30SpectralTransferWitness O → ∃ gap, MCore.K14MassGap D H G gap"
+  },
+  {
+   "name": "MCore.k7_dependency_reachable",
+   "file": "lean/MCore/K7.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.K7Reachable MCore.k6_dependency.source MCore.k6_dependency.target"
+  },
+  {
+   "name": "MCore.k7_source_open",
+   "file": "lean/MCore/K7.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.source.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k7_target_open",
+   "file": "lean/MCore/K7.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k8_classical_label",
+   "file": "lean/MCore/K8.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.classical = MCore.YMObligation.classicalGaugeTheory"
+  },
+  {
+   "name": "MCore.k8_continuum_label",
+   "file": "lean/MCore/K8.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.continuum = MCore.YMObligation.continuumLimit"
+  },
+  {
+   "name": "MCore.k8_gap_label",
+   "file": "lean/MCore/K8.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.gap = MCore.YMObligation.positiveMassGap"
+  },
+  {
+   "name": "MCore.k8_no_promotion",
+   "file": "lean/MCore/K8.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k8_nontrivial_label",
+   "file": "lean/MCore/K8.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.nontrivial = MCore.YMObligation.nontriviality"
+  },
+  {
+   "name": "MCore.k8_quantum_label",
+   "file": "lean/MCore/K8.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.quantum = MCore.YMObligation.quantumConstruction"
+  },
+  {
+   "name": "MCore.k8_target_still_open",
+   "file": "lean/MCore/K8.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.k9_no_promotion",
+   "file": "lean/MCore/K9.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.k9_quantum_still_labelled_open",
+   "file": "lean/MCore/K9.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.quantum = MCore.YMObligation.quantumConstruction"
+  },
+  {
+   "name": "MCore.k9_refines_classical_label",
+   "file": "lean/MCore/K9.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k8_target.classical = MCore.YMObligation.classicalGaugeTheory"
+  },
+  {
+   "name": "MCore.k9_target_still_open",
+   "file": "lean/MCore/K9.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge"
+  },
+  {
+   "name": "MCore.not_yangMillsTerminalCertifies_iff_refutes",
+   "file": "lean/MCore/YangMillsTerminalLaw.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.K14PhysicalHilbertData) (H : MCore.K14HamiltonianOperator D) (G : MCore.K14GapScale D),   ¬MCore.YangMillsTerminalCertifies D H G ↔ MCore.YangMillsTerminalRefutes D H G"
+  },
+  {
+   "name": "MCore.pointwise_pos_not_uniform",
+   "file": "lean/MCore/SpectralExclusion.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ m, (∀ (n : ℕ), 0 < m n) ∧ ¬∃ c, 0 < c ∧ ∀ (n : ℕ), c ≤ m n"
+  },
+  {
+   "name": "MCore.positive_mass_below_rate_contradiction",
+   "file": "lean/MCore/SpectralExclusion.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (q C m r t : ℝ),   0 < q → 0 ≤ C → r < m → 0 ≤ t → Real.exp (-t * r) * q ≤ C * Real.exp (-m * t) → C < q * Real.exp ((m - r) * t) → False"
+  },
+  {
+   "name": "MCore.realized_exclusion",
+   "file": "lean/MCore/SpectralExclusion.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (R : MCore.SpectralExclusionRealization),   (∀ (r : ℝ), 0 ≤ r → 0 ≤ R.spectral.massBelow r) → ∀ (r : ℝ), 0 ≤ r → r < R.decay.m → R.spectral.massBelow r = 0"
+  },
+  {
+   "name": "MCore.spectral_exclusion_at_subrate",
+   "file": "lean/MCore/SpectralExclusion.lean",
+   "line": 98,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (S : MCore.PositiveSpectralLaplaceData) (D : MCore.ExponentialDecayData S.laplace) (r : ℝ),   0 ≤ r → r < D.m → S.massBelow r ≤ 0"
+  },
+  {
+   "name": "MCore.yangMills_terminal_cert_refute_disjoint",
+   "file": "lean/MCore/YangMillsTerminalLaw.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.K14PhysicalHilbertData) (H : MCore.K14HamiltonianOperator D) (G : MCore.K14GapScale D),   ¬(MCore.YangMillsTerminalCertifies D H G ∧ MCore.YangMillsTerminalRefutes D H G)"
+  }
+ ],
+ "closed": 208,
+ "files_sha256": {
+  "MCore/K17.lean": "be380c3b9f8e9a13c64de41d2f09e3862e4ed406cd3667bbc6b0204ab305a682",
+  "lake-manifest.json": "ea0167b7a074dfadfabc60d011a971708863d46ced8dff7d6d37cc4c20640a6e",
+  "lakefile.toml": "b7d820bc116202b3ddbda44476e51f4bf3f223fd107ae185dbaf4f9297856565",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/FinalCore.lean": "c981d34234df88afd8e71dd4f4b3a8d69690a4b36d9160521e08459c644cf5fa",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/K1.lean": "e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90",
+  "lean/MCore/K10.lean": "12263fe8028721309334f5e9a3b42113c538ccfb7a78d16eec18da0ea1c5156a",
+  "lean/MCore/K11.lean": "2e0b08a4ac234ce38af48308780a4cc9d10441b4ebdb385ab74878401ce7e55b",
+  "lean/MCore/K12.lean": "f84c269214acea98727acb504d3538f5936ea59fe2723c57587869d779ffb565",
+  "lean/MCore/K13.lean": "e987b6380728298d4023eb7a6ead06ce258443006f4f0a7701b86b69369e0934",
+  "lean/MCore/K14.lean": "766031ec00cbad64279bbe63fc0827ad00b1d39089522500123f7c37bf3cde13",
+  "lean/MCore/K15.lean": "a34b52543d8df8f4a2ac2625e3a35d696956ad3f38331e087befa5e0228bfb15",
+  "lean/MCore/K16.lean": "0b634d8e2b8fea6b4ecb920902f2e0ef39c0a3f4c0096682a7dfce1991763b99",
+  "lean/MCore/K18.lean": "5fa36722d0347b712c1278f55e41bc82731a1f863a4d85122d34036e2e9e3fb9",
+  "lean/MCore/K19.lean": "1fe93701449322bf5a69418f375ee09a025c21c96a3a1e84aa2b291af8706427",
+  "lean/MCore/K2.lean": "5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5",
+  "lean/MCore/K20.lean": "538ea9c157158c8be53b3988f9e15729d6389a90ab6daa89f28ea0e96e875bbf",
+  "lean/MCore/K21.lean": "e79385973d21188e924f932ace0e10c20f993d6d19ac3cbde4e772b3e736ec45",
+  "lean/MCore/K22.lean": "b52f2cba8a01ac0d9b4598553dc7d1bcff4518e43c06a850b1fcf7947035958c",
+  "lean/MCore/K23.lean": "438c4ed720219bb1c6bed7b29478b486d9b7f02d1b99f6bc343d5c1e47561bd4",
+  "lean/MCore/K24.lean": "865b4b519e5f575f66f246fdbcc10492b8d3397f6b8dbf3825ebf02c5472e2fa",
+  "lean/MCore/K25.lean": "5890e608d3381d92b8d3fbfd9fd82dc9485b95134d92abafb319b8b5595eb5ab",
+  "lean/MCore/K26.lean": "d941b668922ef928e0d7651a3ccfefe813b150cd6c22891abfd81b9967a8448c",
+  "lean/MCore/K27.lean": "ab4384a121bf08b874fbf70cea4222afaa04759586e4582ff7189c3d8f354f04",
+  "lean/MCore/K28.lean": "c11c53dd06012ee02268a53ff29212b3f2eb20de38f0c50c7936dd023cd073c0",
+  "lean/MCore/K29.lean": "11e1bcef0ba0f6557e7483579db6aff8fb739f4805e5c92dc9935dae668dca2f",
+  "lean/MCore/K3.lean": "3a53cb2df2afbd425e7874e7924ed383d403dfc8df24346dc7df269034a70905",
+  "lean/MCore/K30.lean": "8b1f5f25efdfa1eafdf8f0d578c582c553e136f04b41d41a6a8af85719aec832",
+  "lean/MCore/K4.lean": "9f4ac833b4fe3a57e5712cdaf21ec551b7003d934984f7de28616a8932b18953",
+  "lean/MCore/K5.lean": "86bbb63a88c7f2156eca12636b73c8c2edb7160d615e33f1db44f5ec7f01416a",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "96ff5955a639a5b804df501c2ac12a909127e145eddf7bad13214cc763211ee7",
+  "lean/MCore/K8.lean": "e7a90f985d4449450071090ecca4ca0d35469e442d2f6fd2c48560396c3587a3",
+  "lean/MCore/K9.lean": "e2cfc1bc0fe9a0c12993384e27b4159656c586aafe34c4c7afafc948d1568a48",
+  "lean/MCore/K9/Classical.lean": "dcac18fd596dc8b7342ecf9e95181c863cb5f679a4b0e995b0ced9c6fe3cf962",
+  "lean/MCore/PhysicalGapScaling.lean": "fad2ea7f68507dca22df02a517cfa36e420f8423b39fc567ae9d84b209d9a49d",
+  "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3",
+  "lean/MCore/SpectralConcreteAdapter.lean": "34a96ea90887168e40ccfd34a371d43a0d037ef8a625ac79cc1f58cf1495ad5b",
+  "lean/MCore/SpectralCore.lean": "7142b5ba36a0098e1bb24af2de19d4f97742508182d7654701625080e0c39e81",
+  "lean/MCore/SpectralExclusion.lean": "1e9eeb89a0a3aa560bb77d29e406a09e680f71ad4374e7c28873ad3c43f30e06",
+  "lean/MCore/YangMills/A1/B60CanonicalPhysicalBinding.lean": "7cdb9f84b0b2ce97d35e5b6340719c2a5341366a68548c3802ef549e4ebd2781",
+  "lean/MCore/YangMills/A1/B60ConcretePhysicalAdapter.lean": "a88db5ddc1dba7b849db5b661dc57ee02c28c779a1b40470d6186e23592a3e5d",
+  "lean/MCore/YangMills/A1/B60FieldBundle.lean": "07491f1dd383891270696ffe449ee6ce6facbbc8b09479e04113ada2c4c783ce",
+  "lean/MCore/YangMills/A1/B60TrivialityAudit.lean": "ab5542d36dd0e6b0e0bccc82aaa1c93b58b37518f4716f13c29a6e13c1cffab5",
+  "lean/MCore/YangMills/A1/Canonical4DGeometryV8.lean": "9cb6cdc7bfeed31f557480cdd57c54b8d462e1cb532237c379385b04f5c22a46",
+  "lean/MCore/YangMills/A1/CanonicalIdentitySpectralBindingV11.lean": "fe672b335e1e86396dbe2f2d60e824cb3d16292dc45cd9e701934eeeaeee9754",
+  "lean/MCore/YangMills/A1/CanonicalSameModelBundleV5.lean": "8127ff7c9a31d1ed52e6314834082a9bbceee60c8e794c6121de62b6ae89174c",
+  "lean/MCore/YangMills/A1/ConcreteSpectralK30V9.lean": "3da770969fa615196abfa94f470b94acf26194887e52a8f8909746d812288c69",
+  "lean/MCore/YangMills/A1/DecayCalculusV7.lean": "41b4af1a3a5d59978ec16c512e27accf3d4265a7864665785293805289a44252",
+  "lean/MCore/YangMills/A1/DerivedAnalyticLawsV6.lean": "b54a209ad854436e63a103b800f3a00b4e5febe2d65b2fe17cb1b0774f990a43",
+  "lean/MCore/YangMills/A1/ExactFinalProducer.lean": "659242425ec4f01e6a0e1f2736fc52f713d4cf3a4e9d9c4e01fef9a5b3a8eea2",
+  "lean/MCore/YangMills/A1/FinalClosureCertificateV13.lean": "e3a839dd4fce501930a8c9a7b0cccdc93502bf63b21af3d0c85895d61c9ed6d3",
+  "lean/MCore/YangMills/A1/FinalExternal.lean": "e192d4facc11bc84534f6968d67a0ce762774a2a426e3a4335900fbbab08f28f",
+  "lean/MCore/YangMills/A1/FrontierDecompositionV2.lean": "e008278f8cdaf8e7747eca72032c9c399ba4a83d668e1efd1394e716ba9040d1",
+  "lean/MCore/YangMills/A1/GapConcreteV13.lean": "6471b9275c2014d0d0ea9b15cc646051edc449fb04cd96096d374d431fad4d98",
+  "lean/MCore/YangMills/A1/Hardening.lean": "8356e634c2f597143dc76e30563371e5cb52a7997aa04667db065f143f1f3c0d",
+  "lean/MCore/YangMills/A1/HardeningV2.lean": "3ca4a722a7a6482d0bf4ee365304012afeff520a8221c30ea63f6f6f4ad2f191",
+  "lean/MCore/YangMills/A1/K14HamiltonianConcreteRealizationV13.lean": "f175342fab97fd46e7e3e7054f68e42499f47433ba126b0af4b07953b1624352",
+  "lean/MCore/YangMills/A1/MaterialDecisionObjects.lean": "4a1a776f56dde6a7a62217278808c024fa9782b09e4c5372ebd3afbb622d1387",
+  "lean/MCore/YangMills/A1/MaterialHardeningV3.lean": "56c36f76cffed0d707a2a193baa365b14866d267a43212fe9619968b20a4e3af",
+  "lean/MCore/YangMills/A1/P02RejectionGaugeInvariantProbe.lean": "8636ba4adbe80699bd2a9d6cab37e6da1b83c0acd46e7f451b0d4093ac0ba277",
+  "lean/MCore/YangMills/A1/PhantomBridgeTriviality.lean": "7743cbe7c3d2f7eb04b796bf6a139ea9ac103ca8900504772c783b346d2f14d4",
+  "lean/MCore/YangMills/A1/PhysicalExcitationReconstructionV4.lean": "f3a36b631e4be25644e6a9b2fdd593ccd6a6c653ceac542333ca350d617041b4",
+  "lean/MCore/YangMills/A1/PositiveControl.lean": "44b28830e6d88eae7ae5c88dddf7d5a98fc318dc60827c2f93f5399cbab1dc9b",
+  "lean/MCore/YangMills/A1/RegulatedConstruction.lean": "c72760db4b8e0478aa8c68b522e9a3ac77e8acaa4ab97b6b082ef155577a9863",
+  "lean/MCore/YangMills/A1/SpectralMeasureHilbertBindingV10.lean": "52b552f42e08a9a90df91bf7dd486d4cbd8be9bd0cdbddf51f277be0288da366",
+  "lean/MCore/YangMills/A1/TerminalSignatureCycleV13.lean": "f91fc585cbe8e75a14aa4e038a79a90b328c378eda02f96ab0753de11d42e1b7",
+  "lean/MCore/YangMills/A1/UniformityFirewalls.lean": "08dba140656d94de0192ee5d877792082891ff3a5efc0d072647123db662656f",
+  "lean/MCore/YangMills/A1/UniformityTriviality.lean": "a71774199f16bd8ea193e0007f1568bd839765b9ee6a85af54300f797bed5a70",
+  "lean/MCore/YangMillsTerminalLaw.lean": "423b8ccedda0260cfb12d15669499625f05e1f8abb273b8fcdee7400bc8e1839"
+ },
+ "published_at": "2026-10-28T19:19:18Z",
+ "certificate_sha256": "c11019b248622af7cce7e34697a7437182749378723e0fa85c4f908475970d1b"
+}
