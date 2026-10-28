@@ -1,0 +1,693 @@
+{
+ "generated_at": "2026-10-28T13:47:17+00:00",
+ "standard_axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "verified_commit": "1c324b533e85bf79cf5b55298fa9f42af4e8f30f",
+ "projects": [
+  {
+   "repo": "m-core-yang-mills",
+   "path": ".",
+   "toolchain": "leanprover/lean4:v4.19.0",
+   "toolchain_used": "leanprover/lean4:v4.19.0",
+   "needs_mathlib": false,
+   "build_ok": true,
+   "build_seconds": 9.5,
+   "build_error": "",
+   "sorry_warnings": 0,
+   "reconstructed": false,
+   "bridges": [],
+   "declared_axioms": [],
+   "theorems": [
+    {
+     "name": "MCore.AlgebraAttack.mk.inj",
+     "module": "MCore.AttackDAG.K3AlgebraAttacks",
+     "axioms": [],
+     "statement": "∀ {id : String} {target : MCore.CertNode} {routeOnly : Bool} {id_1 : String} {target_1 : MCore.CertNode}   {routeOnly_1 : Bool},   { id := id, target := target, routeOnly := routeOnly } =       { id := id_1, target := target_1, routeOnly := routeOnly_1 } →     id = id_1 ∧ target = target_1 ∧ routeOnly = routeOnly_1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AlgebraAttack.mk.injEq",
+     "module": "MCore.AttackDAG.K3AlgebraAttacks",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ (id : String) (target : MCore.CertNode) (routeOnly : Bool) (id_1 : String) (target_1 : MCore.CertNode)   (routeOnly_1 : Bool),   ({ id := id, target := target, routeOnly := routeOnly } =       { id := id_1, target := target_1, routeOnly := routeOnly_1 }) =     (id = id_1 ∧ target = target_1 ∧ routeOnly = routeOnly_1)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AlgebraAttack.mk.sizeOf_spec",
+     "module": "MCore.AttackDAG.K3AlgebraAttacks",
+     "axioms": [],
+     "statement": "∀ (id : String) (target : MCore.CertNode) (routeOnly : Bool),   sizeOf { id := id, target := target, routeOnly := routeOnly } = 1 + sizeOf id + sizeOf target + sizeOf routeOnly",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AuditDisposition.ofNat_toCtorIdx",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "∀ (x : MCore.AuditDisposition), MCore.AuditDisposition.ofNat x.toCtorIdx = x",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AuditDisposition.openBridge.sizeOf_spec",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "sizeOf MCore.AuditDisposition.openBridge = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AuditDisposition.passCertified.sizeOf_spec",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "sizeOf MCore.AuditDisposition.passCertified = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AuditDisposition.refutedRoute.sizeOf_spec",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "sizeOf MCore.AuditDisposition.refutedRoute = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.AuditDisposition.reviewRequired.sizeOf_spec",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "sizeOf MCore.AuditDisposition.reviewRequired = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryPhase.boundary.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryPhase.boundary = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryPhase.crossing.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryPhase.crossing = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryPhase.ofNat_toCtorIdx",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "∀ (x : MCore.BoundaryPhase), MCore.BoundaryPhase.ofNat x.toCtorIdx = x",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryPhase.postBoundary.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryPhase.postBoundary = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryPhase.preBoundary.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryPhase.preBoundary = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryPhase.regular.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryPhase.regular = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryProtocol.mk.inj",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "∀ {Object Value : Type} {observable : Object → Value} {atBoundary : Object → Prop}   {admissiblePath : (Nat → Object) → Prop} {observable_1 : Object → Value} {atBoundary_1 : Object → Prop}   {admissiblePath_1 : (Nat → Object) → Prop},   { observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } =       { observable := observable_1, atBoundary := atBoundary_1, admissib",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryProtocol.mk.injEq",
+     "module": "MCore.Boundary",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ {Object Value : Type} (observable : Object → Value) (atBoundary : Object → Prop)   (admissiblePath : (Nat → Object) → Prop) (observable_1 : Object → Value) (atBoundary_1 : Object → Prop)   (admissiblePath_1 : (Nat → Object) → Prop),   ({ observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } =       { observable := observable_1, atBoundary := atBoundary_1, admissi",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryProtocol.mk.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "∀ {Object Value : Type} [inst : SizeOf Object] [inst_1 : SizeOf Value] (observable : Object → Value)   (atBoundary : Object → Prop) (admissiblePath : (Nat → Object) → Prop),   sizeOf { observable := observable, atBoundary := atBoundary, admissiblePath := admissiblePath } = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.blowup.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.blowup = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.discreteJump.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.discreteJump = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.noNaturalLimit.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.noNaturalLimit = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.nonremovable.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.nonremovable = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.ofNat_toCtorIdx",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "∀ (x : MCore.BoundaryResult), MCore.BoundaryResult.ofNat x.toCtorIdx = x",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.open.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.open = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.oscillatory.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.oscillatory = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.pathDependent.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.pathDependent = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.removable.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.removable = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.BoundaryResult.uniqueExtension.sizeOf_spec",
+     "module": "MCore.Boundary",
+     "axioms": [],
+     "statement": "sizeOf MCore.BoundaryResult.uniqueExtension = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.CertNode.mk.inj",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "∀ {status : MCore.SignatureStatus} {statement : Prop} {status_1 : MCore.SignatureStatus} {statement_1 : Prop},   { status := status, statement := statement } = { status := status_1, statement := statement_1 } →     status = status_1 ∧ statement = statement_1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.CertNode.mk.injEq",
+     "module": "MCore.K2",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ (status : MCore.SignatureStatus) (statement : Prop) (status_1 : MCore.SignatureStatus) (statement_1 : Prop),   ({ status := status, statement := statement } = { status := status_1, statement := statement_1 }) =     (status = status_1 ∧ statement = statement_1)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.CertNode.mk.sizeOf_spec",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "∀ (status : MCore.SignatureStatus) (statement : Prop),   sizeOf { status := status, statement := statement } = 1 + sizeOf status + sizeOf statement",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.CriticalSignature.mk.inj",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "∀ {Object Value : Type} {observable : Object → Value} {target : Value → Prop} {status : MCore.SignatureStatus}   {observable_1 : Object → Value} {target_1 : Value → Prop} {status_1 : MCore.SignatureStatus},   { observable := observable, target := target, status := status } =       { observable := observable_1, target := target_1, status := status_1 } →     observable = observable_1 ∧ target = targ",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.CriticalSignature.mk.injEq",
+     "module": "MCore.Signature",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ {Object Value : Type} (observable : Object → Value) (target : Value → Prop) (status : MCore.SignatureStatus)   (observable_1 : Object → Value) (target_1 : Value → Prop) (status_1 : MCore.SignatureStatus),   ({ observable := observable, target := target, status := status } =       { observable := observable_1, target := target_1, status := status_1 }) =     (observable = observable_1 ∧ target = t",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.CriticalSignature.mk.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "∀ {Object Value : Type} [inst : SizeOf Object] [inst_1 : SizeOf Value] (observable : Object → Value)   (target : Value → Prop) (status : MCore.SignatureStatus),   sizeOf { observable := observable, target := target, status := status } = 1 + sizeOf status",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Dependency.mk.inj",
+     "module": "MCore.K6",
+     "axioms": [],
+     "statement": "∀ {source target source_1 target_1 : MCore.CertNode},   { source := source, target := target } = { source := source_1, target := target_1 } →     source = source_1 ∧ target = target_1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Dependency.mk.injEq",
+     "module": "MCore.K6",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ (source target source_1 target_1 : MCore.CertNode),   ({ source := source, target := target } = { source := source_1, target := target_1 }) =     (source = source_1 ∧ target = target_1)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.Dependency.mk.sizeOf_spec",
+     "module": "MCore.K6",
+     "axioms": [],
+     "statement": "∀ (source target : MCore.CertNode), sizeOf { source := source, target := target } = 1 + sizeOf source + sizeOf target",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.FrontierBridge.mk.inj",
+     "module": "MCore.Frontier.K3Gaps",
+     "axioms": [],
+     "statement": "∀ {id : String} {prerequisite target : MCore.CertNode} {status : MCore.SignatureStatus} {id_1 : String}   {prerequisite_1 target_1 : MCore.CertNode} {status_1 : MCore.SignatureStatus},   { id := id, prerequisite := prerequisite, target := target, status := status } =       { id := id_1, prerequisite := prerequisite_1, target := target_1, status := status_1 } →     id = id_1 ∧ prerequisite = prereq",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.FrontierBridge.mk.injEq",
+     "module": "MCore.Frontier.K3Gaps",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ (id : String) (prerequisite target : MCore.CertNode) (status : MCore.SignatureStatus) (id_1 : String)   (prerequisite_1 target_1 : MCore.CertNode) (status_1 : MCore.SignatureStatus),   ({ id := id, prerequisite := prerequisite, target := target, status := status } =       { id := id_1, prerequisite := prerequisite_1, target := target_1, status := status_1 }) =     (id = id_1 ∧ prerequisite = pre",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.FrontierBridge.mk.sizeOf_spec",
+     "module": "MCore.Frontier.K3Gaps",
+     "axioms": [],
+     "statement": "∀ (id : String) (prerequisite target : MCore.CertNode) (status : MCore.SignatureStatus),   sizeOf { id := id, prerequisite := prerequisite, target := target, status := status } =     1 + sizeOf id + sizeOf prerequisite + sizeOf target + sizeOf status",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.K1Target.mk.inj",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "∀ {route : MCore.ResearchRoute} {status : MCore.SignatureStatus} {route_1 : MCore.ResearchRoute}   {status_1 : MCore.SignatureStatus},   { route := route, status := status } = { route := route_1, status := status_1 } → route = route_1 ∧ status = status_1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.K1Target.mk.injEq",
+     "module": "MCore.K1",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ (route : MCore.ResearchRoute) (status : MCore.SignatureStatus) (route_1 : MCore.ResearchRoute)   (status_1 : MCore.SignatureStatus),   ({ route := route, status := status } = { route := route_1, status := status_1 }) =     (route = route_1 ∧ status = status_1)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.K1Target.mk.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "∀ (route : MCore.ResearchRoute) (status : MCore.SignatureStatus),   sizeOf { route := route, status := status } = 1 + sizeOf route + sizeOf status",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.OpenBridgeFirewall.certificate_blocked",
+     "module": "MCore.K5",
+     "axioms": [],
+     "statement": "∀ {n : MCore.CertNode}, MCore.OpenBridgeFirewall n → ¬Nonempty (MCore.ProofCertificate n)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.OpenBridgeFirewall.open_status",
+     "module": "MCore.K5",
+     "axioms": [],
+     "statement": "∀ {n : MCore.CertNode}, MCore.OpenBridgeFirewall n → n.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.PredictedGap.mk.inj",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "∀ {id : String} {disposition : MCore.AuditDisposition} {node : MCore.CertNode} {id_1 : String}   {disposition_1 : MCore.AuditDisposition} {node_1 : MCore.CertNode},   { id := id, disposition := disposition, node := node } =       { id := id_1, disposition := disposition_1, node := node_1 } →     id = id_1 ∧ disposition = disposition_1 ∧ node = node_1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.PredictedGap.mk.injEq",
+     "module": "MCore.K3",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ (id : String) (disposition : MCore.AuditDisposition) (node : MCore.CertNode) (id_1 : String)   (disposition_1 : MCore.AuditDisposition) (node_1 : MCore.CertNode),   ({ id := id, disposition := disposition, node := node } =       { id := id_1, disposition := disposition_1, node := node_1 }) =     (id = id_1 ∧ disposition = disposition_1 ∧ node = node_1)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.PredictedGap.mk.sizeOf_spec",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "∀ (id : String) (disposition : MCore.AuditDisposition) (node : MCore.CertNode),   sizeOf { id := id, disposition := disposition, node := node } = 1 + sizeOf id + sizeOf disposition + sizeOf node",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ProofCertificate.proof",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "∀ {n : MCore.CertNode}, MCore.ProofCertificate n → n.statement",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ProofCertificate.status_proved",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "∀ {n : MCore.CertNode}, MCore.ProofCertificate n → n.status = MCore.SignatureStatus.provedProperty",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.commonPrime.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "sizeOf MCore.ResearchRoute.commonPrime = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.complexityLowerBound.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "sizeOf MCore.ResearchRoute.complexityLowerBound = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.criticalLine.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "sizeOf MCore.ResearchRoute.criticalLine = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.cycleAlgebraicity.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "sizeOf MCore.ResearchRoute.cycleAlgebraicity = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.massGap.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "sizeOf MCore.ResearchRoute.massGap = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.ofNat_toCtorIdx",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "∀ (x : MCore.ResearchRoute), MCore.ResearchRoute.ofNat x.toCtorIdx = x",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.ResearchRoute.rankBridge.sizeOf_spec",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "sizeOf MCore.ResearchRoute.rankBridge = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureAdapter.mk.inj",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "∀ {A B VA VB : Type} {source : MCore.CriticalSignature A VA} {targetSig : MCore.CriticalSignature B VB}   {mapObject : A → B} {relation : VA → VB → Prop} {source_1 : MCore.CriticalSignature A VA}   {targetSig_1 : MCore.CriticalSignature B VB} {mapObject_1 : A → B} {relation_1 : VA → VB → Prop},   { source := source, targetSig := targetSig, mapObject := mapObject, relation := relation } =       { s",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureAdapter.mk.injEq",
+     "module": "MCore.Signature",
+     "axioms": [
+      "propext"
+     ],
+     "statement": "∀ {A B VA VB : Type} (source : MCore.CriticalSignature A VA) (targetSig : MCore.CriticalSignature B VB)   (mapObject : A → B) (relation : VA → VB → Prop) (source_1 : MCore.CriticalSignature A VA)   (targetSig_1 : MCore.CriticalSignature B VB) (mapObject_1 : A → B) (relation_1 : VA → VB → Prop),   ({ source := source, targetSig := targetSig, mapObject := mapObject, relation := relation } =       {",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureAdapter.mk.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "∀ {A B VA VB : Type} [inst : SizeOf A] [inst_1 : SizeOf B] [inst_2 : SizeOf VA] [inst_3 : SizeOf VB]   (source : MCore.CriticalSignature A VA) (targetSig : MCore.CriticalSignature B VB) (mapObject : A → B)   (relation : VA → VB → Prop),   sizeOf { source := source, targetSig := targetSig, mapObject := mapObject, relation := relation } =     1 + sizeOf source + sizeOf targetSig",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureStatus.candidate.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "sizeOf MCore.SignatureStatus.candidate = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureStatus.definitionInterface.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "sizeOf MCore.SignatureStatus.definitionInterface = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureStatus.ofNat_toCtorIdx",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "∀ (x : MCore.SignatureStatus), MCore.SignatureStatus.ofNat x.toCtorIdx = x",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureStatus.openBridge.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "sizeOf MCore.SignatureStatus.openBridge = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureStatus.provedProperty.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "sizeOf MCore.SignatureStatus.provedProperty = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.SignatureStatus.refutedProperty.sizeOf_spec",
+     "module": "MCore.Signature",
+     "axioms": [],
+     "statement": "sizeOf MCore.SignatureStatus.refutedProperty = 1",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.boundary_ne_regular",
+     "module": "MCore.K0",
+     "axioms": [],
+     "statement": "MCore.BoundaryPhase.boundary ≠ MCore.BoundaryPhase.regular",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.bridge_not_certified",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "¬Nonempty (MCore.ProofCertificate MCore.k1_node)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.candidate_ne_provedProperty",
+     "module": "MCore.K0",
+     "axioms": [],
+     "statement": "MCore.SignatureStatus.candidate ≠ MCore.SignatureStatus.provedProperty",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k1_node.eq_1",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "MCore.k1_node =   { status := MCore.k1Target.status, statement := MCore.k1Target.status = MCore.SignatureStatus.openBridge }",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k1_not_proved",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "MCore.k1Target.status ≠ MCore.SignatureStatus.provedProperty",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k1_status_openBridge",
+     "module": "MCore.K1",
+     "axioms": [],
+     "statement": "MCore.k1Target.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k2_node_not_proved",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "MCore.k1_node.status ≠ MCore.SignatureStatus.provedProperty",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k2_node_status_openBridge",
+     "module": "MCore.K2",
+     "axioms": [],
+     "statement": "MCore.k1_node.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k3_attack_cannot_promote",
+     "module": "MCore.AttackDAG.K3AlgebraAttacks",
+     "axioms": [],
+     "statement": "¬Nonempty (MCore.ProofCertificate MCore.k3_algebra_attack.target)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k3_attack_route_only",
+     "module": "MCore.AttackDAG.K3AlgebraAttacks",
+     "axioms": [],
+     "statement": "MCore.k3_algebra_attack.routeOnly = true",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k3_frontier_open",
+     "module": "MCore.Frontier.K3Gaps",
+     "axioms": [],
+     "statement": "MCore.k3_frontier_bridge.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k3_gap_not_certified",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "¬Nonempty (MCore.ProofCertificate MCore.k3_gap_node)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k3_gap_not_proved",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "MCore.k3_gap_node.status ≠ MCore.SignatureStatus.provedProperty",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k3_gap_status_openBridge",
+     "module": "MCore.K3",
+     "axioms": [],
+     "statement": "MCore.k3_gap_node.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k4_no_promotion",
+     "module": "MCore.K4",
+     "axioms": [],
+     "statement": "¬Nonempty (MCore.ProofCertificate MCore.k4_open_node)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k4_status_openBridge",
+     "module": "MCore.K4",
+     "axioms": [],
+     "statement": "MCore.k4_open_node.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k5_openBridge_cannot_certify",
+     "module": "MCore.K5",
+     "axioms": [],
+     "statement": "¬Nonempty (MCore.ProofCertificate MCore.k4_open_node)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k6_source_open",
+     "module": "MCore.K6",
+     "axioms": [],
+     "statement": "MCore.k6_dependency.source.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k6_target_not_certified",
+     "module": "MCore.K6",
+     "axioms": [],
+     "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)",
+     "status": "fechado"
+    },
+    {
+     "name": "MCore.k6_target_open",
+     "module": "MCore.K6",
+     "axioms": [],
+     "statement": "MCore.k6_dependency.target.status = MCore.SignatureStatus.openBridge",
+     "status": "fechado"
+    }
+   ],
+   "integrity": [],
+   "note": "",
+   "summary": {
+    "fechado": 85,
+    "aberto-sorry": 0,
+    "condicional": 0
+   }
+  },
+  {
+   "repo": "m-core-yang-mills",
+   "path": "atk-kernel",
+   "toolchain": "leanprover/lean4:v4.34.1",
+   "toolchain_used": "leanprover/lean4:v4.34.1",
+   "needs_mathlib": true,
+   "build_ok": true,
+   "build_seconds": 71.8,
+   "build_error": "",
+   "sorry_warnings": 0,
+   "reconstructed": false,
+   "bridges": [],
+   "declared_axioms": [],
+   "theorems": [
+    {
+     "name": "ATK.YangMills.effective_mass_slope_nonpos",
+     "module": "ATK.YangMills",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {ι : Type u_1} (s : Finset ι) (w E : ι → ℝ),   (∀ i ∈ s, 0 ≤ w i) → -((∑ i ∈ s, w i) * ∑ i ∈ s, w i * E i ^ 2 - (∑ i ∈ s, w i * E i) ^ 2) / (∑ i ∈ s, w i) ^ 2 ≤ 0",
+     "status": "fechado"
+    },
+    {
+     "name": "ATK.YangMills.weighted_cauchy_schwarz",
+     "module": "ATK.YangMills",
+     "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+     ],
+     "statement": "∀ {ι : Type u_1} (s : Finset ι) (w E : ι → ℝ),   (∀ i ∈ s, 0 ≤ w i) → (∑ i ∈ s, w i * E i) ^ 2 ≤ (∑ i ∈ s, w i) * ∑ i ∈ s, w i * E i ^ 2",
+     "status": "fechado"
+    }
+   ],
+   "integrity": [],
+   "note": "",
+   "summary": {
+    "fechado": 2,
+    "aberto-sorry": 0,
+    "condicional": 0
+   }
+  }
+ ]
+}
