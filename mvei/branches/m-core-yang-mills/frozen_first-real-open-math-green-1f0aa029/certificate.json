@@ -823,7 +823,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -891,6 +891,6 @@
   "lean/MCore/YangMills/A1/RegulatedConstruction.lean": "c72760db4b8e0478aa8c68b522e9a3ac77e8acaa4ab97b6b082ef155577a9863",
   "lean/MCore/YangMills/A1/UniformityTriviality.lean": "a71774199f16bd8ea193e0007f1568bd839765b9ee6a85af54300f797bed5a70"
  },
- "published_at": "2026-10-29T02:47:14Z",
- "certificate_sha256": "1fc3eac94a7cab98c7c71d76fa8f2037062683a7f5de9227296640016c0d0979"
+ "published_at": "2026-10-29T06:27:33Z",
+ "certificate_sha256": "1c615e47002fde10f33ac2daae4d1c5b2d4703840fe3d78db1a3867b62876190"
 }

@@ -5,7 +5,7 @@ Lean sources from the branch `frozen/inhabitant-arsenal-v1-green-a1a04873` of th
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 10 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `16848c0d8497af0dbad1d2341bc4f2eef02a5ae03b6d7a7cc4995d1d7f318c06`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/frozen_inhabitant-arsenal-v1-green-a1a04873/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `e187d62900caa654018eae08575ce809ea2e4a51fc1a0b179c07e633da236af9`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/frozen_inhabitant-arsenal-v1-green-a1a04873/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

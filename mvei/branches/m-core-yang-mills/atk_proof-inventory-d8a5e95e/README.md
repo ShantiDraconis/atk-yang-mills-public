@@ -5,7 +5,7 @@ Lean sources from the branch `atk/proof-inventory-d8a5e95e` of the private repos
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 8 — closed 8, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 178 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `aa6b78075eaed4d958341aef1d31c63520fb96d1564f52477468c5ca798ebf90`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_proof-inventory-d8a5e95e/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `5d5503f7b973975cd28eb7fdba3c35f0d6a6ccacc2db8634ae2cf9782c1df841`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_proof-inventory-d8a5e95e/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
