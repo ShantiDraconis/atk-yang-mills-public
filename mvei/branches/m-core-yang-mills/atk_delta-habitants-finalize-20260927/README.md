@@ -5,7 +5,7 @@ Lean sources from the branch `atk/delta-habitants-finalize-20260927` of the priv
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 69 — closed 36, conditional 0, open 0, proof error 1, not reached 32, no result 0.
 * History: 97 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `6ac9e0a80cc2c38793b82a51119737037b1d1e76032ae963fba31bb2c446d4b2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `ee2c1df658b13b1968eb6be26b3dc12b24e5a295b072cec92f041a00dc99144a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

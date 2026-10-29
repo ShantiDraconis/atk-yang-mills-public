@@ -893,6 +893,6 @@
   "lean/MCore/SpectralExclusion.lean": "1e9eeb89a0a3aa560bb77d29e406a09e680f71ad4374e7c28873ad3c43f30e06",
   "lean/MCore/YangMills/B6/YM4RegulatedGapFamily.lean": "d250874c1092311999ea9a96bfdbf391ca1b5519ed8ffcd50ee7b5215eef7c91"
  },
- "published_at": "2026-10-29T06:27:32Z",
- "certificate_sha256": "d5669334a253816f0b8d5d664ccccb66a39ce78bcf47b40232a7ba8190337e35"
+ "published_at": "2026-10-29T20:16:16Z",
+ "certificate_sha256": "7083db1b046204279ae01fe7902e3387071fb3b3c94e48e1cc3ba74e64c6b75c"
 }
