@@ -1,0 +1,1044 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "atk/ym-b60-field-bundle-20261001",
+ "branch_state": "parada",
+ "head_commit": "119ba78a2feb442c33ae08b3a8639e841ff83705",
+ "head_commit_date": "2026-10-01T17:04:06+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "119ba78a2feb442c33ae08b3a8639e841ff83705",
+   "date": "2026-10-01T17:04:06+02:00",
+   "subject": "ym: compress B60 to exact field-level material bundle"
+  },
+  {
+   "commit": "b2e18a1ff6860932b0ced5d6e29af8ac9e3d86b2",
+   "date": "2026-10-01T01:43:43+02:00",
+   "subject": "ATK: validate YM B60 fidelity counterexample"
+  },
+  {
+   "commit": "36c8dd427b9c759cfe62e1e413f594a22e554a4a",
+   "date": "2026-10-01T01:43:17+02:00",
+   "subject": "ATK: formalize YM B60 fidelity counterexample"
+  },
+  {
+   "commit": "752d3b6b01df2c812ff12a71229d4c7ee6a86809",
+   "date": "2026-10-01T01:13:10+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "3a141c2a9974f46418bdf8f93997550e9e863b45",
+   "date": "2026-10-01T01:05:21+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "5c236fb9fd7566321474b7211e4e3765f9a6b5fa",
+   "date": "2026-10-01T01:04:11+02:00",
+   "subject": "ATK: refine Yang-Mills exact final producer"
+  },
+  {
+   "commit": "d64a7b2a8effb7a67adfc6bb36e5cb782f44e3ef",
+   "date": "2026-09-30T23:38:21+02:00",
+   "subject": "ATK: validate exact field-by-field final producer"
+  },
+  {
+   "commit": "73777d6f83988481ddefea6657b0d660a4c603a1",
+   "date": "2026-09-30T23:37:57+02:00",
+   "subject": "ATK: refine exact B60 field-by-field final producer"
+  },
+  {
+   "commit": "1d147a450e0ca14c5462a5305025570e246e0c44",
+   "date": "2026-09-30T22:42:41+02:00",
+   "subject": "ATK: restore corrected YM exact final producer"
+  },
+  {
+   "commit": "1ac532dd9ef3ca6fd961946ab0941e4db5c2b956",
+   "date": "2026-09-30T22:42:32+02:00",
+   "subject": "ATK: replace YM exact producer parser-invalid file"
+  },
+  {
+   "commit": "47f9c4d92bda3bed7dae87cb4c5466bcda5c6e18",
+   "date": "2026-09-30T22:42:27+02:00",
+   "subject": "ATK: fix dependent binder names in exact YM final producer"
+  },
+  {
+   "commit": "dc94f884ff611464c69e89f8ceb47c8ac265c6d0",
+   "date": "2026-09-30T22:38:06+02:00",
+   "subject": "ATK: refine exact B60 field-by-field final producer"
+  },
+  {
+   "commit": "325c729e1ef72b87d3e317d473ff3c748cc3eaf5",
+   "date": "2026-09-30T22:36:35+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "cd98518b290b9e4af009989d39b06b87dfc6f26e",
+   "date": "2026-09-30T22:33:27+02:00",
+   "subject": "ATK: refine exact B60 final producer"
+  },
+  {
+   "commit": "69bd6dbb393718d2616a96736bfbc9101e56e7ae",
+   "date": "2026-09-30T22:08:49+02:00",
+   "subject": "ATK: validate exact final producer"
+  },
+  {
+   "commit": "4727d3078164ee188c05db1c978d6cb701e942ea",
+   "date": "2026-09-30T22:08:02+02:00",
+   "subject": "ATK: refine exact final producer"
+  },
+  {
+   "commit": "6fcc1608031c944c14ea79b6f62ca688e1e66cc2",
+   "date": "2026-09-30T21:37:39+02:00",
+   "subject": "ATK: add exact field-by-field final producer"
+  },
+  {
+   "commit": "94f632407b451ed2907b698ce5aa9e4343218c17",
+   "date": "2026-09-30T21:26:33+02:00",
+   "subject": "ATK: use direct elan for FINAL_ROOT validation"
+  },
+  {
+   "commit": "c5a02802c481c13d2439797c6b8e34f3ad931a5b",
+   "date": "2026-09-30T21:24:10+02:00",
+   "subject": "ATK: validate FINAL_EXTERNAL and FINAL_ROOT"
+  },
+  {
+   "commit": "c329c5e02be5e74f2190cc36d00c436935a0131f",
+   "date": "2026-09-30T21:23:14+02:00",
+   "subject": "ATK: finalize FinalExternal and FINAL_ROOT"
+  },
+  {
+   "commit": "3026d028eb19d77a4029447566368260f519fab0",
+   "date": "2026-09-30T20:37:22+02:00",
+   "subject": "ATK: use direct elan for FINAL_ROOT gate"
+  },
+  {
+   "commit": "a060913b602d380a78ed60c6c9233168a95c5dcb",
+   "date": "2026-09-30T20:35:27+02:00",
+   "subject": "ATK: validate FINAL_EXTERNAL to FINAL_ROOT"
+  },
+  {
+   "commit": "d1b457b17f0325b5571aa1eef709947874eb0f31",
+   "date": "2026-09-30T20:31:53+02:00",
+   "subject": "ATK: finalize FINAL_EXTERNAL and FINAL_ROOT"
+  },
+  {
+   "commit": "3ea43a113a9fdf32189f1e9c3fda72391c15810e",
+   "date": "2026-09-30T20:14:28+02:00",
+   "subject": "ATK: use structural defeq unification in B60 miner"
+  },
+  {
+   "commit": "7e7f834bc57cd15e346297885a11bfc1360ad7dc",
+   "date": "2026-09-30T17:38:26+02:00",
+   "subject": "ATK: mine direct producers of terminal inhabitant types"
+  },
+  {
+   "commit": "a8eb0e19697c754dc68214c3525d3b5ff0dee90a",
+   "date": "2026-09-30T17:35:55+02:00",
+   "subject": "ATK: make type-unification mining fail-closed per declaration"
+  },
+  {
+   "commit": "609e69f77d8d8925a88d02ea90a82f81210ed70b",
+   "date": "2026-09-30T17:34:24+02:00",
+   "subject": "ATK: make inhabitation miner robust to generated structure fields"
+  },
+  {
+   "commit": "25f27dac686685ce427c88e93a8236c66604df5d",
+   "date": "2026-09-30T17:32:46+02:00",
+   "subject": "ATK: strengthen inhabitation miner to definitional type unification"
+  },
+  {
+   "commit": "7a074f8f1414ea13d8885b29a214e6a25d2beed0",
+   "date": "2026-09-30T17:30:42+02:00",
+   "subject": "ATK: qualify structure projection names in miner"
+  },
+  {
+   "commit": "d35f440aba104eaa1cbb77c7db0f3f121ced0b87",
+   "date": "2026-09-30T17:27:49+02:00",
+   "subject": "ATK: make inhabitation miner telescope traversal version-stable"
+  },
+  {
+   "commit": "24e68c5e99d16ea3b0fa934c5417619239d1aa0d",
+   "date": "2026-09-30T17:25:10+02:00",
+   "subject": "ATK: complete Lean 4.19 telescope API adaptation"
+  },
+  {
+   "commit": "92b610c867160c3fd53ff7e1937c41399f7b8833",
+   "date": "2026-09-30T17:22:58+02:00",
+   "subject": "ATK: fix Lean 4.19 inhabitation miner API"
+  },
+  {
+   "commit": "e93559cfd11030b3f82f860a8af82578520df1c8",
+   "date": "2026-09-30T17:20:01+02:00",
+   "subject": "ATK: resolve mining through lake build"
+  },
+  {
+   "commit": "7abd66f13988a9f1df89a41a30224197b3956fd9",
+   "date": "2026-09-30T17:14:00+02:00",
+   "subject": "ATK: run B60 field-by-field mining"
+  },
+  {
+   "commit": "99b76a8822534601e517b229cd93ea8fdce331b7",
+   "date": "2026-09-30T17:13:48+02:00",
+   "subject": "ATK: add field-by-field inhabitation miner for B60"
+  },
+  {
+   "commit": "f63ea46755fdf47a7610ca38b52aa2c05e632d29",
+   "date": "2026-09-30T13:55:31+02:00",
+   "subject": "ATK: add minimal terminal auto-compose workflow"
+  },
+  {
+   "commit": "cc0f20521ec0fe2b0af9eb4d64b3a27ba26eff37",
+   "date": "2026-09-30T13:55:29+02:00",
+   "subject": "ATK: proof-first composition on terminal branch"
+  },
+  {
+   "commit": "a6950ed66403034fdd0cba903f7b71460666c8d4",
+   "date": "2026-09-20T22:43:35+01:00",
+   "subject": "fix(ym-b6): use construction observable signature type"
+  },
+  {
+   "commit": "d62ae22e9a1405a26a56f12ff0aba4f4934ed36e",
+   "date": "2026-09-20T16:31:44+01:00",
+   "subject": "ci(ym-b6): certify B6.0 typed boundary without witness"
+  },
+  {
+   "commit": "d84d06a3c50d20b7075a55ef1000fd8a39529c5a",
+   "date": "2026-09-20T16:31:42+01:00",
+   "subject": "ci(ym-b6): include B6.0 concrete adapter boundary"
+  },
+  {
+   "commit": "a958b7516f37dadfa27867cec2bec903361bc849",
+   "date": "2026-09-20T16:31:28+01:00",
+   "subject": "feat(ym-b6): type concrete A1-to-K20/K30 physical adapter boundary"
+  },
+  {
+   "commit": "547929e00003bcd88b644fa4590ad8c5cbd565b0",
+   "date": "2026-09-20T16:26:05+01:00",
+   "subject": "fix(ci): remove unsupported pp.width probe"
+  },
+  {
+   "commit": "c4513a3b69c43a5455d5ad947c2de7651ddafa3f",
+   "date": "2026-09-20T16:24:51+01:00",
+   "subject": "ci(ym-a1): certify repaired frontier v2"
+  },
+  {
+   "commit": "a008558b3b3567f48e2afe01fd24ba3ab0603cec",
+   "date": "2026-09-20T16:24:49+01:00",
+   "subject": "ci(ym-a1): include repaired frontier v2"
+  },
+  {
+   "commit": "7e916932a30ee29a8efa45dc028bc1744d7359f7",
+   "date": "2026-09-20T16:24:36+01:00",
+   "subject": "audit(ym-a1): replace invalid legacy B3-B5 frontier with K20/K30 B6"
+  },
+  {
+   "commit": "eec8114195d9ea7a20e1b4562da2baf05c865b30",
+   "date": "2026-09-20T16:22:25+01:00",
+   "subject": "fix(ci): parse multiline Lean axiom footprints fail-closed"
+  },
+  {
+   "commit": "9f7dbe08a1aad8f495d17a8505dd627dfe5b3e30",
+   "date": "2026-09-20T16:18:49+01:00",
+   "subject": "ci(ym-a1): keep axiom audit records on one line"
+  },
+  {
+   "commit": "490ff3036716ada3e6386c456a9558b1e25c57d7",
+   "date": "2026-09-20T16:13:20+01:00",
+   "subject": "ci(ym-a1): certify B3-B5 phantom-bridge negative controls"
+  },
+  {
+   "commit": "1ca0bab1c95c0c1089e99d175383f17183bfe365",
+   "date": "2026-09-20T16:13:10+01:00",
+   "subject": "ci(ym-a1): include phantom-bridge adversarial module"
+  },
+  {
+   "commit": "fd643dccb42d466017ce49e60eb94602a2ffeb7f",
+   "date": "2026-09-20T16:13:05+01:00",
+   "subject": "audit(ym-a1): expose phantom B3/B4 and reduce endpoint to B1+B2"
+  },
+  {
+   "commit": "5520dbcb450a8700060d86c6f35110352c92bf87",
+   "date": "2026-09-20T16:11:54+01:00",
+   "subject": "ci(ym-a1): certify B5 triviality negative control"
+  },
+  {
+   "commit": "969510cc5a5c772337081fadaf8cecc6a99a9c24",
+   "date": "2026-09-20T16:11:43+01:00",
+   "subject": "ci(ym-a1): include B5 triviality adversarial module"
+  },
+  {
+   "commit": "ed067b91909b7f4bde0aaf721589ccb26bd64389",
+   "date": "2026-09-20T16:11:32+01:00",
+   "subject": "audit(ym-a1): expose trivial inhabitance of current B5 uniformity"
+  },
+  {
+   "commit": "a78856017c7f94b029f6f5a98cb47ade91a20262",
+   "date": "2026-09-20T09:04:37+01:00",
+   "subject": "audit: preserve stabilization-kernel exact-crossing line"
+  },
+  {
+   "commit": "1bfd25f1045d1afe0e4984a2b84e49da6ca51215",
+   "date": "2026-09-20T08:42:13+01:00",
+   "subject": "audit: record observed state-2 behavioral signature"
+  },
+  {
+   "commit": "a63ebba0a98a973ec8672e7f813d6b12318c7f84",
+   "date": "2026-09-20T08:39:11+01:00",
+   "subject": "audit: install behavioral signature calculator protocol"
+  },
+  {
+   "commit": "c67ce0e398b23f4d1fe89e2f891219017309ff1b",
+   "date": "2026-09-20T04:06:33+01:00",
+   "subject": "audit: install behavioral signature calculator contract"
+  },
+  {
+   "commit": "0c111210315c0130eb44b4ea3177167f7d01bdb5",
+   "date": "2026-09-20T01:46:29+01:00",
+   "subject": "cert: freeze GREEN b7131eb4"
+  },
+  {
+   "commit": "b7131eb4a74b7396f1c8ca4d519d9d5726620845",
+   "date": "2026-09-20T00:51:03+01:00",
+   "subject": "research: add Lean parallel residual return interface"
+  },
+  {
+   "commit": "bc010fa0c7c331454b0f58f4ce197b59d9514ff3",
+   "date": "2026-09-20T00:48:55+01:00",
+   "subject": "research: wire parallel closure chain to exact frontier"
+  },
+  {
+   "commit": "2476513e7310bd70bb3f266cf8ccbbc10011d264",
+   "date": "2026-09-20T00:31:33+01:00",
+   "subject": "research: map pure-math path to exact final frontier"
+  },
+  {
+   "commit": "31179cd816f562f59d6a4fd3affb86a53b9fd1b2",
+   "date": "2026-09-19T10:44:51+00:00",
+   "subject": "fix(ym-a1): pin Volume binder type and land B1-B5 frontier decomposition"
+  },
+  {
+   "commit": "aa5708f434155bfb6bf5fec5d2c11bc18fcbcf76",
+   "date": "2026-09-19T10:39:57+00:00",
+   "subject": "fix(ym-a1): mark toy positive-control witness noncomputable"
+  },
+  {
+   "commit": "9f8a4ca334b1662adfeb93dc882c2938f5881330",
+   "date": "2026-09-19T10:35:57+00:00",
+   "subject": "audit(ym-a1): add Test-9 positive control witness for A1ScientificWitness"
+  },
+  {
+   "commit": "c32dcc512d9b05d69350e9b1d74eee5793e79a16",
+   "date": "2026-09-19T10:31:39+00:00",
+   "subject": "fix(ym-a1): pin scalar field in transfer symmetry"
+  },
+  {
+   "commit": "a6210f7b0d6ff8852993673eac155fc3a9032540",
+   "date": "2026-09-19T10:26:19+00:00",
+   "subject": "fix(ym-a1): elaborate hardened A1 witness structures"
+  },
+  {
+   "commit": "1503df7fc1c9cf2296d5c5a207695e1bdfc9dfec",
+   "date": "2026-09-19T10:41:57+02:00",
+   "subject": "ci(ym-a1): compile hardened witness and audit standard footprint"
+  },
+  {
+   "commit": "1143619331f3e75af58076702b0a29638bd2556e",
+   "date": "2026-09-19T10:41:50+02:00",
+   "subject": "feat(ym-a1): type scientific witness boundary"
+  },
+  {
+   "commit": "bf4bd204553d7ad3eb0b5fd1790f3299204f0209",
+   "date": "2026-09-19T09:38:47+02:00",
+   "subject": "ci(ym): replace umbrella clean rebuild with targeted certification"
+  },
+  {
+   "commit": "4660637bd1e597fda4a947ffe927588251e61553",
+   "date": "2026-09-19T03:14:05+02:00",
+   "subject": "fix(ci): remove YAML-sensitive G0 heredoc"
+  },
+  {
+   "commit": "9bc36e41e3c55e6fedf0a3317b4d910813582af9",
+   "date": "2026-09-19T03:13:19+02:00",
+   "subject": "fix(ci): indent G0 manifest diagnostic heredoc"
+  },
+  {
+   "commit": "d9dd06d7154d232f5157f887c31798cefec1d5ef",
+   "date": "2026-09-19T03:04:57+02:00",
+   "subject": "ci(ym): distinguish declared pin from resolved manifest"
+  },
+  {
+   "commit": "49aabda1e6cbabbaef11fc567485fc85f84b07a0",
+   "date": "2026-09-19T01:12:37+02:00",
+   "subject": "ci(ym): pin certificate actions by immutable SHA"
+  },
+  {
+   "commit": "b4da6466cfd771ad0cdd95894e1c66eb19c7aa5d",
+   "date": "2026-09-19T01:11:11+02:00",
+   "subject": "ci(ym): separate mechanical reproduction from G6b axiom gate"
+  },
+  {
+   "commit": "ad2c29981bf627b02ec8af5579a8ed4edba85db4",
+   "date": "2026-09-19T01:03:13+02:00",
+   "subject": "ci(ym): make G6b axiom gate fail-closed and self-testing"
+  },
+  {
+   "commit": "07c93f731dc8bceb83dc14bc161032bf7577e9c1",
+   "date": "2026-09-19T00:54:41+02:00",
+   "subject": "ci(ym): harden G6b axiom footprint gate"
+  },
+  {
+   "commit": "28f96be22949af2cc962e4c15953532a2caebdf7",
+   "date": "2026-09-19T00:54:15+02:00",
+   "subject": "fix(ym-a1): qualify regulated measure type"
+  },
+  {
+   "commit": "307a80c8e84fa45220a62c696baf38a4621b3681",
+   "date": "2026-09-19T00:44:43+02:00",
+   "subject": "audit(ym): record Lake-generated A1 lock provenance"
+  },
+  {
+   "commit": "12c6c4df82fbe24901654140abd08091d42d6b9e",
+   "date": "2026-09-18T22:43:25+00:00",
+   "subject": "infra(ym): materialize Lake-generated c44e0c8 lock"
+  },
+  {
+   "commit": "df8aa7200ed739414c9cea083c2590d56655c2ba",
+   "date": "2026-09-19T00:41:18+02:00",
+   "subject": "ci(ym): add Lake-only c44e0c8 lock generator"
+  },
+  {
+   "commit": "8c148cd898676434e93bff5a6b25a4ae97dae73c",
+   "date": "2026-09-19T00:05:58+02:00",
+   "subject": "ci(ym): make pinned manifest gate diagnostic"
+  },
+  {
+   "commit": "57bed276b29b50abd01ae469fc72ae36431c5fac",
+   "date": "2026-09-18T23:35:46+02:00",
+   "subject": "ci(ym): remove invalid cache executable dependency"
+  },
+  {
+   "commit": "054f10454015fb7fc202606e1d0c2902ec3dc983",
+   "date": "2026-09-18T23:08:46+02:00",
+   "subject": "fix(ym): bind measurable state and measure in regulated A1 fiber"
+  },
+  {
+   "commit": "29410f1833eda0713c7406ded5b06811822589d9",
+   "date": "2026-09-18T22:16:04+02:00",
+   "subject": "fix(ym): repair dependent Measure elaboration in A1"
+  },
+  {
+   "commit": "0ece681f392996d2db73d2a11a9f84a1eac850a7",
+   "date": "2026-09-18T22:04:19+02:00",
+   "subject": "ci(ym): compile A1 hardening through umbrella build"
+  },
+  {
+   "commit": "cf9db8b6a323cd1d8df418706dba91929c08328f",
+   "date": "2026-09-18T22:01:11+02:00",
+   "subject": "refactor(ym): harden A1 uniformity with explicit filters"
+  },
+  {
+   "commit": "6d1af474ee978ad8f53673ed221a089a5d0a2f3f",
+   "date": "2026-09-18T21:58:54+02:00",
+   "subject": "test(ym): add A1 cutoff-volume adversarial uniformity firewalls"
+  },
+  {
+   "commit": "aaf6a3f0e29474c30d9e894f2ac508ae28581d31",
+   "date": "2026-09-18T21:58:45+02:00",
+   "subject": "feat(ym): add fail-closed concrete A1 regulated construction"
+  },
+  {
+   "commit": "80faf0a5ce3d76b62ecc28d79d8db5ebbde53abd",
+   "date": "2026-09-18T19:22:05+02:00",
+   "subject": "fix(ym): close physical cutoff firewall arithmetic"
+  },
+  {
+   "commit": "1554c349dcd375b765af7af545805887ec3277ca",
+   "date": "2026-09-18T03:12:36+02:00",
+   "subject": "fix(ci): make physical-gap axiom audit output-robust"
+  },
+  {
+   "commit": "d3016239936d24758bd92d64746aee278f4c5577",
+   "date": "2026-09-18T03:05:32+02:00",
+   "subject": "ci(ym): test physical scaling and counterexample firewalls"
+  },
+  {
+   "commit": "b6e2e6f4114be41915dccc9b4cf53c60934153d8",
+   "date": "2026-09-18T03:05:24+02:00",
+   "subject": "build(ym): include physical gap scaling audit"
+  },
+  {
+   "commit": "7eb49f7ab0cb42cc66e89be7793d50f784684b66",
+   "date": "2026-09-18T03:05:17+02:00",
+   "subject": "feat(ym): formalize physical gap scaling and adversarial firewalls"
+  },
+  {
+   "commit": "eedcf7948632715fa62aee120ceecacfa449924d",
+   "date": "2026-09-17T21:11:12+02:00",
+   "subject": "fix(spectral-exclusion): normalize G1 F3 and contradiction algebra"
+  },
+  {
+   "commit": "667f54257c9db6282b45193cc74e5b87b8090c0f",
+   "date": "2026-09-17T20:53:39+02:00",
+   "subject": "fix(spectral-exclusion): remove forbidden lexeme from F3 doc comment"
+  },
+  {
+   "commit": "3b027765d1ba77d9c2ebf4ae9e81ee730864c7e9",
+   "date": "2026-09-17T18:40:02+02:00",
+   "subject": "Spectral S1: close exponential growth and pointwise-uniform firewall"
+  },
+  {
+   "commit": "72bb2e591b3267e12b9e3847b2f37104a9802065",
+   "date": "2026-09-17T18:23:34+02:00",
+   "subject": "Spectral S1 fix: normalize exponential products explicitly"
+  },
+  {
+   "commit": "eba0ef7e89467ad1ca7023eb18da94df98e34bba",
+   "date": "2026-09-17T17:53:06+02:00",
+   "subject": "Spectral S1: include exclusion core in umbrella"
+  },
+  {
+   "commit": "e9d90ea4f8b6db57fd3b74c67a155173e10b4b9a",
+   "date": "2026-09-17T17:52:56+02:00",
+   "subject": "Spectral S1: prove dense positive-measure exclusion core"
+  },
+  {
+   "commit": "2db1591442141941e09f6cd01dd5af8799376eb1",
+   "date": "2026-09-17T16:14:57+02:00",
+   "subject": "Spectral adapter: include concrete adapter in umbrella build"
+  },
+  {
+   "commit": "5dd52c3f0d09291db0f0d0a1173df466ab58a2f7",
+   "date": "2026-09-17T16:14:45+02:00",
+   "subject": "Spectral adapter: expose concrete Hilbert-to-K14 obligations"
+  },
+  {
+   "commit": "98f2b6a72a181b5ffebe097036f644f28a89c3d4",
+   "date": "2026-09-17T15:57:23+02:00",
+   "subject": "CI fix: resolve Mathlib manifest before lean-action build"
+  },
+  {
+   "commit": "7fd90fc26a6b1b4633f4116e2f60c0e2620ee89e",
+   "date": "2026-09-17T15:32:23+02:00",
+   "subject": "Spectral adapter CI: hydrate pinned Mathlib and compile spectral modules"
+  },
+  {
+   "commit": "64936eb2642f7551b9f8e82a54c43ef5aad39789",
+   "date": "2026-09-17T15:32:03+02:00",
+   "subject": "Spectral adapter: pin Mathlib v4.19.0-compatible revision"
+  },
+  {
+   "commit": "035617b9961b59c1f93b08d7192992798be2fd0e",
+   "date": "2026-09-17T14:38:35+02:00",
+   "subject": "SpectralCore: record concrete Mathlib spectral capability assessment"
+  },
+  {
+   "commit": "4a50149056d382b602a2cbba05c86b93d66b55d8",
+   "date": "2026-09-17T13:47:56+02:00",
+   "subject": "SpectralCore CI: test minimal analytic frontier and provenance firewalls"
+  },
+  {
+   "commit": "2856397b93227bc257a36c9dc9aceb2701a1fcb4",
+   "date": "2026-09-17T13:47:36+02:00",
+   "subject": "SpectralCore: add analytic frontier to umbrella"
+  },
+  {
+   "commit": "0418008f106ad55d356521caf02898db94a99cb0",
+   "date": "2026-09-17T13:47:22+02:00",
+   "subject": "SpectralCore: isolate minimal real decay-to-spectrum obligation"
+  },
+  {
+   "commit": "0fefa9a9d04a56e52e4c92dd99eac61884ddf0e4",
+   "date": "2026-09-17T13:21:14+02:00",
+   "subject": "Docs: formalize cross-repository certified import semantics"
+  },
+  {
+   "commit": "c48bf30894af7f353dde2419aa431cd26d722804",
+   "date": "2026-09-17T13:21:02+02:00",
+   "subject": "Provenance: seed immutable certificate index at K30 root"
+  },
+  {
+   "commit": "ade4ed23cc647bfe497263a30ad76e43a736cfb4",
+   "date": "2026-09-17T13:20:53+02:00",
+   "subject": "Provenance: encode minimal FinalCore dependency DAG"
+  },
+  {
+   "commit": "2a40165657ad41aec8c10871134a4e0310323091",
+   "date": "2026-09-17T13:20:44+02:00",
+   "subject": "Provenance: add fail-closed cross-repository import registry"
+  },
+  {
+   "commit": "ba554eec718a99f59792c4b11dd3a2bd67ce5b9c",
+   "date": "2026-09-17T13:15:38+02:00",
+   "subject": "FinalCore CI: dense preflight, axiom and endpoint firewalls"
+  },
+  {
+   "commit": "9428dbd136efe787c2e01dda3115cfe05672f4d5",
+   "date": "2026-09-17T13:15:09+02:00",
+   "subject": "FinalCore: add compressed endpoint to umbrella build"
+  },
+  {
+   "commit": "cb4f708fb6454eb43636baa6c2a0dc355b7ac01f",
+   "date": "2026-09-17T13:14:56+02:00",
+   "subject": "FinalCore: compress certified chain to minimal scientific frontier"
+  },
+  {
+   "commit": "9aecfca6a10024585b4dbf20f849e1e75265a9e6",
+   "date": "2026-09-17T10:49:36+02:00",
+   "subject": "K30 fix: constructors for clustering data live in Type"
+  },
+  {
+   "commit": "48407492c0f51d88090d903cd196326534193810",
+   "date": "2026-09-17T10:29:49+02:00",
+   "subject": "K30 CI: enforce corrected clustering semantics and one-way uniformity"
+  },
+  {
+   "commit": "ed595dde2641e7ab2008b0ae399859d799a284ea",
+   "date": "2026-09-17T10:29:33+02:00",
+   "subject": "K30: correct clustering semantics with explicit prefactor and mass scale"
+  },
+  {
+   "commit": "fa2e37e0b58c5d93844bf768f227130ff3e78dbf",
+   "date": "2026-09-17T10:16:05+02:00",
+   "subject": "K30 CI: certify constructor correction and endpoint propagation"
+  },
+  {
+   "commit": "958afe3eae8bf0aebf2e4bd519817357f2d43714",
+   "date": "2026-09-17T10:15:54+02:00",
+   "subject": "K30 fix: use defs for data constructors and propagate witness to endpoint"
+  },
+  {
+   "commit": "c1429df27eededfe41b622e2adb3edb4c84c43aa",
+   "date": "2026-09-17T09:45:49+02:00",
+   "subject": "K30 fix: elaborate dependent spectral exclusion witnesses explicitly"
+  },
+  {
+   "commit": "a6d0520f04c428fa67004c8b0a38ed907b29c80d",
+   "date": "2026-09-17T09:41:29+02:00",
+   "subject": "K30 CI: audit decomposed spectral-transfer obligations"
+  },
+  {
+   "commit": "718da4591fe8a984605ae1eca5a0cea4eeee7213",
+   "date": "2026-09-17T09:41:17+02:00",
+   "subject": "K30: add scientific transfer obligations to umbrella"
+  },
+  {
+   "commit": "aa6c77a0d112376ee8375b996037bfbeb1b8ed44",
+   "date": "2026-09-17T09:41:07+02:00",
+   "subject": "K30: decompose spectral transfer into explicit scientific obligations"
+  },
+  {
+   "commit": "cf4272aba660622bb4c1274f552d8e794e2efc2b",
+   "date": "2026-09-17T09:32:28+02:00",
+   "subject": "K29 CI: certify spectral-realization bridge firewall"
+  },
+  {
+   "commit": "3900bf27f3aba1b60fd476ee7a3c04e70e483ff6",
+   "date": "2026-09-17T09:32:17+02:00",
+   "subject": "K29: add spectral realization decomposition to umbrella"
+  },
+  {
+   "commit": "6239c2c174042186c5ae5683a84eca1d6f1b33de",
+   "date": "2026-09-17T09:32:09+02:00",
+   "subject": "K29: decompose final frontier bridge into spectral-gap realization"
+  },
+  {
+   "commit": "f7021b456f737815e0a51522b64a213be9030816",
+   "date": "2026-09-17T09:25:40+02:00",
+   "subject": "K28 CI fix: track parameterized conditional mass-gap endpoint"
+  },
+  {
+   "commit": "df27ccf90a6763bfdef5b60e0c22764d0d38795e",
+   "date": "2026-09-17T09:25:29+02:00",
+   "subject": "K28 fix: match parameterized mass-gap bridge and conjunction frontier"
+  },
+  {
+   "commit": "9a9e976e6fac985d27542ee814a4096520e21e98",
+   "date": "2026-09-17T05:25:06+02:00",
+   "subject": "K28 CI: certify assembled-frontier conditional endpoint firewall"
+  },
+  {
+   "commit": "34ad0cf11814356f3768df084b166c2ba1c31054",
+   "date": "2026-09-17T05:24:55+02:00",
+   "subject": "K28: add audited frontier assembly to umbrella"
+  },
+  {
+   "commit": "5e7c29838cfe3264ead3d13287c2b4eb9376a062",
+   "date": "2026-09-17T05:22:26+02:00",
+   "subject": "K28: assemble audited frontier blocks with conditional endpoint firewall"
+  },
+  {
+   "commit": "3ed19597cad9e32df303f775fe630dfb1cfbd1ea",
+   "date": "2026-09-17T05:15:56+02:00",
+   "subject": "K27 CI: certify pointwise-vs-uniform gap and limit firewall"
+  },
+  {
+   "commit": "a00ba62cd5c3378caf8e005f008490e95329b7c2",
+   "date": "2026-09-17T05:15:45+02:00",
+   "subject": "K27: add uniform-gap limit frontier to umbrella"
+  },
+  {
+   "commit": "a81769c94b56070b026dd698eed32c3b656a58e6",
+   "date": "2026-09-17T04:55:48+02:00",
+   "subject": "K27: isolate uniform regulated gap and limit-preservation frontier"
+  },
+  {
+   "commit": "7b5e2501344e8f9c09db120ab7ce2f15f4567be5",
+   "date": "2026-09-17T04:42:11+02:00",
+   "subject": "K26 CI: certify observable-sector decay-to-spectrum firewall"
+  },
+  {
+   "commit": "cf2f07e86945ba76abc8494b5267ad9fa766124e",
+   "date": "2026-09-17T04:42:01+02:00",
+   "subject": "K26: add observable-sector spectral bridge to umbrella"
+  },
+  {
+   "commit": "15e21b762b8acaf9d116c36cbe06e4f1f8ee9201",
+   "date": "2026-09-17T04:32:40+02:00",
+   "subject": "K26: isolate observable cyclicity and decay-to-spectrum bridge"
+  },
+  {
+   "commit": "bfb080e0f6ca567d35eb2b3245c45bd09722d818",
+   "date": "2026-09-17T04:25:56+02:00",
+   "subject": "K25 fix: make frontier parameter explicit in infrared bridge"
+  },
+  {
+   "commit": "8e68642d1f0c6eb424416463c0f382898eb336a8",
+   "date": "2026-09-17T04:22:13+02:00",
+   "subject": "K25 CI: certify pointwise-vs-uniform clustering firewall"
+  },
+  {
+   "commit": "b2959d16eb3cf5a0f3ee4ab5fd9b11a3a876a46a",
+   "date": "2026-09-17T04:22:03+02:00",
+   "subject": "K25: add uniform clustering frontier to umbrella"
+  },
+  {
+   "commit": "d590d29f8d61e6afda3c3ecaa7e501b45a065bfe",
+   "date": "2026-09-17T04:11:29+02:00",
+   "subject": "K25: separate uniform exponential clustering from pointwise decay"
+  },
+  {
+   "commit": "11029a31bcf1696f55dfeefd2e30806f654582ae",
+   "date": "2026-09-17T04:06:56+02:00",
+   "subject": "K24 CI: certify regulator-measure uniformity frontier"
+  },
+  {
+   "commit": "039a8506e67afbb6282df037b84ee828690f7295",
+   "date": "2026-09-17T04:06:46+02:00",
+   "subject": "K24: add regulator-measure frontier to umbrella"
+  },
+  {
+   "commit": "c7e13928f1ae453ca46227e1745a6d2acbac773f",
+   "date": "2026-09-17T04:06:38+02:00",
+   "subject": "K24: expose regulator-measure construction and uniformity frontier"
+  },
+  {
+   "commit": "5f8fc05372f3bb728ff9a8070dcf0e831726aade",
+   "date": "2026-09-17T03:57:43+02:00",
+   "subject": "K23 CI: certify constructive reconstruction obligation split"
+  },
+  {
+   "commit": "821c6e2c46bec8b16960ea41ae8442603f3609ef",
+   "date": "2026-09-17T03:57:32+02:00",
+   "subject": "K23: add constructive reconstruction refinement to umbrella"
+  },
+  {
+   "commit": "2699bcfad8d9badd6c0b688be4bafacb557a4de1",
+   "date": "2026-09-17T03:57:24+02:00",
+   "subject": "K23: refine constructive YM4 reconstruction obligations"
+  },
+  {
+   "commit": "153d1be9d94bfa3c345da1b41a6306f066c8030b",
+   "date": "2026-09-17T03:25:58+02:00",
+   "subject": "K22 CI: certify scientific block partition without promotion"
+  },
+  {
+   "commit": "1c001efa099d42e612f3324f3a6cd42fd2d31aba",
+   "date": "2026-09-17T03:25:48+02:00",
+   "subject": "K22: add scientific block partition to umbrella"
+  },
+  {
+   "commit": "4fe1ff7ee28864c79c4ed9ac07b15df5849fa589",
+   "date": "2026-09-17T03:25:40+02:00",
+   "subject": "K22: partition scientific witnesses into construction IR and limit blocks"
+  },
+  {
+   "commit": "0352c6afb7e9255bf0fc777269984a2def047080",
+   "date": "2026-09-17T03:22:50+02:00",
+   "subject": "K21 CI: certify explicit scientific witness obligations"
+  },
+  {
+   "commit": "34f92177be15641c93b97f16d6f365a6103e78d0",
+   "date": "2026-09-17T03:22:38+02:00",
+   "subject": "K21: add frontier witness decomposition to umbrella"
+  },
+  {
+   "commit": "a7442c9a3438c347ee70c589b773d6d5b530ff9b",
+   "date": "2026-09-17T03:22:30+02:00",
+   "subject": "K21: decompose scientific frontier into explicit witness obligations"
+  },
+  {
+   "commit": "69e4aa39adabe61d07e161395a7cf8247b9aff40",
+   "date": "2026-09-17T02:43:31+02:00",
+   "subject": "K20 CI: certify final interface-chain epistemic boundary"
+  },
+  {
+   "commit": "b1bf69e5f85546b387e8205ac9a09d8e86854ebc",
+   "date": "2026-09-17T02:43:21+02:00",
+   "subject": "K20: add final audit boundary to umbrella"
+  },
+  {
+   "commit": "cdb2e9533601bf01297c6d9e2e33a79b4fc64da0",
+   "date": "2026-09-17T02:43:14+02:00",
+   "subject": "K20: add final scientific-frontier audit boundary"
+  },
+  {
+   "commit": "3d89dc38f64d2f5a243141c54f91ecd2d7479ce7",
+   "date": "2026-09-17T02:31:01+02:00",
+   "subject": "K19 CI: certify uniform regulator-removal frontier"
+  },
+  {
+   "commit": "6dbef05189beff70d467dbb923e15c86ca0a8f06",
+   "date": "2026-09-17T02:30:50+02:00",
+   "subject": "K19: add regulator-removal interfaces to umbrella"
+  },
+  {
+   "commit": "5a6260d367cc3d149636232fbedf33f92c1ee8de",
+   "date": "2026-09-17T02:30:42+02:00",
+   "subject": "K19: formalize uniform regulator-removal gap interfaces"
+  },
+  {
+   "commit": "998ebb4746b8ee6d278c5fe857f2e98adbb23141",
+   "date": "2026-09-17T01:13:38+02:00",
+   "subject": "K18 CI: certify explicit spectral bridge frontier"
+  },
+  {
+   "commit": "97214490cd1fd0ed8f6ae95cf839c20bb1b0ccc5",
+   "date": "2026-09-17T01:13:26+02:00",
+   "subject": "K18: add spectral bridge to umbrella"
+  },
+  {
+   "commit": "4df7f11303c3d29f14932a9c5e090baf27d0ec14",
+   "date": "2026-09-17T01:13:18+02:00",
+   "subject": "K18: add explicit semigroup spectral-gap bridge"
+  },
+  {
+   "commit": "1f7dd037770ea85cdded27da465dbad9f62506a4",
+   "date": "2026-09-17T00:39:31+02:00",
+   "subject": "K17 CI: certify reconstruction and cyclicity frontier"
+  },
+  {
+   "commit": "17495de1808f6cb851610b2d987988a02507bd62",
+   "date": "2026-09-17T00:39:20+02:00",
+   "subject": "K17: add reconstruction bridge to umbrella"
+  },
+  {
+   "commit": "851e0d85f26a2fd3d69092a90b281bfb70a8e86a",
+   "date": "2026-09-17T00:39:11+02:00",
+   "subject": "K17: place reconstruction bridge in Lean source tree"
+  },
+  {
+   "commit": "0a4d694024fe573059f3b2ccb37e0d55175aaff8",
+   "date": "2026-09-17T00:28:32+02:00",
+   "subject": "K17: add reconstruction and cyclicity bridge interfaces"
+  },
+  {
+   "commit": "c8cdc017a2e32ab4404a751bdc9f129a0451f2dc",
+   "date": "2026-09-16T23:55:05+02:00",
+   "subject": "ci(K16): trigger dedicated fail-closed certification"
+  },
+  {
+   "commit": "07260998384c9608c2b5542437ecca88d4dc9c51",
+   "date": "2026-09-16T22:25:11+02:00",
+   "subject": "K16 CI: certify obligation DAG and fail-closed frontier"
+  },
+  {
+   "commit": "e798579cc50aeb6fa06f86218817f69992c25c36",
+   "date": "2026-09-16T22:24:59+02:00",
+   "subject": "K16: add scientific obligation DAG to umbrella"
+  },
+  {
+   "commit": "c13dc3a85096dba8c73c5127a02b54ab98b1c6e2",
+   "date": "2026-09-16T22:24:52+02:00",
+   "subject": "K16: type non-circular scientific obligation DAG"
+  },
+  {
+   "commit": "7a3c5e3f40d7cf767c0cd5414d18e76f6614f87f",
+   "date": "2026-09-16T22:16:01+02:00",
+   "subject": "K15 CI: certify clustering decomposition and negative firewall"
+  },
+  {
+   "commit": "ababec2084f4b6c78dedf91a1cf43adb4da43c67",
+   "date": "2026-09-16T22:15:51+02:00",
+   "subject": "K15: add clustering frontier decomposition to umbrella"
+  },
+  {
+   "commit": "ecca5b0ad18c6595c60e0837b4b8e89abd465587",
+   "date": "2026-09-16T22:15:43+02:00",
+   "subject": "K15: decompose uniform clustering frontier into typed subobligations"
+  },
+  {
+   "commit": "805fcb222a31c598c361baa6de4a59eb00554d0f",
+   "date": "2026-09-16T22:15:31+02:00",
+   "subject": "cert(K14): record GREEN certificate run 35125569839"
+  },
+  {
+   "commit": "eca85b67f4238194ed36f146a0c6d349275c802f",
+   "date": "2026-09-16T19:01:18+02:00",
+   "subject": "fix(K14 CI): align negative firewall with dependency-light gap interface"
+  },
+  {
+   "commit": "f521a2a2f9a47a5cbbc733cb84a2a707e4d41c8e",
+   "date": "2026-09-16T18:08:59+02:00",
+   "subject": "fix(K14): remove unavailable real-analysis assumptions and correct vacuum zero"
+  },
+  {
+   "commit": "27981887b0afbbd284968d53c1f9be402273d18f",
+   "date": "2026-09-16T17:40:39+02:00",
+   "subject": "K14 CI: certify formal DAG and preserve open bridge"
+  },
+  {
+   "commit": "18853d7585a847c8a0a2115f0864508e0219febd",
+   "date": "2026-09-16T17:40:26+02:00",
+   "subject": "K14: add mass-gap DAG to umbrella"
+  },
+  {
+   "commit": "2f21fff99101f498f28866cdb75ff98ddbbc50ed",
+   "date": "2026-09-16T17:40:16+02:00",
+   "subject": "K14: formalize mass-gap DAG and open scientific bridge"
+  },
+  {
+   "commit": "dcb7a17275f00a297bbcab1ebfc33604270d1ee5",
+   "date": "2026-09-16T13:13:26+02:00",
+   "subject": "K13 CI: certify physical frontier"
+  },
+  {
+   "commit": "4c30a0d0210eb74cf3d8e30dbb2de8df71c0f1d1",
+   "date": "2026-09-16T13:13:05+02:00",
+   "subject": "K13: export physical frontier"
+  },
+  {
+   "commit": "345e947b6e144998d2b506efd0b013f4ac3bcf58",
+   "date": "2026-09-16T13:12:49+02:00",
+   "subject": "K13: type physical Hilbert and Hamiltonian frontier"
+  },
+  {
+   "commit": "760f1ed196a8a526ce0b27d4b6e20fa05040b9ea",
+   "date": "2026-09-16T13:07:35+02:00",
+   "subject": "K12 CI: test reconstruction frontier"
+  },
+  {
+   "commit": "b99b5ffa4c72d9cd02607850259fcfb4f2e3cb5a",
+   "date": "2026-09-16T13:07:15+02:00",
+   "subject": "K12: export reconstruction frontier"
+  },
+  {
+   "commit": "a9e9acc7e4a9be3018d4b7c6e556616a16358e75",
+   "date": "2026-09-16T13:07:01+02:00",
+   "subject": "K12: type reconstruction frontier"
+  },
+  {
+   "commit": "905010cf4acef041234e1c5d9837c5deb5b7cf49",
+   "date": "2026-09-16T13:03:48+02:00",
+   "subject": "K11 CI: certify quantization frontier without promotion"
+  },
+  {
+   "commit": "b202a24c51ef4e168dd3857d0c4b36de0addf79a",
+   "date": "2026-09-16T13:03:27+02:00",
+   "subject": "K11: export quantization frontier"
+  },
+  {
+   "commit": "8f455e20b350d684ece1813b0f7031d7044d155d",
+   "date": "2026-09-16T13:03:08+02:00",
+   "subject": "K11: type quantization frontier without promotion"
+  },
+  {
+   "commit": "7e12c1e019de646b3d82b0fe265d0787b7443704",
+   "date": "2026-09-16T12:57:50+02:00",
+   "subject": "K10 CI: certify classical laws and preserve open frontier"
+  },
+  {
+   "commit": "27be2ef1b861d879fd0b005bbc2ffa2fb48ba9f2",
+   "date": "2026-09-16T12:57:33+02:00",
+   "subject": "K10: export classical laws from umbrella"
+  },
+  {
+   "commit": "691d877034bb374314cab22a4f5c32f6739431b0",
+   "date": "2026-09-16T12:57:21+02:00",
+   "subject": "K10: add classical gauge law firewall"
+  },
+  {
+   "commit": "9349644d32fea28e625a59d49b3ec466d93943fe",
+   "date": "2026-09-16T12:46:30+02:00",
+   "subject": "K9 CI: certify classical interface and no-promotion firewall"
+  },
+  {
+   "commit": "2c2d40a0c592e676a2a7e80ffd350000378eaa93",
+   "date": "2026-09-16T12:45:09+02:00",
+   "subject": "K9: add fail-closed classical gauge interface"
+  },
+  {
+   "commit": "a36e79208a5daa8f3cbc3b58db8b753d33291856",
+   "date": "2026-09-16T12:16:02+02:00",
+   "subject": "K8: include K7-K8 in umbrella library"
+  },
+  {
+   "commit": "7fc48686346777031298b55bcb0f281b9d53ae68",
+   "date": "2026-09-16T12:15:39+02:00",
+   "subject": "K8: formalize Yang-Mills target decomposition firewall"
+  },
+  {
+   "commit": "93fc7e305173871083f46bfb9a29bbff92561cb0",
+   "date": "2026-09-15T22:06:39+02:00",
+   "subject": "K7: certify explicit structural gates"
+  },
+  {
+   "commit": "00f22744e6ba1777aed1d5a30247a6c9160a0c71",
+   "date": "2026-09-15T21:25:07+02:00",
+   "subject": "K7: add audit reachability checkpoint"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.AutoCompose.extract",
+   "file": "lean/MCore/AutoCompose.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (c : TheoremCertificate P) : P"
+  },
+  {
+   "name": "MCore.YangMills.A1.Final.trivial_FINAL_ROOT_for_every_construction",
+   "file": "lean/MCore/YangMills/A1/YMCurrentModelCollapse.lean",
+   "line": 112,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(C : RegulatedYM4Construction) : FINAL_ROOT trivialPhysicalData trivialHamiltonian trivialGapScale"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "ea0167b7a074dfadfabc60d011a971708863d46ced8dff7d6d37cc4c20640a6e",
+  "lakefile.toml": "b7d820bc116202b3ddbda44476e51f4bf3f223fd107ae185dbaf4f9297856565",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/AutoCompose.lean": "8e2e4f8168eac1339f28185c50fffac3786afeef7a88ebacdc93d9e260fa2a69",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/K1.lean": "e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90",
+  "lean/MCore/K2.lean": "5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "df7efeffa1d1e97773ae3882ae668e75970728f39d3e1f68f27341c1ac048bd6"
+}

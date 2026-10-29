@@ -1,0 +1,82 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "k3-staging",
+ "branch_state": "parada",
+ "head_commit": "7844e7839e38b10c47cf8601eb5e6ce1a3fcb161",
+ "head_commit_date": "2026-09-15T17:40:45+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "7844e7839e38b10c47cf8601eb5e6ce1a3fcb161",
+   "date": "2026-09-15T17:40:45+02:00",
+   "subject": "K3: mark committed predictor snapshot as non-evidence"
+  },
+  {
+   "commit": "4e1830d42f7d7f4bf2b7f46431c48b687f5d1aa2",
+   "date": "2026-09-15T17:39:19+02:00",
+   "subject": "K3 CI: certify predictive gap firewall and clean reproduction"
+  },
+  {
+   "commit": "f00386c88c15e96e8f339a419024b5f620779a35",
+   "date": "2026-09-15T17:39:01+02:00",
+   "subject": "K3: add conservative G8 obligation predictor"
+  },
+  {
+   "commit": "e7736257dd5c5052fb9401d442ad0e441dc18b4d",
+   "date": "2026-09-15T17:38:45+02:00",
+   "subject": "K3: add CI-visible attack evidence"
+  },
+  {
+   "commit": "0afd17869639b398c9ff168bc649d8621ca68afe",
+   "date": "2026-09-15T17:38:27+02:00",
+   "subject": "K3: add typed frontier gap"
+  },
+  {
+   "commit": "48e7c8c3461b33234af75aeabf113f12b8e62cee",
+   "date": "2026-09-15T17:38:09+02:00",
+   "subject": "K3: add predictive gap firewall"
+  },
+  {
+   "commit": "213e0eb25d891a105c8fd47a8aaa4f25bfa95944",
+   "date": "2026-09-15T17:37:47+02:00",
+   "subject": "K3: wire predictive gap firewall into CI closure"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.k3_attack_route_only_holds",
+   "file": "lean/MCore/AttackDAG/K3AlgebraAttacks.lean",
+   "line": 6,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.k3_attack_route_only"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "f2e10b33200cf5c64f7ede34446b43f22956af06c208ad426db6e2a20dfa913e",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/AttackDAG/K3AlgebraAttacks.lean": "b1e63b4621d49eddb96c6dcfafcf746de16f8d29d6371f029ce51cdb2327a777",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/K1.lean": "e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90",
+  "lean/MCore/K2.lean": "5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5",
+  "lean/MCore/K3.lean": "11843819d30305b1e606c0c5679d52c6f136e10a4b0c3f56cfaf1c3f525e3d95",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "cdd0f62f8296c702de2e8a5531856c75a6e289af337c38a2090520da1930b8cc"
+}

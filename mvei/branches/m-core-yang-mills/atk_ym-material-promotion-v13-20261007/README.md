@@ -5,7 +5,7 @@ Lean sources from the branch `atk/ym-material-promotion-v13-20261007` of the pri
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 324 — closed 208, conditional 0, open 0, proof error 0, not reached 116, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `c11019b248622af7cce7e34697a7437182749378723e0fa85c4f908475970d1b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_ym-material-promotion-v13-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `17fba06382802c831acd52786615533ec520197b3cdfa272625a3b3baed7547c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_ym-material-promotion-v13-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

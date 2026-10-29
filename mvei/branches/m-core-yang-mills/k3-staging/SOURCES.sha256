@@ -1,0 +1,10 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-yang-mills/k3-staging/lake-manifest.json
+f2e10b33200cf5c64f7ede34446b43f22956af06c208ad426db6e2a20dfa913e  branches/m-core-yang-mills/k3-staging/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-yang-mills/k3-staging/lean-toolchain
+b1e63b4621d49eddb96c6dcfafcf746de16f8d29d6371f029ce51cdb2327a777  branches/m-core-yang-mills/k3-staging/lean/MCore/AttackDAG/K3AlgebraAttacks.lean
+29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920  branches/m-core-yang-mills/k3-staging/lean/MCore/Boundary.lean
+8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1  branches/m-core-yang-mills/k3-staging/lean/MCore/K0.lean
+e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90  branches/m-core-yang-mills/k3-staging/lean/MCore/K1.lean
+5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5  branches/m-core-yang-mills/k3-staging/lean/MCore/K2.lean
+11843819d30305b1e606c0c5679d52c6f136e10a4b0c3f56cfaf1c3f525e3d95  branches/m-core-yang-mills/k3-staging/lean/MCore/K3.lean
+c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3  branches/m-core-yang-mills/k3-staging/lean/MCore/Signature.lean

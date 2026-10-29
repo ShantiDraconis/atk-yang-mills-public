@@ -493,7 +493,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T19:11:15+00:00",
+  "generated_at": "2026-10-28T23:56:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1123,6 +1123,6 @@
   "lean/MCore/YangMills/A1/YangMillsHabitant.lean": "09b1b2d458783d76b6a19fb0097884a06db21bf10ae6224b24e633b6b07a5b35",
   "lean/MCore/YangMills/QCore.lean": "ddff76fbfe4cc94e1c06331455b5963d0b0fe3cce52499734d221f7eab65a244"
  },
- "published_at": "2026-10-28T19:19:18Z",
- "certificate_sha256": "6ae0bdf9e0e61c820c6be79d4337cd86a99dbe033a35abac3e87aa0a8c102039"
+ "published_at": "2026-10-29T01:37:20Z",
+ "certificate_sha256": "dcd8a798c13b8c61d22488ed8e9997eb2b77d9f5d74ad4607a2e2faa9631191d"
 }

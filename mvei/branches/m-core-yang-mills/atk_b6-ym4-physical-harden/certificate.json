@@ -1,0 +1,625 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "atk/b6-ym4-physical-harden",
+ "branch_state": "parada",
+ "head_commit": "48554aac03fa90c560524aa66fa642c5ab989f1e",
+ "head_commit_date": "2026-09-26T23:46:23+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "48554aac03fa90c560524aa66fa642c5ab989f1e",
+   "date": "2026-09-26T23:46:23+01:00",
+   "subject": "audit: pin exact Yang-Mills first material blocker"
+  },
+  {
+   "commit": "ba0dd6a7e0c2d284a1067b9083dfc925aa27a2de",
+   "date": "2026-09-26T23:45:32+01:00",
+   "subject": "fix: restore YM habitant PACK and fail-closed tail after F4 hardening"
+  },
+  {
+   "commit": "d631027c491240e717cc0a6be1e75c022ce75a61",
+   "date": "2026-09-26T23:39:52+01:00",
+   "subject": "formal: derive strict same-H F4 from B60 plus concrete physical proofs"
+  },
+  {
+   "commit": "99a0c3cfc6c20d32bf9b84fbe3da1604a4579696",
+   "date": "2026-09-26T23:39:14+01:00",
+   "subject": "formal: make F4 carry proofs for same-model continuum and self-adjoint H"
+  },
+  {
+   "commit": "36dac3e47895d9001127fd0ed54142efca9174cf",
+   "date": "2026-09-26T23:38:33+01:00",
+   "subject": "fix: replace tautological YM model field with material SU3 4D obligations"
+  },
+  {
+   "commit": "b1cae52678e1de69028af399262815eb84fce86d",
+   "date": "2026-09-26T23:38:23+01:00",
+   "subject": "formal: harden YM habitant with same-H continuum OS Wightman obligations"
+  },
+  {
+   "commit": "aa70ff805893f36df4e10b1a4ed04cfd8b79ce15",
+   "date": "2026-09-26T23:20:56+01:00",
+   "subject": "audit: consolidate all GREEN frozen Yang-Mills certificates"
+  },
+  {
+   "commit": "59f97f3c03b639ebb81dcebbb2953e69f84fbee5",
+   "date": "2026-09-26T22:54:37+01:00",
+   "subject": "fix: make infrared cutoff witnesses dependently explicit"
+  },
+  {
+   "commit": "7c4d528d07e01ca739d7156d05b1a9c873927cf9",
+   "date": "2026-09-26T22:51:26+01:00",
+   "subject": "fix: explicit infrared cutoff proof binders and parser boundary"
+  },
+  {
+   "commit": "66867a5e54f7598f32208abff9c76a8636a77178",
+   "date": "2026-09-26T22:32:59+01:00",
+   "subject": "formal: split exact YM habitant into F4 realization plus same-H F2 gap"
+  },
+  {
+   "commit": "0ae19031f50aa0e6a86eed4e8eca7747e4c0ad02",
+   "date": "2026-09-26T22:32:36+01:00",
+   "subject": "fix: make infrared physical cutoff construction explicit"
+  },
+  {
+   "commit": "24017980427d31be21bab2357375b3ae94368c09",
+   "date": "2026-09-26T22:06:38+01:00",
+   "subject": "build: include canonical Yang-Mills habitant"
+  },
+  {
+   "commit": "6a9328f0c53ab4f81cbe4a7050166568d0f7cc55",
+   "date": "2026-09-26T22:06:30+01:00",
+   "subject": "formal: freeze canonical Yang-Mills F2 habitant"
+  },
+  {
+   "commit": "8c74576b7f9f455d8793ed1d18163abf3aa21c53",
+   "date": "2026-09-26T21:27:06+01:00",
+   "subject": "build: include Yang-Mills F2 F4 F7 terminal shape"
+  },
+  {
+   "commit": "131c24519d9beca162da60c4c44221a6cdd30771",
+   "date": "2026-09-26T21:26:59+01:00",
+   "subject": "formal: encode Yang-Mills terminal F2 F4 F7 gap shape"
+  },
+  {
+   "commit": "539f40cc49f0fea701580d5fe9dc1e9a7175b1e5",
+   "date": "2026-09-26T20:23:36+01:00",
+   "subject": "audit: map public Yang-Mills references to B60 blockers"
+  },
+  {
+   "commit": "5d9e5859f377cb7028cbfc36cc01cf5f99586d4e",
+   "date": "2026-09-26T20:22:40+01:00",
+   "subject": "audit: pin mined Yang-Mills public reference manifest"
+  },
+  {
+   "commit": "12b2408c8356501f8b0c9d9632be533bea818eda",
+   "date": "2026-09-26T20:04:31+01:00",
+   "subject": "build: include unconditional B6.0 attack route"
+  },
+  {
+   "commit": "15985b6ab92d94b1f72ae3cfd04b35106d2ed6b3",
+   "date": "2026-09-26T20:04:25+01:00",
+   "subject": "feat: compress unconditional Yang-Mills closure to B6.0"
+  },
+  {
+   "commit": "58980ca9c722ccb606450d33d942e7fd9bd056be",
+   "date": "2026-09-26T20:02:27+01:00",
+   "subject": "build: include unconditional Yang-Mills closure target"
+  },
+  {
+   "commit": "cf54d19bb6d4894762a173d84024fc3fa15493f2",
+   "date": "2026-09-26T20:02:21+01:00",
+   "subject": "feat: isolate exact unconditional Yang-Mills closure certificate"
+  },
+  {
+   "commit": "b6a8822373dd67c5523ac002286312a0a78ecaad",
+   "date": "2026-09-26T19:59:39+01:00",
+   "subject": "fix: bind infrared cutoff window to regulated family"
+  },
+  {
+   "commit": "460f66a480c0bd98c34067d54a6b4b223ab47f88",
+   "date": "2026-09-26T19:52:52+01:00",
+   "subject": "fix: make B6 spectral stability binder explicit"
+  },
+  {
+   "commit": "6dfbb5b3e66391777fbf3bfea4487e97229f5942",
+   "date": "2026-09-26T19:46:29+01:00",
+   "subject": "fix: keep uniform gap limit bridge inside MCore namespace"
+  },
+  {
+   "commit": "3fec05cebdef43a60d234b721d2fd9e43775aefa",
+   "date": "2026-09-26T19:41:21+01:00",
+   "subject": "build: restore pinned lake manifest"
+  },
+  {
+   "commit": "51b6a7558798c07272eedd97f0d28279304a9085",
+   "date": "2026-09-26T19:40:32+01:00",
+   "subject": "build: restore pinned mathlib dependency"
+  },
+  {
+   "commit": "1e24d0ec8dc7ae432fa5040b18b06ea835ac1e6c",
+   "date": "2026-09-26T19:38:52+01:00",
+   "subject": "fix: restore certified K9 classical interface"
+  },
+  {
+   "commit": "32864a3b2f5a64b864dad14953256df4366c4bd1",
+   "date": "2026-09-26T19:34:32+01:00",
+   "subject": "fix: restore certified FinalCore source"
+  },
+  {
+   "commit": "cf087fd102376056763c2204c09420f61870fb6b",
+   "date": "2026-09-26T17:20:38+01:00",
+   "subject": "fix: restore certified SpectralConcrete adapter"
+  },
+  {
+   "commit": "7109f556da54dc89ff37a5bc6181637f09f66723",
+   "date": "2026-09-26T17:20:36+01:00",
+   "subject": "fix: restore certified SpectralCore source"
+  },
+  {
+   "commit": "6ef9e206b8fdce66b77c5799ed43dd5752aa1fa0",
+   "date": "2026-09-26T17:20:09+01:00",
+   "subject": "fix: restore certified SpectralExclusion source"
+  },
+  {
+   "commit": "d65e9a565e9df47f99c5c6d4cccac90c1ca4a432",
+   "date": "2026-09-26T17:16:54+01:00",
+   "subject": "build: include infrared producer frontier in root"
+  },
+  {
+   "commit": "4990e0e820e9e7da5ce4d2868e8a188453e87f64",
+   "date": "2026-09-26T17:16:46+01:00",
+   "subject": "feat: isolate four-lane Yang-Mills infrared producer frontier"
+  },
+  {
+   "commit": "d1ed3003de66dd3e922f67f3566451a6171536d0",
+   "date": "2026-09-26T15:11:02+01:00",
+   "subject": "audit: add external provenance for davidfox"
+  },
+  {
+   "commit": "d747a4bb4b9d73f0eef01071c095881e9c141a68",
+   "date": "2026-09-26T15:11:00+01:00",
+   "subject": "audit: add external provenance for fmcad-2026"
+  },
+  {
+   "commit": "88caa46e8d4fe4d3c4cadeb5d9a3ab386be58872",
+   "date": "2026-09-26T15:10:58+01:00",
+   "subject": "audit: add external provenance for eriksson"
+  },
+  {
+   "commit": "d20856ffbce7dbbe72e26a83c42ce5bdff0b8781",
+   "date": "2026-09-26T15:10:56+01:00",
+   "subject": "audit: add external provenance for consensusframework"
+  },
+  {
+   "commit": "0ba087ac0d4d1cb2d6a68848d852d9541c994ea7",
+   "date": "2026-09-26T15:10:36+01:00",
+   "subject": "audit: lock Yang-Mills public reuse as source-only"
+  },
+  {
+   "commit": "96b4f239a36701bd2991529266dc35b8ff716de7",
+   "date": "2026-09-26T15:03:31+01:00",
+   "subject": "fix: restore uniformity triviality audit"
+  },
+  {
+   "commit": "ad4de233229972970fed9c197869be7e56d120c4",
+   "date": "2026-09-26T15:03:29+01:00",
+   "subject": "fix: restore A1 hardening provenance"
+  },
+  {
+   "commit": "be97a248c25d0bc35f205eeab8d01288d8d855ec",
+   "date": "2026-09-26T15:03:27+01:00",
+   "subject": "fix: restore regulated construction provenance"
+  },
+  {
+   "commit": "e81cc22eaa20210326934d8fc0f37f0b52e41990",
+   "date": "2026-09-26T15:02:12+01:00",
+   "subject": "audit: pin public Yang-Mills reuse sources"
+  },
+  {
+   "commit": "8266db8663465b15a683ed92cccc4db6a57b4c53",
+   "date": "2026-09-26T15:01:48+01:00",
+   "subject": "fix: restore certified phantom bridge audit"
+  },
+  {
+   "commit": "4053812c6c62f65cec6d9db82f4ff86116bea995",
+   "date": "2026-09-26T14:44:25+01:00",
+   "subject": "fix: restore typed K9 classical interface"
+  },
+  {
+   "commit": "178a0df801509ded5b7eaa06a822342ff12f6bfb",
+   "date": "2026-09-26T11:12:43+01:00",
+   "subject": "YM B6: include physical hardening in root build"
+  },
+  {
+   "commit": "9447c0585f423a2052d4bb93f7ea60be4ae8169d",
+   "date": "2026-09-26T11:11:22+01:00",
+   "subject": "YM B6: harden physical gap units, coupling scope, and limit order"
+  },
+  {
+   "commit": "b741580c984bf88844d3f03c50429ae02a231e04",
+   "date": "2026-09-26T07:41:22+01:00",
+   "subject": "ATK: split B6 uniform gap into explicit UV IR and spectral-limit core"
+  },
+  {
+   "commit": "87cc1972f91922c0403961a0f48a7e4afe255815",
+   "date": "2026-09-26T07:40:00+01:00",
+   "subject": "ATK: classify B6 obligations under hardened audit policy"
+  },
+  {
+   "commit": "40d9c33a485588617d77898c108ef4817cd0b2fd",
+   "date": "2026-09-26T07:34:19+01:00",
+   "subject": "ATK: reduce B6 spectral atoms to certified exact bridge"
+  },
+  {
+   "commit": "5d57c7ba7e789d7b9b1192afc39ccb3bf90e8822",
+   "date": "2026-09-26T07:33:09+01:00",
+   "subject": "ATK: add B6 exact evidence matrix"
+  },
+  {
+   "commit": "e995a806dc5731a41fc5e77d9d02eaed40ae1900",
+   "date": "2026-09-26T07:28:37+01:00",
+   "subject": "ATK: incorporate all certified/frozen YM anchors into fast path"
+  },
+  {
+   "commit": "e6cce9f4b9ea186bf3014d6b6aca5c557b4abb65",
+   "date": "2026-09-26T00:16:25+01:00",
+   "subject": "audit: define autonomous proof discovery and domain composition protocol"
+  },
+  {
+   "commit": "fccee297f846d624ffa10c26837c8ed6a810d47d",
+   "date": "2026-09-26T00:11:25+01:00",
+   "subject": "audit: link B6 atoms to verified cross-problem pattern ledger"
+  },
+  {
+   "commit": "9a70cbff9c1ddd80c2d836ee95076938b7735797",
+   "date": "2026-09-25T22:30:54+01:00",
+   "subject": "feat: expose B6 scientific frontier as 14 reusable atomic obligations"
+  },
+  {
+   "commit": "7efd45ecbb0aa3395789681bf503ecb03aebb84f",
+   "date": "2026-09-25T22:03:07+01:00",
+   "subject": "policy: make reuse-first and no-duplicate-work an ATK invariant"
+  },
+  {
+   "commit": "170b174058ae8452b73ec6d079ddad43b46ef07d",
+   "date": "2026-09-25T21:59:58+01:00",
+   "subject": "ci: make canonical external fast path a hard compile gate"
+  },
+  {
+   "commit": "01577c188a4541afe2a4bc2ea1a53172f1cb96d0",
+   "date": "2026-09-25T21:58:09+01:00",
+   "subject": "feat: add canonical no-loop external fast path"
+  },
+  {
+   "commit": "4a2dd9640a52f838be359ffdaf17fc279b47b2d8",
+   "date": "2026-09-25T21:57:21+01:00",
+   "subject": "audit: canonicalize no-loop external-certificate fast path"
+  },
+  {
+   "commit": "309b6776c64b1db9e455335bcf7fa2001445d950",
+   "date": "2026-09-25T21:46:46+01:00",
+   "subject": "ci: trigger q-core on complete MCore dependency closure"
+  },
+  {
+   "commit": "7f3f1bea67432b6445ef670cf7dee57a38ba4041",
+   "date": "2026-09-25T21:41:27+01:00",
+   "subject": "restore dependency K11"
+  },
+  {
+   "commit": "c6e989a57806bfb7f6fb6b4ea8dedb3a3141ab13",
+   "date": "2026-09-25T21:29:04+01:00",
+   "subject": "restore fastpath: K23"
+  },
+  {
+   "commit": "f60bee5e20e16d87a9288ca94852664b1de1dba5",
+   "date": "2026-09-25T21:26:23+01:00",
+   "subject": "restore fastpath: K24"
+  },
+  {
+   "commit": "2e3d594b043d7457fb5f009d86630de156a0a168",
+   "date": "2026-09-25T21:21:30+01:00",
+   "subject": "restore fastpath: K25"
+  },
+  {
+   "commit": "5d199bd60494c2d5fb0f822fff2e88df1d35d02e",
+   "date": "2026-09-25T21:10:53+01:00",
+   "subject": "restore batch: K12"
+  },
+  {
+   "commit": "6c5ce28d762a89c876734ab602868bb41668b073",
+   "date": "2026-09-25T21:10:46+01:00",
+   "subject": "restore batch: K13"
+  },
+  {
+   "commit": "dbdd7ae88f72de696d8178d66ee9563293673c34",
+   "date": "2026-09-25T21:10:42+01:00",
+   "subject": "restore batch: K14"
+  },
+  {
+   "commit": "f110fea64ed46ca61bb4782d1c76d1f80175f088",
+   "date": "2026-09-25T21:10:39+01:00",
+   "subject": "restore batch: K15"
+  },
+  {
+   "commit": "c1b54c03c8d0d57ae0e6e670c208e3aeac50592a",
+   "date": "2026-09-25T21:10:35+01:00",
+   "subject": "restore batch: K16"
+  },
+  {
+   "commit": "2b0a2dfaf623a2659e9833f3c8a04f082f450e87",
+   "date": "2026-09-25T21:10:31+01:00",
+   "subject": "restore batch: K17"
+  },
+  {
+   "commit": "d5e8606e9e47476e87728f56c9a75146c8548b30",
+   "date": "2026-09-25T21:02:29+01:00",
+   "subject": "restore: K10 frozen dependency"
+  },
+  {
+   "commit": "09cf5a3db7b5ee9bc874264313b306340bae0b22",
+   "date": "2026-09-25T21:02:26+01:00",
+   "subject": "restore: K9 frozen dependency"
+  },
+  {
+   "commit": "8217f7e0df159e6267957dd29868c48a2ad7abf6",
+   "date": "2026-09-25T21:02:23+01:00",
+   "subject": "restore: K8 frozen dependency"
+  },
+  {
+   "commit": "e5a0561d347ff1dd57de1e2c8aa49d1ab727b9bf",
+   "date": "2026-09-25T21:02:20+01:00",
+   "subject": "restore: K7 frozen dependency"
+  },
+  {
+   "commit": "2c0cba06111f2e7f2060a7884bd614fa21415287",
+   "date": "2026-09-25T20:41:32+01:00",
+   "subject": "restore: K26 certified dependency"
+  },
+  {
+   "commit": "e26ab163d6816a4625fceadd6dbd73a222aedef3",
+   "date": "2026-09-25T20:41:29+01:00",
+   "subject": "restore: K18 certified dependency"
+  },
+  {
+   "commit": "388c8306c2444b216e31c1d8a938318c47bb46e6",
+   "date": "2026-09-25T20:29:27+01:00",
+   "subject": "restore: K29.lean certified dependency"
+  },
+  {
+   "commit": "a84a4d2dd234e0eb93cc01b436184703a7fa2a29",
+   "date": "2026-09-25T20:29:24+01:00",
+   "subject": "restore: K27.lean certified dependency"
+  },
+  {
+   "commit": "a46f6109cea51147690a9809ccbe6e97ed05a2bf",
+   "date": "2026-09-25T20:29:11+01:00",
+   "subject": "restore: K21.lean certified dependency"
+  },
+  {
+   "commit": "8f09c2e0498372c23cc7afbdcff494fe9e19adb1",
+   "date": "2026-09-25T20:29:07+01:00",
+   "subject": "restore: K19.lean certified dependency"
+  },
+  {
+   "commit": "be51e164a5e2e8419df160ab08a1575884017f4d",
+   "date": "2026-09-25T20:16:48+01:00",
+   "subject": "restore: certified K30.lean dependency"
+  },
+  {
+   "commit": "46688dbd073c3852c24f915582fca624a98efd41",
+   "date": "2026-09-25T20:16:31+01:00",
+   "subject": "restore: certified K28.lean dependency"
+  },
+  {
+   "commit": "15844c5f2b4113389bd61767637338c62d9e5ce2",
+   "date": "2026-09-25T20:16:26+01:00",
+   "subject": "restore: certified K22.lean dependency"
+  },
+  {
+   "commit": "bcd558fb88c0df934dfcc0c8e7293824dd9a209a",
+   "date": "2026-09-25T20:16:21+01:00",
+   "subject": "restore: certified K20.lean dependency"
+  },
+  {
+   "commit": "1f7ca77afbab0ff5d0df5ab38520a5f1677f83e4",
+   "date": "2026-09-25T20:06:23+01:00",
+   "subject": "fix: require proofs for every uniform gap limit bridge obligation"
+  },
+  {
+   "commit": "a5d22581f4817e12b60909d824a2e73c71002fc3",
+   "date": "2026-09-25T20:02:55+01:00",
+   "subject": "atk: isolate exact uniform gap limit open-math bridge"
+  },
+  {
+   "commit": "dce347fd79ab2d93d01c2e7ef0553c6e4f9ae061",
+   "date": "2026-09-25T18:58:06+01:00",
+   "subject": "ci: compile complete YM terminal route"
+  },
+  {
+   "commit": "d831848da41c90fdd17a4844549c899cb0855f40",
+   "date": "2026-09-25T18:26:29+01:00",
+   "subject": "atk: isolate exact real OPEN_MATH required for external certificate"
+  },
+  {
+   "commit": "d17feb206c95fdae1f3f912c9c62a4251930541a",
+   "date": "2026-09-25T18:22:17+01:00",
+   "subject": "atk: reduce B6 to four irreducible scientific material blocks"
+  },
+  {
+   "commit": "308f0dc905065c0e3074f47fcd2af8853d5a40be",
+   "date": "2026-09-25T18:15:47+01:00",
+   "subject": "atk: recover exact B6 terminal witness reduction"
+  },
+  {
+   "commit": "e164907eb85a463d1a2109efd1bce3b0cd18996a",
+   "date": "2026-09-25T18:12:39+01:00",
+   "subject": "atk: aggregate certified B60 and physical-gap analyses into minimal route"
+  },
+  {
+   "commit": "bda9928787b059f3346b7ce902047124a3e9406e",
+   "date": "2026-09-25T18:12:30+01:00",
+   "subject": "atk: restore certified frozen YM B60/spectral frontier material"
+  },
+  {
+   "commit": "6edf0b31dd3c1e92ce8b3f3a4fc0c7fc8aab9120",
+   "date": "2026-09-25T18:12:27+01:00",
+   "subject": "atk: restore certified frozen YM B60/spectral frontier material"
+  },
+  {
+   "commit": "1504ece0adaadb35f9f6640da8bea50463b4b8d3",
+   "date": "2026-09-25T18:12:24+01:00",
+   "subject": "atk: restore certified frozen YM B60/spectral frontier material"
+  },
+  {
+   "commit": "dddd0c24ebeeadeaf8791a744b3553a8b2708a56",
+   "date": "2026-09-25T18:08:06+01:00",
+   "subject": "atk: compress YM external route to one live material producer"
+  },
+  {
+   "commit": "747f9edfb860454ededf13ac8eedcc9f35038fd1",
+   "date": "2026-09-25T18:06:53+01:00",
+   "subject": "atk: certify dense YM endpoint and claim envelope"
+  },
+  {
+   "commit": "84d6caee0206f04022916a2fe93bea9ceada68b2",
+   "date": "2026-09-25T17:58:09+01:00",
+   "subject": "atk: type dense fail-closed Yang-Mills final scientific endpoint"
+  },
+  {
+   "commit": "723c9c347fabb1803f13766a37eea5a05e9a5218",
+   "date": "2026-09-25T17:56:34+01:00",
+   "subject": "atk: port P-vs-NP oriented claim-envelope logic locally to YM"
+  },
+  {
+   "commit": "15d35a9773e67cac3495b201497b4fcc6aa0c7d2",
+   "date": "2026-09-25T17:53:04+01:00",
+   "subject": "atk: run Q claim readiness tests in certification gate"
+  },
+  {
+   "commit": "f959e16d85339e4f66c1ea913f05566bf565f602",
+   "date": "2026-09-25T17:52:55+01:00",
+   "subject": "atk: add fail-closed Q scientific claim readiness tests"
+  },
+  {
+   "commit": "f3edf456f9dbe95540d55ee32fb05e5ce2ddd524",
+   "date": "2026-09-25T17:45:41+01:00",
+   "subject": "atk: wire Q invariants into certification gate"
+  },
+  {
+   "commit": "c47fcf841cec4a24a96f62161529ec488a894998",
+   "date": "2026-09-25T17:45:34+01:00",
+   "subject": "atk: add Q invariants resolution and balance characterization"
+  },
+  {
+   "commit": "ec2e8b4b704b3577bd62bd9ac9f6f4118caa9187",
+   "date": "2026-09-25T17:44:26+01:00",
+   "subject": "atk: wire Q dynamics into fail-closed CI"
+  },
+  {
+   "commit": "8378d87ce810e04e4b2a4ae869ef2eaf54b1cc56",
+   "date": "2026-09-25T17:44:16+01:00",
+   "subject": "atk: add Q dynamics and critical balance core"
+  },
+  {
+   "commit": "424c0a913d1c9eb71108dee2ce864a13f32fde99",
+   "date": "2026-09-25T17:18:35+01:00",
+   "subject": "atk: add fail-closed Q-core build and axiom audit"
+  },
+  {
+   "commit": "9b6ba5aa08892e2e695ea8296e6dbe33278951e2",
+   "date": "2026-09-25T17:16:18+01:00",
+   "subject": "atk: define fail-closed Yang-Mills multistate claim protocol"
+  },
+  {
+   "commit": "c400565d70e50b43ae647f480daedc0c9a89a759",
+   "date": "2026-09-25T17:14:38+01:00",
+   "subject": "atk: add fail-closed Yang-Mills multistate Q core"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.YangMills.A1.yangMillsHabitant_iff_F4_and_F2",
+   "file": "lean/MCore/YangMills/A1/YangMillsHabitant.lean",
+   "line": 172,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.YangMills.A1.YangMillsHabitant ↔ ∃ R, R.F2Gap"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "2c1bc36abc3cf328723e96a46377181589379225b6b6ec2e758bb15edf555753",
+  "lakefile.toml": "b7d820bc116202b3ddbda44476e51f4bf3f223fd107ae185dbaf4f9297856565",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/FinalCore.lean": "3bc3223b1df8aeb2fc73293907b91531b2e231a1af4eb7913d51ccbded681828",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/K1.lean": "e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90",
+  "lean/MCore/K10.lean": "12263fe8028721309334f5e9a3b42113c538ccfb7a78d16eec18da0ea1c5156a",
+  "lean/MCore/K11.lean": "2e0b08a4ac234ce38af48308780a4cc9d10441b4ebdb385ab74878401ce7e55b",
+  "lean/MCore/K12.lean": "f84c269214acea98727acb504d3538f5936ea59fe2723c57587869d779ffb565",
+  "lean/MCore/K13.lean": "e987b6380728298d4023eb7a6ead06ce258443006f4f0a7701b86b69369e0934",
+  "lean/MCore/K14.lean": "766031ec00cbad64279bbe63fc0827ad00b1d39089522500123f7c37bf3cde13",
+  "lean/MCore/K15.lean": "a34b52543d8df8f4a2ac2625e3a35d696956ad3f38331e087befa5e0228bfb15",
+  "lean/MCore/K16.lean": "0b634d8e2b8fea6b4ecb920902f2e0ef39c0a3f4c0096682a7dfce1991763b99",
+  "lean/MCore/K17.lean": "8ac1ffd25c580bafd6443ea5d751e786b5c3ed83322c4b5a9687696b3e618437",
+  "lean/MCore/K18.lean": "5fa36722d0347b712c1278f55e41bc82731a1f863a4d85122d34036e2e9e3fb9",
+  "lean/MCore/K19.lean": "1fe93701449322bf5a69418f375ee09a025c21c96a3a1e84aa2b291af8706427",
+  "lean/MCore/K2.lean": "5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5",
+  "lean/MCore/K20.lean": "538ea9c157158c8be53b3988f9e15729d6389a90ab6daa89f28ea0e96e875bbf",
+  "lean/MCore/K21.lean": "e79385973d21188e924f932ace0e10c20f993d6d19ac3cbde4e772b3e736ec45",
+  "lean/MCore/K22.lean": "b52f2cba8a01ac0d9b4598553dc7d1bcff4518e43c06a850b1fcf7947035958c",
+  "lean/MCore/K23.lean": "438c4ed720219bb1c6bed7b29478b486d9b7f02d1b99f6bc343d5c1e47561bd4",
+  "lean/MCore/K24.lean": "865b4b519e5f575f66f246fdbcc10492b8d3397f6b8dbf3825ebf02c5472e2fa",
+  "lean/MCore/K25.lean": "5890e608d3381d92b8d3fbfd9fd82dc9485b95134d92abafb319b8b5595eb5ab",
+  "lean/MCore/K26.lean": "d941b668922ef928e0d7651a3ccfefe813b150cd6c22891abfd81b9967a8448c",
+  "lean/MCore/K27.lean": "ab4384a121bf08b874fbf70cea4222afaa04759586e4582ff7189c3d8f354f04",
+  "lean/MCore/K28.lean": "c11c53dd06012ee02268a53ff29212b3f2eb20de38f0c50c7936dd023cd073c0",
+  "lean/MCore/K29.lean": "11e1bcef0ba0f6557e7483579db6aff8fb739f4805e5c92dc9935dae668dca2f",
+  "lean/MCore/K3.lean": "3a53cb2df2afbd425e7874e7924ed383d403dfc8df24346dc7df269034a70905",
+  "lean/MCore/K30.lean": "8b1f5f25efdfa1eafdf8f0d578c582c553e136f04b41d41a6a8af85719aec832",
+  "lean/MCore/K4.lean": "9f4ac833b4fe3a57e5712cdaf21ec551b7003d934984f7de28616a8932b18953",
+  "lean/MCore/K5.lean": "86bbb63a88c7f2156eca12636b73c8c2edb7160d615e33f1db44f5ec7f01416a",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "96ff5955a639a5b804df501c2ac12a909127e145eddf7bad13214cc763211ee7",
+  "lean/MCore/K8.lean": "e7a90f985d4449450071090ecca4ca0d35469e442d2f6fd2c48560396c3587a3",
+  "lean/MCore/K9.lean": "e2cfc1bc0fe9a0c12993384e27b4159656c586aafe34c4c7afafc948d1568a48",
+  "lean/MCore/K9/Classical.lean": "dcac18fd596dc8b7342ecf9e95181c863cb5f679a4b0e995b0ced9c6fe3cf962",
+  "lean/MCore/PhysicalGapScaling.lean": "2968dd8c09c0363449bcac8e6e2af4c7b225ce3366312058989f5d93b2320e0d",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3",
+  "lean/MCore/SpectralConcreteAdapter.lean": "c36f2cf268bb197f0e66196f7061b3222b6051c8f5b59b77484425fb1501826d",
+  "lean/MCore/SpectralCore.lean": "84d83a1e637b84ef7dadbaf172af5413c9a95f05b4207c5a90c3eb995729c10e",
+  "lean/MCore/SpectralExclusion.lean": "aea134f94ea88982af401100db186fe7fcc674dadcce3f780a37fc5aef234057",
+  "lean/MCore/YangMills/A1/B60ConcretePhysicalAdapter.lean": "df1ebcd42c8f7fa73ddd38f126311dbdf69e33bbfaf4e60143296d63c94dc8eb",
+  "lean/MCore/YangMills/A1/B6AtomicObligations.lean": "c26787bf25d4fda011d7a93abac4684584524c7e4fddab843f130da9b814c4de",
+  "lean/MCore/YangMills/A1/B6HardenedLimitCore.lean": "624011893d527feb34a5e16c32eb57285c72670a0b2645817e511a5b432783bc",
+  "lean/MCore/YangMills/A1/B6MinimalScientificPayload.lean": "728115a9861aedfde8ab867ece83d0d0d1943951c3acc3a3dc9e45d1777d3575",
+  "lean/MCore/YangMills/A1/B6RealOpenMath.lean": "a1b16df8c5e500f4644992c889acc59bd49848cbd2d3f6d701df8f3a0cbf6cd1",
+  "lean/MCore/YangMills/A1/B6TerminalWitness.lean": "ad608896bee65c6db166397ce9c2feb566487eb6fe02e8b8904a6b502cf53820",
+  "lean/MCore/YangMills/A1/B6YM4PhysicalHarden.lean": "b18c632082379810ab66ffdac0459549873ac5851dd9c01c898c477d5c1ac971",
+  "lean/MCore/YangMills/A1/FrontierDecompositionV2.lean": "e008278f8cdaf8e7747eca72032c9c399ba4a83d668e1efd1394e716ba9040d1",
+  "lean/MCore/YangMills/A1/Hardening.lean": "717eb0a6f10cc71c7bd09e6820a7de954d0c534f01c4fc616b360ae3ece3222c",
+  "lean/MCore/YangMills/A1/PhantomBridgeTriviality.lean": "7743cbe7c3d2f7eb04b796bf6a139ea9ac103ca8900504772c783b346d2f14d4",
+  "lean/MCore/YangMills/A1/RegulatedConstruction.lean": "f5a05cfc812f6fc1eb7dee80785576b030dd6386f9ce079a7eeaa7d82aebf067",
+  "lean/MCore/YangMills/A1/UniformityTriviality.lean": "4ba4ed5f56c5cd9a7d9e9943edd39624003836f87d9016410a3318a123869cc9",
+  "lean/MCore/YangMills/A1/YMGapShapeF2F4F7.lean": "d195e4a5b84e5824e79453c5f770c10674828e176459a20a9c9542879cf93af5",
+  "lean/MCore/YangMills/A1/YMUnconditionalAttack.lean": "28b7bab5887c8706fcd0581204584064f09c8f0fe6e9af3f517471ba01d96c48",
+  "lean/MCore/YangMills/A1/YMUnconditionalClosure.lean": "17d3e4ba2d4414c03e40ee3c9992becdcd5b83eda561af457890afd3581a00f5",
+  "lean/MCore/YangMills/A1/YangMillsHabitant.lean": "a253085dcefe231537ef363343e6862299e409fb4bb37e1d4bc16b58e6a0d983"
+ },
+ "published_at": "2026-10-29T01:37:31Z",
+ "certificate_sha256": "96b1f6eeb32c75a7e30c903d432b58486ec7054c96929a5b92d2834b7be5f083"
+}
