@@ -5,7 +5,7 @@ Lean sources from the branch `atk/ym-b60-field-bundle-20261001` of the private r
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 1, conditional 0, open 0, proof error 0, not reached 1, no result 0.
 * History: 198 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `75ffd893cddcf210fb22e1fe6ddcd3749cf3b250beffa0916bfc3fb2e2883281`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_ym-b60-field-bundle-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `f63e95dce43b369b205f199c374f8a12f325faa0e805e9994ab813b5d5089490`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_ym-b60-field-bundle-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

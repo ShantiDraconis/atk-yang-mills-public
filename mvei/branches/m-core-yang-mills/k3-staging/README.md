@@ -5,7 +5,7 @@ Lean sources from the branch `k3-staging` of the private repository `ShantiDraco
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 7 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `c41086b89aa945b180a449bda4ec55fc5766229205acfc42bfa3dd2fa41ee26b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/k3-staging/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `93a234e5d6ac83cee701b33e71ae76fba0f9b8127df1e87bcf81fe42edbf003e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/k3-staging/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

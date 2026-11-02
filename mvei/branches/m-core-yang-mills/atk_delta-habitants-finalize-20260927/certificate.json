@@ -493,7 +493,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -597,10 +597,8 @@
    "name": "MCore.YangMills.A1.massGapControl_has_positive_uniform_window",
    "file": "lean/MCore/YangMills/A1/InfraredProducer.lean",
    "line": 68,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{R : YM4RegulatedGapFamily} (C : MassGapControlCertificate R) : ∃ a1 : ℝ, 0 < a1 ∧ a1 ≤ C.a0 ∧ 0 < C.mass / 2 ∧ ∀ (a : ℝ), 0 < a → a < a1 → ∀ L : YM4PhysicalVolume, C.mass / 2 ≤ R.physicalGap ⟨a, by refine ⟨‹0 < a›, ?_⟩ exact lt_of_lt_of_le (lt_of_lt_of_le ‹a < a1› ‹a1 ≤ C.a0›) C.a0_le_cutoffWindow⟩ L"
   },
   {
@@ -703,7 +701,7 @@
    "name": "MCore.YangMills.FinalStatement.endpoint_envelope",
    "file": "lean/MCore/YangMills/FinalStatement.lean",
    "line": 87,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ProofLaneTarget ∨ RefutationLaneTarget"
   },
@@ -711,7 +709,7 @@
    "name": "MCore.YangMills.FinalStatement.proof_refutation_exclusive",
    "file": "lean/MCore/YangMills/FinalStatement.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (ProofLaneTarget ∧ RefutationLaneTarget)"
   },
@@ -719,7 +717,7 @@
    "name": "MCore.YangMills.MinimalExternalRoute.liveProducer_closes_endpoint",
    "file": "lean/MCore/YangMills/MinimalExternalRoute.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : LiveYMProducer) : YangMillsExistenceMassGap"
   },
@@ -727,7 +725,7 @@
    "name": "MCore.YangMills.MinimalExternalRoute.terminal_material_closes",
    "file": "lean/MCore/YangMills/MinimalExternalRoute.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(m : TerminalMaterial) : TerminalClaim m"
   },
@@ -735,7 +733,7 @@
    "name": "MCore.YangMills.QClaimEnvelope.core_refutation_exclusive",
    "file": "lean/MCore/YangMills/QClaimEnvelope.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(e : OrientedEvidence) : ¬ (CoreOrientation e ∧ RefutationOrientation e)"
   },
@@ -743,7 +741,7 @@
    "name": "MCore.YangMills.QClaimEnvelope.envelope_does_not_supply_material",
    "file": "lean/MCore/YangMills/QClaimEnvelope.lean",
    "line": 79,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(e : OrientedEvidence) (h : StructuralEnvelope e) : StructuralEnvelope e"
   },
@@ -751,7 +749,7 @@
    "name": "MCore.YangMills.QClaimEnvelope.proof_core_exclusive",
    "file": "lean/MCore/YangMills/QClaimEnvelope.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(e : OrientedEvidence) : ¬ (ProofOrientation e ∧ CoreOrientation e)"
   },
@@ -759,7 +757,7 @@
    "name": "MCore.YangMills.QClaimEnvelope.proof_refutation_exclusive",
    "file": "lean/MCore/YangMills/QClaimEnvelope.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(e : OrientedEvidence) : ¬ (ProofOrientation e ∧ RefutationOrientation e)"
   },
@@ -767,7 +765,7 @@
    "name": "MCore.YangMills.QClaimEnvelope.structural_envelope_closed",
    "file": "lean/MCore/YangMills/QClaimEnvelope.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(e : OrientedEvidence) : StructuralEnvelope e"
   },
@@ -775,7 +773,7 @@
    "name": "MCore.YangMills.QClaimTests.balancedExample_is_critical",
    "file": "lean/MCore/YangMills/QClaimTests.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CriticalBalance balancedExample"
   },
@@ -783,7 +781,7 @@
    "name": "MCore.YangMills.QClaimTests.balancedExample_resolves_I00",
    "file": "lean/MCore/YangMills/QClaimTests.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveState (resolution balancedExample) = I00"
   },
@@ -791,7 +789,7 @@
    "name": "MCore.YangMills.QClaimTests.balancedExample_stops_at_Q",
    "file": "lean/MCore/YangMills/QClaimTests.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": StopsAtQ balancedExample"
   },
@@ -799,7 +797,7 @@
    "name": "MCore.YangMills.QClaimTests.current_readiness_abstract",
    "file": "lean/MCore/YangMills/QClaimTests.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": currentReadiness = .abstractOnly"
   },
@@ -807,7 +805,7 @@
    "name": "MCore.YangMills.QCore.I00_fixed",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 47,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": returnToCore I00 = I00"
   },
@@ -815,7 +813,7 @@
    "name": "MCore.YangMills.QCore.I00_ne_proof",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 75,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": I00 ≠ YMState.proofSector"
   },
@@ -823,7 +821,7 @@
    "name": "MCore.YangMills.QCore.I00_ne_refutation",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 79,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": I00 ≠ YMState.refutationSector"
   },
@@ -831,7 +829,7 @@
    "name": "MCore.YangMills.QCore.contraction_fixed",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 50,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": contraction I00 = I00"
   },
@@ -839,7 +837,7 @@
    "name": "MCore.YangMills.QCore.proof_returns_to_I00",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 53,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": returnToCore (resolveProof I00) = I00"
   },
@@ -847,7 +845,7 @@
    "name": "MCore.YangMills.QCore.proof_roundtrip",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 59,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveProof (returnToCore YMState.proofSector) = YMState.proofSector"
   },
@@ -855,7 +853,7 @@
    "name": "MCore.YangMills.QCore.refutation_returns_to_I00",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 56,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": returnToCore (resolveRefutation I00) = I00"
   },
@@ -863,7 +861,7 @@
    "name": "MCore.YangMills.QCore.refutation_roundtrip",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 62,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveRefutation (returnToCore YMState.refutationSector) = YMState.refutationSector"
   },
@@ -871,7 +869,7 @@
    "name": "MCore.YangMills.QCore.repulsion_false",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 72,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": repulsion false I00 = YMState.refutationSector"
   },
@@ -879,7 +877,7 @@
    "name": "MCore.YangMills.QCore.repulsion_true",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 69,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": repulsion true I00 = YMState.proofSector"
   },
@@ -887,7 +885,7 @@
    "name": "MCore.YangMills.QCore.tension_I00",
    "file": "lean/MCore/YangMills/QCore.lean",
    "line": 66,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": tension I00 = I00"
   },
@@ -895,7 +893,7 @@
    "name": "MCore.YangMills.QDynamics.contraction_returns_proof",
    "file": "lean/MCore/YangMills/QDynamics.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : p.contraction > p.repulsion) : step p YMState.proofSector = I00"
   },
@@ -903,7 +901,7 @@
    "name": "MCore.YangMills.QDynamics.contraction_returns_refutation",
    "file": "lean/MCore/YangMills/QDynamics.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : p.contraction > p.repulsion) : step p YMState.refutationSector = I00"
   },
@@ -911,7 +909,7 @@
    "name": "MCore.YangMills.QDynamics.criticalBalance_fixed",
    "file": "lean/MCore/YangMills/QDynamics.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : CriticalBalance p) : step p I00 = I00"
   },
@@ -919,7 +917,7 @@
    "name": "MCore.YangMills.QDynamics.criticalBalance_stops",
    "file": "lean/MCore/YangMills/QDynamics.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : CriticalBalance p) : StopsAtQ p"
   },
@@ -927,7 +925,7 @@
    "name": "MCore.YangMills.QDynamics.proof_Q_proof",
    "file": "lean/MCore/YangMills/QDynamics.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveProof (returnToCore YMState.proofSector) = YMState.proofSector"
   },
@@ -935,7 +933,7 @@
    "name": "MCore.YangMills.QDynamics.refutation_Q_refutation",
    "file": "lean/MCore/YangMills/QDynamics.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveRefutation (returnToCore YMState.refutationSector) = YMState.refutationSector"
   },
@@ -943,7 +941,7 @@
    "name": "MCore.YangMills.QInvariants.balanced_iff_critical",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) : Balanced p ↔ CriticalBalance p"
   },
@@ -951,7 +949,7 @@
    "name": "MCore.YangMills.QInvariants.balanced_stops_at_Q",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : Balanced p) : StopsAtQ p"
   },
@@ -959,7 +957,7 @@
    "name": "MCore.YangMills.QInvariants.critical_iff_zero_magnitude",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 76,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) : CriticalBalance p ↔ imbalanceMagnitude p = 0"
   },
@@ -967,7 +965,7 @@
    "name": "MCore.YangMills.QInvariants.critical_resolves_core",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : CriticalBalance p) : resolution p = .core"
   },
@@ -975,7 +973,7 @@
    "name": "MCore.YangMills.QInvariants.critical_state_is_I00",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : CriticalBalance p) : resolveState (resolution p) = I00"
   },
@@ -983,7 +981,7 @@
    "name": "MCore.YangMills.QInvariants.critical_zero_magnitude",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : CriticalBalance p) : imbalanceMagnitude p = 0"
   },
@@ -991,7 +989,7 @@
    "name": "MCore.YangMills.QInvariants.proof_sector_roundtrip",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveProof (returnToCore YMState.proofSector) = YMState.proofSector"
   },
@@ -999,7 +997,7 @@
    "name": "MCore.YangMills.QInvariants.refutation_sector_roundtrip",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": resolveRefutation (returnToCore YMState.refutationSector) = YMState.refutationSector"
   },
@@ -1007,7 +1005,7 @@
    "name": "MCore.YangMills.QInvariants.zero_magnitude_critical",
    "file": "lean/MCore/YangMills/QInvariants.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p : Profile) (h : imbalanceMagnitude p = 0) : CriticalBalance p"
   },
@@ -1015,7 +1013,7 @@
    "name": "MCore.YangMills.ReuseAggregation.b60_reaches_existing_mass_gap",
    "file": "lean/MCore/YangMills/ReuseAggregation.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{C : RegulatedYM4Construction} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale D} {O : K30SpectralTransferObligations F D H G} (A : B60ConcretePhysicalAdapter C F D H G O) : ∃ gap : D.Scale, K14MassGap D H G gap"
   },
@@ -1023,7 +1021,7 @@
    "name": "MCore.YangMills.ReuseAggregation.certified_frontier_has_one_blocker",
    "file": "lean/MCore/YangMills/ReuseAggregation.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (a1DecompositionV2.filter (fun b => match b.status with | .blockingOpen _ => true | _ => false)).length = 1"
   },
@@ -1031,7 +1029,7 @@
    "name": "MCore.YangMills.ReuseAggregation.pointwise_gap_is_not_uniform",
    "file": "lean/MCore/YangMills/ReuseAggregation.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∃ gamma : ℝ → ℝ, (∀ a : ℝ, 0 < a → 0 < gamma a) ∧ ¬ ∃ m0 : ℝ, 0 < m0 ∧ ∀ a : ℝ, 0 < a → a < 1 → m0 ≤ gamma a / a"
   },
@@ -1039,7 +1037,7 @@
    "name": "MCore.YangMills.atk_b6_to_k14",
    "file": "lean/MCore/YangMills/ATKExternalFastPath.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{C : K22ConstructionBlock} {F : K20ScientificFrontier} {D : K14PhysicalHilbertData} {H : K14HamiltonianOperator D} {G : K14GapScale} {O : K30SpectralTransferObligations D H G} (b6 : B6RealOpenMath C F D H G O) : K14MassGap D H G"
   },
@@ -1060,7 +1058,7 @@
    "statement": "∀ {R : ℝ → ℕ → MCore.PhysicalTransferGapData} (B : MCore.UniformGapLimitBridge R), 0 < B.mass"
   }
  ],
- "closed": 36,
+ "closed": 25,
  "files_sha256": {
   "lake-manifest.json": "2c1bc36abc3cf328723e96a46377181589379225b6b6ec2e758bb15edf555753",
   "lakefile.toml": "b7d820bc116202b3ddbda44476e51f4bf3f223fd107ae185dbaf4f9297856565",
@@ -1120,9 +1118,8 @@
   "lean/MCore/YangMills/A1/YMUnconditionalAttack.lean": "28b7bab5887c8706fcd0581204584064f09c8f0fe6e9af3f517471ba01d96c48",
   "lean/MCore/YangMills/A1/YMUnconditionalClosure.lean": "17d3e4ba2d4414c03e40ee3c9992becdcd5b83eda561af457890afd3581a00f5",
   "lean/MCore/YangMills/A1/YangMillsDeltaHabitant.lean": "b001b602d812e246ba24d618b11e8816e37fed73fc4c1a8a41585b517666c185",
-  "lean/MCore/YangMills/A1/YangMillsHabitant.lean": "09b1b2d458783d76b6a19fb0097884a06db21bf10ae6224b24e633b6b07a5b35",
-  "lean/MCore/YangMills/QCore.lean": "ddff76fbfe4cc94e1c06331455b5963d0b0fe3cce52499734d221f7eab65a244"
+  "lean/MCore/YangMills/A1/YangMillsHabitant.lean": "09b1b2d458783d76b6a19fb0097884a06db21bf10ae6224b24e633b6b07a5b35"
  },
- "published_at": "2026-10-29T20:15:59Z",
- "certificate_sha256": "ee2c1df658b13b1968eb6be26b3dc12b24e5a295b072cec92f041a00dc99144a"
+ "published_at": "2026-11-02T20:55:40Z",
+ "certificate_sha256": "6914a9fb4d66ea01a1f89bb729c140690e3436330346cc309850b140f55d7856"
 }
