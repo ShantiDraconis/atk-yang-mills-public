@@ -1,0 +1,160 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "audit/multistate-proof-refutation-v1",
+ "branch_state": "parada",
+ "head_commit": "6c25da434e63dda1616445a7ea46af62cbd19485",
+ "head_commit_date": "2026-09-19T10:38:57+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "6c25da434e63dda1616445a7ea46af62cbd19485",
+   "date": "2026-09-19T10:38:57+02:00",
+   "subject": "ci: replace umbrella rebuild with targeted endpoint certification"
+  },
+  {
+   "commit": "71c43e8b1e19fc0541efb4ffe9848120d05ddbdd",
+   "date": "2026-09-19T09:42:30+02:00",
+   "subject": "ci: enforce targeted fast-fail certification builds"
+  },
+  {
+   "commit": "d98fc784ce793f2b087f937e25a6cf274f6ecd71",
+   "date": "2026-09-19T09:42:28+02:00",
+   "subject": "ci: add global NO-UMBRELLA regression firewall"
+  },
+  {
+   "commit": "afed7fb136c432c70227bac83d746f7c6a4e4480",
+   "date": "2026-09-18T23:20:14+02:00",
+   "subject": "ci: launch isolated 8x5 audit batch"
+  },
+  {
+   "commit": "c1fdb5b5fd595cdccce8142ef1ba428b7845ff7e",
+   "date": "2026-09-18T20:06:38+02:00",
+   "subject": "audit(ym): start 8x5 fail-closed endpoint classification"
+  },
+  {
+   "commit": "60c42799076112d273117ff1d75b271db1ccf8d6",
+   "date": "2026-09-18T11:52:55+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "9a18e9bda0643b43a2494e821a7153f9a385c9ce",
+   "date": "2026-09-18T11:52:51+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "0c91bdf280223d34b99752daa967c85229711a79",
+   "date": "2026-09-18T11:48:16+02:00",
+   "subject": "audit: formalize canonical 18-test backward matrix"
+  },
+  {
+   "commit": "0157117227ebd1c38d8b6844b25e906ae27cabcc",
+   "date": "2026-09-18T11:39:46+02:00",
+   "subject": "audit: define hypothetical initial closed-system contract"
+  },
+  {
+   "commit": "4d18aeb54f5c288e10362b4e77c4ca9e6813f6a8",
+   "date": "2026-09-18T07:11:16+02:00",
+   "subject": "audit: add isolated multistate proof/refutation certification protocol"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-03T08:19:01+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Audit8x5.A_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.A = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.HC_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.HC = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.K_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.K = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.Q_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.Q = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.S_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": sigma0.S = .pending"
+  },
+  {
+   "name": "MCore.Audit8x5.no_placebo_generic",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (ProofCertificate k6_dependency.target)"
+  },
+  {
+   "name": "MCore.Audit8x5.no_placebo_legacy",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 26,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(P : Prop) : ¬ Nonempty (ProofCertificate (YM.k0OpenBridge P))"
+  },
+  {
+   "name": "MultistateAudit.YangMills.Gates.fullyAudited_elim",
+   "file": "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(A : DecisiveAudit) (h : FullyAudited A) : A.provenanceLock ∧ A.hypothesisConclusionMatch ∧ A.quantifierMatch ∧ A.scalingConstantMatch ∧ A.axiomNoncircularity ∧ A.proofSearchDischarged ∧ A.falsificationSearchDischarged ∧ A.leanBuildAndAxiomsAudited"
+  }
+ ],
+ "closed": 7,
+ "files_sha256": {
+  "MCore/YM/K0.lean": "889424414697370fd56885c587b6ab0741a28f67f2200950400bee86930fdda7",
+  "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean": "49018d63953c2c5f26c5e2154a77e0f24f1756a4323f21a089b92a1d94ee21ff",
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "f2e10b33200cf5c64f7ede34446b43f22956af06c208ad426db6e2a20dfa913e",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Audit8x5.lean": "5c46d5df7608007dcf95fc9f792b235177f245113d622199da863717f7494a9f",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/K1.lean": "e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90",
+  "lean/MCore/K2.lean": "5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5",
+  "lean/MCore/K3.lean": "3a53cb2df2afbd425e7874e7924ed383d403dfc8df24346dc7df269034a70905",
+  "lean/MCore/K4.lean": "9f4ac833b4fe3a57e5712cdaf21ec551b7003d934984f7de28616a8932b18953",
+  "lean/MCore/K5.lean": "86bbb63a88c7f2156eca12636b73c8c2edb7160d615e33f1db44f5ec7f01416a",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3"
+ },
+ "published_at": "2026-11-03T11:28:07Z",
+ "certificate_sha256": "84a249964ba762630d2b4583794326c3764757153b23a9cdbb4623c31b800de7"
+}

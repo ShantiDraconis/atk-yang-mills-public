@@ -5,7 +5,7 @@ Lean sources from the branch `attack/B6-k30-concrete-realization-v1` of the priv
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 162 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `0f871633db10e15fa78d7ce2c80d878c18dbf09b4587bbcd0a4729a53c626c28`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/attack_B6-k30-concrete-realization-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `88cc1e852f5de912f4a62a43806e66ff2b338c1e993b23077c5cb8d2269ea984`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/attack_B6-k30-concrete-realization-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

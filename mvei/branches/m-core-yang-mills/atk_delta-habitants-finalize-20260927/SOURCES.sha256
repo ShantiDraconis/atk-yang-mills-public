@@ -1,6 +1,7 @@
 2c1bc36abc3cf328723e96a46377181589379225b6b6ec2e758bb15edf555753  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lake-manifest.json
 b7d820bc116202b3ddbda44476e51f4bf3f223fd107ae185dbaf4f9297856565  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lakefile.toml
 55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean-toolchain
+212ba522b8ad6da4fa9c1e9f31e1a88a8c11ce71015d7564528759d124e3a11e  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/BackwardAudit/EndpointTypeResidue.lean
 29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/Boundary.lean
 3bc3223b1df8aeb2fc73293907b91531b2e231a1af4eb7913d51ccbded681828  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/FinalCore.lean
 8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/K0.lean
@@ -57,3 +58,11 @@ d195e4a5b84e5824e79453c5f770c10674828e176459a20a9c9542879cf93af5  branches/m-cor
 17d3e4ba2d4414c03e40ee3c9992becdcd5b83eda561af457890afd3581a00f5  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/A1/YMUnconditionalClosure.lean
 b001b602d812e246ba24d618b11e8816e37fed73fc4c1a8a41585b517666c185  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/A1/YangMillsDeltaHabitant.lean
 09b1b2d458783d76b6a19fb0097884a06db21bf10ae6224b24e633b6b07a5b35  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/A1/YangMillsHabitant.lean
+36d3b2f4a4160a22b275f8b490cf03a34313983ef73cb37ecfd8b3b6bdca3a7b  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/FinalStatement.lean
+f1ff4786b7954d8ed4f515478f5076079dc23e81892f53cb5c33a5b4913ae889  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/MinimalExternalRoute.lean
+00bf8e2377d792c89f6e68b2a99349347a59723548bb9fe4ba0eff6dd09b60d4  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/QClaimEnvelope.lean
+71129e3dd24cce280414178fa29a940ddd5c23b10e77fc1be128e71b7cd3d408  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/QClaimTests.lean
+ddff76fbfe4cc94e1c06331455b5963d0b0fe3cce52499734d221f7eab65a244  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/QCore.lean
+5f3e5d9afd0d99c57506a551e987f2b0dd2231be47c6e77885e0207072514824  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/QDynamics.lean
+9448c6f8f5361862aa45958cfbad5557dbcfdbc1d4119c3b54146dde65b2e500  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/QInvariants.lean
+4ad11f828b97a66dce52d7e695fb8f02624da37360efd50b20ca318e18c48ee7  branches/m-core-yang-mills/atk_delta-habitants-finalize-20260927/lean/MCore/YangMills/ReuseAggregation.lean

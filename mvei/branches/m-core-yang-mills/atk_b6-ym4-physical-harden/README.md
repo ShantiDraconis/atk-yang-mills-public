@@ -5,7 +5,7 @@ Lean sources from the branch `atk/b6-ym4-physical-harden` of the private reposit
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 106 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `5f1bfaa45c429d910e36b8eee66dc31a38d1428d4479e04a3a66dfccb82e4c7d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_b6-ym4-physical-harden/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `2cd739e9361b66ef0b96b90e55b9a46b6174e92f12c990185b31496d9119aef6`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_b6-ym4-physical-harden/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

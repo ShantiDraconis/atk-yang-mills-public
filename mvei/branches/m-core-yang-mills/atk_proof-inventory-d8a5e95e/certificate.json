@@ -898,7 +898,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1027,6 +1027,6 @@
   "lean/MCore/YangMills/A1/UniformIntegerClustering.lean": "ef613452995ace62133e35a8bd527a50a06a743a0b37be3a066dae8a76fb1314",
   "lean/MCore/YangMills/A1/UniformityTriviality.lean": "a71774199f16bd8ea193e0007f1568bd839765b9ee6a85af54300f797bed5a70"
  },
- "published_at": "2026-11-02T20:55:40Z",
- "certificate_sha256": "c7b66de362d98ab35548ca998bcce712b46e29a7cc379a411ce51a24a6133336"
+ "published_at": "2026-11-03T11:28:07Z",
+ "certificate_sha256": "835149e234457a0ade5e45afff011d2c5b1f65a229ea77744809c593198d64ad"
 }
