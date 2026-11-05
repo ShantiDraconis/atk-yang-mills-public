@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -4203,6 +4203,6 @@
   "open_math/P02_YM_V13_ContinuumGap.lean": "604fe3126c9f7920124e26dda76a877774c8fd30c4ea1bc920b3356c8d84835b",
   "open_math/P02_YM_V13_ExclusionToGapBound.lean": "874fbbc8b12c2bb9106b5f28849d861df19b8471ff1e0cf9a66d49a432c5d1f5"
  },
- "published_at": "2026-11-03T11:28:07Z",
- "certificate_sha256": "c86a8d4b12b30c315b2376fd8a279f277ca897645e3613da5ae86b9476232d9f"
+ "published_at": "2026-11-05T17:43:05Z",
+ "certificate_sha256": "30a567a43ceaaea55a00512cdef664f445c8c6f4bc38ae11a416d1dc563d0c81"
 }

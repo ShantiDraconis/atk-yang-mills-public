@@ -538,7 +538,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -620,6 +620,6 @@
   "lean/MCore/YangMills/A1/YMUnconditionalClosure.lean": "17d3e4ba2d4414c03e40ee3c9992becdcd5b83eda561af457890afd3581a00f5",
   "lean/MCore/YangMills/A1/YangMillsHabitant.lean": "a253085dcefe231537ef363343e6862299e409fb4bb37e1d4bc16b58e6a0d983"
  },
- "published_at": "2026-11-03T11:28:25Z",
- "certificate_sha256": "2cd739e9361b66ef0b96b90e55b9a46b6174e92f12c990185b31496d9119aef6"
+ "published_at": "2026-11-05T17:43:21Z",
+ "certificate_sha256": "494e5ddd43432f02de71ce3c5a46d88715cf2efd17d9f07907d4dd75a830291c"
 }

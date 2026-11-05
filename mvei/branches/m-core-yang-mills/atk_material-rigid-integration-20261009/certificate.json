@@ -1,0 +1,75 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-yang-mills",
+ "branch": "atk/material-rigid-integration-20261009",
+ "branch_state": "parada",
+ "head_commit": "72f22479c9687ec889d2ae1ee243fa4160ad5f52",
+ "head_commit_date": "2026-10-09T12:27:53+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "72f22479c9687ec889d2ae1ee243fa4160ad5f52",
+   "date": "2026-10-09T12:27:53+02:00",
+   "subject": "feat(atk): integrate existing material interface with explicit proof premises"
+  },
+  {
+   "commit": "f0c64df7e05ba393fc7e31395978ae7f2612cbbb",
+   "date": "2026-10-09T12:20:55+02:00",
+   "subject": "docs(atk): record audited material source and exact blob SHA"
+  },
+  {
+   "commit": "68e483a24ffcf19924bc7bdeae0b73615599c3a7",
+   "date": "2026-10-09T12:11:07+02:00",
+   "subject": "feat(atk): add non-circular dense Lean consolidation entrypoint"
+  },
+  {
+   "commit": "082d4f3e79dc690e90f068f16586c261bf17c413",
+   "date": "2026-10-09T12:09:21+02:00",
+   "subject": "chore(atk): establish material-only integration and certification gate"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.YM.producer_of_concrete",
+   "file": "lean/ATK/YM_MaterialDense.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{R P : Type} (h : MCore.Material.YMClosure R P) : Material R P"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "f2e10b33200cf5c64f7ede34446b43f22956af06c208ad426db6e2a20dfa913e",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/ATK/YM_MaterialDense.lean": "e95677a7324d11b9eae74bc5441a9ba4af0562a6bcf84a4c52f322b27cb7c442",
+  "lean/MCore.lean": "3d164e02ba833e611ce4b0e3e806cc7d2c1ee978a7b1196debec93223bedf48e",
+  "lean/MCore/AttackDAG/K3AlgebraAttacks.lean": "9b8116d84b87eb71caeba8acdc0a56e84b7d7256381ee7d23aa4f0a098c7d2c5",
+  "lean/MCore/Audit.lean": "2073dffa499a29e19d8171c07d175606a327263f81e52c3e34b8adb183efe7c6",
+  "lean/MCore/Boundary.lean": "29186cc4c484009212e2519c733be60eed19aff010822a8a592bca8189315920",
+  "lean/MCore/Frontier/K3Gaps.lean": "587a64141e4b07570a29cd81401d25638e96e01654f1d77f8fea8724c7f7ae74",
+  "lean/MCore/K0.lean": "8ef3955be5ac67d7e73d0f9d8747427ea269dfe83667ed0e9ecd954f6254fbf1",
+  "lean/MCore/K1.lean": "e03cf0b4bd5565225a0c85ebe3b7c9f552cecfd888fdd63e8183dd06e20d1f90",
+  "lean/MCore/K2.lean": "5c5750decc5b4cb430423fdd718dae7dca6922032ffeceee0bba5444d598aed5",
+  "lean/MCore/K3.lean": "3a53cb2df2afbd425e7874e7924ed383d403dfc8df24346dc7df269034a70905",
+  "lean/MCore/K4.lean": "9f4ac833b4fe3a57e5712cdaf21ec551b7003d934984f7de28616a8932b18953",
+  "lean/MCore/K5.lean": "86bbb63a88c7f2156eca12636b73c8c2edb7160d615e33f1db44f5ec7f01416a",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/Material/Closure.lean": "1cf1d50a5e84079150fe408cebabd2f5ec616f96103e87132b2b96297ed19aba",
+  "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3"
+ },
+ "published_at": "2026-11-05T17:43:21Z",
+ "certificate_sha256": "6ed04436762aa67bd9548fa81b3a0e5908ac4d21cea4406096533b3cd7899463"
+}
