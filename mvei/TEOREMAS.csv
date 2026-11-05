@@ -23,4 +23,4 @@ m-core-yang-mills,lean/MCore/AttackDAG/K3AlgebraAttacks.lean,16,MCore.k3_attack_
 m-core-yang-mills,lean/MCore/BackwardAudit/EndpointTypeResidue.lean,11,MCore.BackwardAudit.endpoint_route_is_massGap,fechado,arquivo a arquivo,,.,,,
 m-core-yang-mills,lean/MCore/BackwardAudit/EndpointTypeResidue.lean,14,MCore.BackwardAudit.endpoint_proposition_still_untyped,fechado,arquivo a arquivo,,.,,,
 m-core-yang-mills,lean/MCore/Frontier/K3Gaps.lean,17,MCore.k3_frontier_open,fechado,,,.,,,
-m-core-yang-mills,lean/MCore/Material/EndpointResidueAdapter.lean,4,MCore.Material.physical_endpoint_requires_typing,nao_checado,,"testado arquivo a arquivo: o Lean não chegou ao teorema (import ausente, erro de sintaxe que interrompe o arquivo ou tempo esgotado)",.,,,object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist
+m-core-yang-mills,lean/MCore/Material/EndpointResidueAdapter.lean,4,MCore.Material.physical_endpoint_requires_typing,fechado,arquivo a arquivo,,.,,,
