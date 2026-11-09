@@ -5,7 +5,7 @@ Lean sources from the branch `frozen/first-real-open-math-green-1f0aa029` of the
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 163 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `f97bc3764841524e195d5db67dfe65f3407c320c8d7a795dc5ab5ac9c60a1370`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/frozen_first-real-open-math-green-1f0aa029/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `14198d5b429108a8dd0d212ca8f16e557e0af7ba6b7ca9feb7b9310fba6fe80a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/frozen_first-real-open-math-green-1f0aa029/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

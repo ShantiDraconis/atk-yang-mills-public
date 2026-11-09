@@ -5,7 +5,7 @@ Lean sources from the branch `atk/material-rigid-integration-20261009` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 4 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `6ed04436762aa67bd9548fa81b3a0e5908ac4d21cea4406096533b3cd7899463`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_material-rigid-integration-20261009/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `dffa985999ba805db923001ee38cfc97ad41f190f923fdfec7affc71acade86d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-yang-mills/atk_material-rigid-integration-20261009/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

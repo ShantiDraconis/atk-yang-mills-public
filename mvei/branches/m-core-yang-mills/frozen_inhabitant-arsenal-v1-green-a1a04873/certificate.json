@@ -58,7 +58,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -99,6 +99,6 @@
   "lean/MCore/Signature.lean": "c1cf11221bee71174b46eaf0de4c4a0324f7f154d3709159c253f481f1fbb3b3",
   "lean/MCore/YangMillsMaterialProducerGate.lean": "86ec7873b19fd3f48c10eafb91dafb8b8a01f18f7dce4e8ecd7b99e6afda60be"
  },
- "published_at": "2026-11-05T17:43:21Z",
- "certificate_sha256": "59fb62fffcf4baaafec2b50b4a1840ae0f2965a7af2e14f5d72d37fd8f65fe91"
+ "published_at": "2026-11-09T23:13:19Z",
+ "certificate_sha256": "8cbb277fe7bc05b844096cdb6f7fad8be692704b4025525cdaaadf18ce4d9ba7"
 }
